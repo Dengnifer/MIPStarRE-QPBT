@@ -1,0 +1,104 @@
+version: "v0.4"
+
+project:
+  name: "Quantum Pauli basis test"
+  description: >-
+    A Lean 4 formalization of the quantum Pauli basis test from MIP*=RE. The
+    registered results give a value-one symmetric projective consistent
+    commuting strategy, quantum soundness of the simultaneous low-degree
+    test, soundness of the Pauli basis test up to local isometries with the
+    explicit deltaQld error, and the corresponding qubit-coordinate form.
+  authors:
+    - "Ruixuan Deng"
+  responsible_maintainers:
+    - "Ruixuan Deng"
+  license: "Apache-2.0"
+
+repository:
+  role: "substantive-development"
+
+classification:
+  arxiv:
+    - "quant-ph"
+  msc2020:
+    - "81P45"
+
+sources:
+  - type: "paper"
+    title: "MIP*=RE"
+    authors:
+      - "Zhengfeng Ji"
+      - "Anand Natarajan"
+      - "Thomas Vidick"
+      - "John Wright"
+      - "Henry Yuen"
+    id: "arXiv:2001.04383"
+    relationship: "formalizes"
+    location: >-
+      Section 4.7, including lem:ld-soundness, lem:pauli-completeness,
+      thm:pauli, and cor:pauli-binary; the analysis continues in Section 8.
+    author_endorsement: "not-contacted"
+
+status:
+  scope: >-
+    The comparator registers four headline declarations: completeness of the
+    Pauli basis test, soundness of the simultaneous low-degree test, Pauli
+    basis test soundness, and its qubit form.
+  main_results:
+    - name: "Pauli basis test completeness"
+      declaration: "MIPStarRE.QPBT.Palomar.exists_spcc_value_one"
+      file: "MIPStarRE/QPBT/Palomar/PauliCompleteness.lean"
+      comparator_config: "comparator.json"
+    - name: "Simultaneous low-degree test soundness"
+      declaration: "MIPStarRE.QPBT.Palomar.exists_ld_soundness"
+      file: "MIPStarRE/QPBT/Palomar/LowDegreeSoundness.lean"
+      comparator_config: "comparator.json"
+    - name: "Pauli basis test soundness"
+      declaration: "MIPStarRE.QPBT.Palomar.pauli_soundness"
+      file: "MIPStarRE/QPBT/Palomar/PauliSoundness.lean"
+      comparator_config: "comparator.json"
+    - name: "Qubit-coordinate Pauli soundness"
+      declaration: "MIPStarRE.QPBT.Palomar.pauli_soundness_qubit"
+      file: "MIPStarRE/QPBT/Palomar/PauliSoundness.lean"
+      comparator_config: "comparator.json"
+  declarations:
+    - "MIPStarRE.QPBT.Palomar.exists_spcc_value_one"
+    - "MIPStarRE.QPBT.Palomar.exists_ld_soundness"
+    - "MIPStarRE.QPBT.Palomar.pauli_soundness"
+    - "MIPStarRE.QPBT.Palomar.pauli_soundness_qubit"
+
+alignment:
+  source_statement: "other"
+  translation_notes: >-
+    The four compact declarations retain the registered parameter and
+    quantifier order, witnesses, explicit deltaLd or deltaQld bounds, and the
+    complete fixed-field selector contract. An Astra source comparison found
+    no substantive drift, but that comparison is AI review, not human
+    approval. The inherited zero-direction convention and alternative
+    low-degree proof-route qualifications are explained in README.md, with links to
+    the archived mathematical notes. The compact declarations are transported from the original
+    library theorems by proved game, strategy, and extraction equivalences.
+
+automation:
+  methods:
+    - method: "agent"
+      framework: "Lean coding agents"
+      tool_setup: >-
+        AI coding agents edited Lean, documentation, and repository tooling;
+        deterministic local scripts and Lean checks were used at recorded
+        snapshots. The pinned official Palomar workflow checks this repository
+        with Comparator and independent kernels; its result is bound to the
+        exact source commit in GitHub Actions.
+  notes: >-
+    This work is AI-generated. Ruixuan Deng is the responsible owner and made
+    the recorded project decisions. No human review beyond those owner
+    decisions is claimed by this metadata.
+
+review:
+  status: "self-assessed"
+  reviewers: []
+  notes: >-
+    The compact Challenge underwent prior agent source comparison, and this
+    source snapshot was self-assessed by the Codex operator. No independent
+    final review or human proof review of the QPBT development is claimed. Automated
+    checks and agent assessments are not represented as human approval.
