@@ -39,6 +39,22 @@ sources:
       thm:pauli, and cor:pauli-binary; the analysis continues in Section 8.
     author_endorsement: "not-contacted"
 
+related_formalizations:
+  - id: "https://github.com/LionSR/MIPStarRE"
+    relationship: "builds-on"
+    note: >-
+      Ports the low individual degree test formalization from commit
+      507e81220d95266ff3d589d125b2f87c7300a9fb to Lean modules and v4.35.0-rc2,
+      retaining its module paths. README.md credits its authors, Apache-2.0
+      provenance, arXiv:2609.19814, and the local extensions.
+  - id: "https://github.com/Dengnifer/MIPStarRE-QPBT-bak"
+    relationship: "other"
+    note: >-
+      This source-only release carries forward the required library from
+      development commit 8df6267fa02edf52be1a4f946d188ca8f8feb5d3 with fresh
+      repository history. The four registered theorem statements and proof
+      code are unchanged; historical comment references are clarified.
+
 status:
   scope: >-
     The comparator registers four headline declarations: completeness of the
