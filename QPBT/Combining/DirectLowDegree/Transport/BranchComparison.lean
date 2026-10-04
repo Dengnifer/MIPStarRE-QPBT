@@ -42,7 +42,7 @@ noncomputable section
 
 /-- Admissible field sizes are positive, so LDT points over a direct
 parameter tuple form a nonempty type. -/
-instance (D : DirectLdParams) : NeZero D.q :=
+instance instNeZeroNatQ (D : DirectLdParams) : NeZero D.q :=
   ⟨Nat.ne_of_gt D.toLDTParameters.hq⟩
 
 /-! ## Rejected Born mass at a fixed question pair -/

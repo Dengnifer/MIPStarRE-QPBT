@@ -82,7 +82,7 @@ theorem card_directScalarQ (D : DirectLdParams) :
   rw [Fintype.card_congr (binaryRepresentation D.model), Fintype.card_fin]
 
 /-- The one-element index set of the combined simultaneity parameter. -/
-instance (D : DirectLdParams) : Unique (Fin D.combined.k) :=
+instance instUniqueFinKCombined (D : DirectLdParams) : Unique (Fin D.combined.k) :=
   show Unique (Fin 1) from inferInstance
 
 /-! ## The combining map on game outcomes -/

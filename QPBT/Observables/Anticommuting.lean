@@ -45,10 +45,10 @@ complementary case in blueprint
 def IsCommuting {P : AdmissibleParams} (ω : PauliTuple P) : Prop :=
   gammaValue P ω.1 ω.2.1 ω.2.2.1 ω.2.2.2 = 0
 
-noncomputable instance (P : AdmissibleParams) :
+noncomputable instance instDecidablePredPauliTupleIsAnticommuting (P : AdmissibleParams) :
     DecidablePred (@IsAnticommuting P) := Classical.decPred _
 
-noncomputable instance (P : AdmissibleParams) :
+noncomputable instance instDecidablePredPauliTupleIsCommuting (P : AdmissibleParams) :
     DecidablePred (@IsCommuting P) := Classical.decPred _
 
 /-- The uniform probability of the anticommuting event. This is the first

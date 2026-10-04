@@ -558,10 +558,12 @@ noncomputable def fixedFieldModel (q : ℕ) (hq : IsAdmissibleSize q) :
     FixedFieldModel q :=
   Classical.choice (exists_fixed_field_model q hq)
 
-instance {q : ℕ} (F : FixedFieldModel q) : Field F.K := F.toFieldModel.instField
-instance {q : ℕ} (F : FixedFieldModel q) : Fintype F.K := F.toFieldModel.instFintype
-instance {q : ℕ} (F : FixedFieldModel q) : DecidableEq F.K := F.toFieldModel.instDecidableEq
-instance {q : ℕ} (F : FixedFieldModel q) : Algebra (ZMod 2) F.K := F.algebra
+instance instFieldK {q : ℕ} (F : FixedFieldModel q) : Field F.K := F.toFieldModel.instField
+instance instFintypeK {q : ℕ} (F : FixedFieldModel q) : Fintype F.K := F.toFieldModel.instFintype
+instance instDecidableEqK {q : ℕ} (F : FixedFieldModel q) : DecidableEq F.K :=
+  F.toFieldModel.instDecidableEq
+instance instAlgebraZModOfNatNatK {q : ℕ} (F : FixedFieldModel q) : Algebra (ZMod 2) F.K :=
+  F.algebra
 
 /-- The fixed binary representation obtained from the chosen basis coordinates. -/
 noncomputable def binaryRepresentation {q : ℕ} (F : FixedFieldModel q) : F.K ≃ Fin q :=

@@ -60,7 +60,7 @@ positive. -/
 def DirectLdParams.firstIndex (D : DirectLdParams) : Fin D.m :=
   ⟨0, lt_of_lt_of_le Nat.zero_lt_one D.hm⟩
 
-instance (D : DirectLdParams) : Nonempty (Fin D.m) := ⟨D.firstIndex⟩
+instance instNonemptyFinM_1 (D : DirectLdParams) : Nonempty (Fin D.m) := ⟨D.firstIndex⟩
 
 /-- The direct game used at the extended dimension of the combining map.  Its
 field, degree, and simultaneity parameters are inherited from `P`, while its
@@ -88,7 +88,7 @@ structure DirectLdSpace (D : DirectLdParams) where
   direction : Fin D.m → DirectScalarQ D
   deriving DecidableEq, Fintype
 
-instance (D : DirectLdParams) : Nonempty (DirectLdSpace D) :=
+instance instNonemptyDirectLdSpace (D : DirectLdParams) : Nonempty (DirectLdSpace D) :=
   ⟨⟨0, D.firstIndex, 0⟩⟩
 
 /-- Decompose a direct sample into its point and the remaining independent

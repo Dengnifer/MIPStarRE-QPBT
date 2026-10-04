@@ -572,14 +572,14 @@ abbrev PauliEdge :=
   {e : PauliType × PauliType // Sym2.mk e.1 e.2 ∈ pauliEdges}
 
 /-- A loop supplies the nonempty ordered-edge carrier. -/
-instance : Nonempty PauliEdge :=
+instance instNonemptyPauliEdge : Nonempty PauliEdge :=
   ⟨⟨(.point .X, .point .X), by simp [pauliEdges]⟩⟩
 
 /-- A typed Pauli question, retaining every ambient coordinate. -/
 abbrev PauliQuestion (P : PauliParams) (K : Type) := PauliType × PauliSpace P K
 
 /-- Full finite question coordinates have decidable equality. -/
-noncomputable instance {P : PauliParams} {K : Type} [DecidableEq K] :
+noncomputable instance instDecidableEqPauliQuestion {P : PauliParams} {K : Type} [DecidableEq K] :
     DecidableEq (PauliQuestion P K) := Classical.decEq _
 
 /-- The question law is uniform on all ordered edges and the full seed space. -/

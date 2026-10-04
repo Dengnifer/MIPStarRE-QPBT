@@ -54,7 +54,7 @@ structure LdParams where
 
 /-- The positive dimension in `LdParams` supplies the finite coordinate type
 used by the uniform axis and prefix-index marginals. -/
-instance (L : LdParams) : Nonempty (Fin L.m) :=
+instance instNonemptyFinM (L : LdParams) : Nonempty (Fin L.m) :=
   ⟨⟨0, lt_of_lt_of_le Nat.zero_lt_one L.hm⟩⟩
 
 /-- The fixed scalar model of a low-degree parameter tuple.  It is a
@@ -687,10 +687,10 @@ noncomputable def ldAnswerEquiv (P : LdParams) :
         | inl a => rfl
         | inr a => rfl
 
-instance (P : LdParams) : Inhabited (LdAnswer P) :=
+instance instInhabitedLdAnswer (P : LdParams) : Inhabited (LdAnswer P) :=
   ⟨.pointVals (fun _ => 0)⟩
 
-noncomputable instance (P : LdParams) : Fintype (LdAnswer P) :=
+noncomputable instance instFintypeLdAnswer (P : LdParams) : Fintype (LdAnswer P) :=
   Fintype.ofEquiv (LdAnswerCode P) (ldAnswerEquiv P).symm
 
 /-- Check that an answer has the constructor prescribed by its question type;

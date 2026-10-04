@@ -70,7 +70,7 @@ inductive Placement where
   | AB''
   deriving DecidableEq, Repr, Inhabited
 
-instance : Fintype Placement where
+instance instFintypePlacement : Fintype Placement where
   elems := {.AA', .BA'', .BB', .AB''}
   complete := by
     intro placement

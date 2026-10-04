@@ -569,10 +569,10 @@ noncomputable def pauliAnswerEquiv (P : AdmissibleParams) :
                         | inl a => rfl
                         | inr a => rfl
 
-noncomputable instance (P : AdmissibleParams) : Fintype (PauliAnswer P) :=
+noncomputable instance instFintypePauliAnswer (P : AdmissibleParams) : Fintype (PauliAnswer P) :=
   Fintype.ofEquiv (PauliAnswerCode P) (pauliAnswerEquiv P).symm
 
-instance (P : AdmissibleParams) : Inhabited (PauliAnswer P) :=
+instance instInhabitedPauliAnswer (P : AdmissibleParams) : Inhabited (PauliAnswer P) :=
   ⟨.bit 0⟩
 
 /-- The phase bit `γ(u_X,u_Z,r_X,r_Z)` from `eq:gamma-value`.  It uses the

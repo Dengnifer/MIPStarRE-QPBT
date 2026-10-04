@@ -117,10 +117,11 @@ noncomputable def directLdAnswerEquiv (D : DirectLdParams) :
     · rfl
     · rcases a with a | a <;> rfl
 
-instance (D : DirectLdParams) : Inhabited (DirectLdAnswer D) :=
+instance instInhabitedDirectLdAnswer (D : DirectLdParams) : Inhabited (DirectLdAnswer D) :=
   ⟨.pointVals 0⟩
 
-noncomputable instance (D : DirectLdParams) : Fintype (DirectLdAnswer D) :=
+noncomputable instance instFintypeDirectLdAnswer (D : DirectLdParams) :
+    Fintype (DirectLdAnswer D) :=
   Fintype.ofEquiv (DirectLdAnswerCode D) (directLdAnswerEquiv D).symm
 
 /-- Check that a direct-game answer has the constructor required by its

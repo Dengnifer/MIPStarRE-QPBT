@@ -45,7 +45,7 @@ inductive PlayerSide where
   | bob
   deriving DecidableEq, Repr, Inhabited
 
-instance : Fintype PlayerSide where
+instance instFintypePlayerSide : Fintype PlayerSide where
   elems := {.alice, .bob}
   complete := by
     intro side
