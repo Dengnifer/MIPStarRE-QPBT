@@ -27,7 +27,7 @@ lake build
 The build includes the axiom audit. CI builds `Solution` and runs the pinned
 official Palomar full verification with Lean, NanoDa, and con-ron.
 `Challenge.lean` is a single Mathlib-only file (994 lines);
-its only intentional holes are the four theorem proofs and the registered
+its only intentional holes are the four theorem proofs and the comparator-configured
 `fixedFieldModel` value. The production library has no proof holes. Only
 `propext`, `Classical.choice`, and `Quot.sound` are permitted.
 
@@ -37,18 +37,23 @@ The low individual degree test formalization by Sirui Lu, Ruixuan Deng, and
 Zhengfeng Ji is imported from
 [LionSR/MIPStarRE at `5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79`](https://github.com/LionSR/MIPStarRE/tree/5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79)
 as a pinned Lake dependency. Both libraries use Lean modules and Lean/Mathlib
-`v4.35.0-rc2`. Its account is [arXiv:2609.19814](https://arxiv.org/abs/2609.19814).
+`v4.35.0-rc2`. Its account, [arXiv:2609.19814](https://arxiv.org/abs/2609.19814),
+is by Sirui Lu, Ruixuan Deng, David Zhu, and Zhengfeng Ji.
 
 The QPBT library retains its own [complete-measurement triangle estimates](QPBT/LDT/Preliminaries/Triangles/CompleteMeasurements.lean)
 and [explicit LDT consistency bounds](QPBT/LDT/Test/MainTheorem/LinearTriangle/MainFormal.lean).
 [QPBT/Upstream.lean](QPBT/Upstream.lean) supplies the additional public API lemmas;
 [controlled unitaries](QPBT/Quantum/ControlledUnitary.lean) are also local.
 The remaining LDT and shared quantum infrastructure come from the dependency.
-The LIDT formalization is Apache-2.0, as declared in
-[LionSR/LDT-comparator's metadata](https://github.com/LionSR/LDT-comparator/blob/main/formalization.yaml).
+The registered [LionSR/LDT-comparator wrapper](https://github.com/LionSR/LDT-comparator/blob/main/formalization.yaml)
+declares Apache-2.0. LionSR/MIPStarRE has no licence file at the pinned commit.
+This repository does not carry the LIDT library copy; it imports that dependency
+and contains the local extensions credited above.
 
-Module paths are rooted at `QPBT`; declaration namespaces remain
-`MIPStarRE.QPBT`, so the registered names in `comparator.json` are unchanged.
+Module paths are rooted at `QPBT`. The four declarations selected by
+`comparator.json` are in `MIPStarRE.QPBT.Palomar`; the fixed-field selector is
+in `MIPStarRE.QPBT`. Local extensions of the upstream APIs also use
+`MIPStarRE.LDT` and `MIPStarRE.Quantum`.
 
 ## Source qualifications
 
@@ -56,7 +61,7 @@ The zero-direction completion, alternative low-degree proof route, corrected
 LIDT sampling conditions, and finite-field conventions are stated in
 [formalization.yaml](formalization.yaml) and explained in [SOURCE_NOTES.md](SOURCE_NOTES.md).
 The submission and its checks are self-contained in this repository and its
-pinned dependencies. Historical blueprint and paper-gap paths in other source
-comments refer to the [development snapshot](https://github.com/Dengnifer/MIPStarRE-QPBT-bak/tree/8df6267fa02edf52be1a4f946d188ca8f8feb5d3);
+pinned dependencies. Historical `references/...` paper-mirror paths, blueprint
+paths and labels, and paper-gap paths in source comments refer to the [development snapshot](https://github.com/Dengnifer/MIPStarRE-QPBT-bak/tree/8df6267fa02edf52be1a4f946d188ca8f8feb5d3);
 that archive records development history and is not a build input.
 This repository is licensed under [Apache-2.0](LICENSE).

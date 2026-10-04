@@ -16,6 +16,11 @@ of `thm:main-formal` with the capped error
 The theorem is additive: the source-labelled `mainFormal` statement and its
 error function are unchanged.
 
+Proof code is adapted from the module
+`MIPStarRE.LDT.Test.MainTheorem.MainFormal`
+in LionSR/MIPStarRE at commit
+`5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79`.
+
 ## References
 
 * `references/ldt-paper/test_definition.tex:180-202` (`thm:main-formal`).

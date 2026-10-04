@@ -1,8 +1,8 @@
 # Source statements and formal conventions
 
 The primary source is [MIP*=RE, arXiv:2001.04383v3](https://arxiv.org/abs/2001.04383v3).
-The registered statements are Theorem 7.8, Lemma 7.13, Theorem 7.14, and
-Corollary 7.15. The Lean statements retain explicit error functions and the
+The comparator-configured statements correspond to Theorem 7.8, Lemma 7.13,
+Theorem 7.14, and Corollary 7.15. The Lean statements retain explicit error functions and the
 admissibility conditions on the parameters. They concern finite-dimensional
 strategies; this library does not formalize the whole MIP*=RE theorem.
 
@@ -20,11 +20,15 @@ explicitly states this convention. See
 
 ## Low-degree soundness
 
-The proof of MIP*=RE Theorem 7.8 invokes a tensor-code game correspondence and
-uses `K = m³ d` while asserting `K ≥ 12 m (d + 1)`. The latter inequality does
-not hold uniformly for its stated positive parameters. This formalization
-neither uses nor proves those two assertions. Instead, it proves soundness for
-a directly indexed low individual degree game, obtains simultaneous
+The printed proof of MIP*=RE Theorem 7.8 claims a game correspondence and
+applies Theorem 4.7 of Ji, Natarajan, Vidick, Wright, and Yuen,
+[*Quantum soundness of testing tensor codes*, arXiv:2111.08131v3](https://arxiv.org/abs/2111.08131v3),
+with `K = m³ d`. That theorem assumes `K ≥ 12 m t`; for the degree-`d`
+Reed-Solomon code, `t = d + 1`. Thus the printed choice of `K` does not meet
+the hypothesis for small `m`. MIP*=RE does not print the inequality
+`K ≥ 12 m (d + 1)`. This formalization neither uses nor establishes the claimed
+correspondence or that bound for the printed choice of `K`. Instead, it proves
+soundness for a directly indexed low individual degree game, obtains simultaneous
 measurements by adapting the combining argument in
 [NEEXP in MIP*, arXiv:1904.05870v3, Theorem 4.43](https://arxiv.org/abs/1904.05870v3),
 and transports the result through a correlated seed dilation. The two
@@ -37,9 +41,14 @@ The combining argument is proved locally; the NEEXP theorem is not an axiom.
 The underlying LIDT theorem is imported from the pinned
 [LionSR/MIPStarRE dependency](https://github.com/LionSR/MIPStarRE/tree/5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79).
 Its public `MIPStarRE.LDT.Test.mainFormal` uses the corrected conditions
-`K ≥ 400 m d` and `K > 0`. Our auxiliary choice `K = 2560000 m³ d` satisfies
+`K ≥ 400 M d` and `K > 0`, where `M` is the dimension of the single-polynomial
+game passed to that theorem. The auxiliary choice `K = 2560000 M³ d` satisfies
 both, as proved in
 [the parameter estimates](QPBT/Combining/DirectLowDegree/Transport/Error.lean).
+The standalone `k = 1` base case uses `M = m`; the
+[general combining construction](QPBT/Combining/DirectLowDegree/Transport/Combining/SimultaneousGeneral.lean)
+uses `M = m + k`, as defined by
+[the combined parameters](QPBT/Combining/DirectLowDegree/Transport/Combining/Parameters.lean).
 These conditions are discharged internally, not added to the QPBT headline
 statements. The QPBT-local [linear-triangle bounds](QPBT/LDT/Test/MainTheorem/LinearTriangle/MainFormal.lean)
 retain the sharper quantitative estimates needed by the QPBT error analysis.
@@ -58,3 +67,7 @@ selector contract are transported from the library by proved equivalences in
 [the Palomar modules](QPBT/Palomar). The production build imports the
 [axiom audit](QPBT/Test/AxiomAudit.lean); its permitted axioms are `propext`,
 `Quot.sound`, and `Classical.choice`.
+
+The [archived list of intermediate deviations](https://github.com/Dengnifer/MIPStarRE-QPBT-bak/blob/8df6267fa02edf52be1a4f946d188ca8f8feb5d3/docs/DEVIATIONS.md)
+records further corrections to intermediate results; these do not change the
+comparator-configured headline statements.

@@ -4,7 +4,7 @@ project:
   name: "Quantum Pauli basis test"
   description: >-
     A Lean 4 formalization of the quantum Pauli basis test from MIP*=RE. The
-    registered results give a value-one symmetric projective consistent
+    comparator-configured results give a value-one symmetric projective consistent
     commuting strategy, quantum soundness of the simultaneous low-degree
     test, soundness of the Pauli basis test up to local isometries with the
     explicit deltaQld error, and the corresponding qubit-coordinate form.
@@ -62,6 +62,21 @@ sources:
     location: "Theorem 4.43 and its proof (the combining reduction)."
     note: "The combining argument is adapted to the directly indexed low individual degree game."
 
+  - type: "paper"
+    title: "Quantum soundness of testing tensor codes"
+    authors:
+      - "Zhengfeng Ji"
+      - "Anand Natarajan"
+      - "Thomas Vidick"
+      - "John Wright"
+      - "Henry Yuen"
+    id: "arXiv:2111.08131v3"
+    relationship: "background"
+    location: "Theorem 4.7, including its sampling hypothesis K >= 12 m t."
+    note: >-
+      Cited by the printed proof of MIP*=RE Theorem 7.8. The QPBT formalization
+      uses the separate low individual degree reduction, not this tensor-code theorem.
+
 related_formalizations:
   - id: "https://github.com/LionSR/MIPStarRE"
     relationship: "builds-on"
@@ -70,26 +85,33 @@ related_formalizations:
       dependency, on Lean/Mathlib v4.35.0-rc2 with Lean modules. QPBT-local
       extensions are complete-measurement triangle estimates and explicit
       linear-triangle LDT consistency bounds under QPBT/LDT, together with
-      the public API lemmas in QPBT/Upstream.lean.
+      the public API lemmas in QPBT/Upstream.lean and controlled unitaries in
+      QPBT/Quantum/ControlledUnitary.lean.
   - id: "https://github.com/LionSR/LDT-comparator"
     relationship: "builds-on"
     note: >-
       Registered as PALOMAR-2026-08-18-000001 for
       MIPStarRE.LDT.Test.mainFormal, the upstream low individual degree theorem.
+      That wrapper pins LionSR/MIPStarRE at
+      892b939c541e90192a8c77917cbb106678fd43b3 on Lean v4.32.0; the QPBT imports
+      5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79, whose mainFormal statement text
+      is unchanged.
   - id: "https://github.com/vidick/MIPRE-formalization"
     relationship: "independent"
     note: "Its MIPRE/Background/QLD formalizes the same Pauli basis test."
   - id: "https://github.com/Dengnifer/MIPStarRE-QPBT-bak"
     relationship: "other"
     note: >-
-      This source-only release carries forward the required library from
-      development commit 8df6267fa02edf52be1a4f946d188ca8f8feb5d3 with fresh
-      repository history. The four registered theorem statements and proof
-      code are unchanged; historical comment references are clarified.
+      Development history before this release. The QPBT library is carried
+      forward from development commit 8df6267fa02edf52be1a4f946d188ca8f8feb5d3
+      with fresh history. Its modules are renamed to QPBT/, the LIDT copy is
+      replaced by the pinned LionSR/MIPStarRE dependency and QPBT/Upstream.lean,
+      and 23 instances have explicit names. The compact comparator statements
+      use the proved library-to-comparator equivalences described below.
 
 status:
   scope: >-
-    The comparator registers four headline declarations: completeness of the
+    The comparator selects four headline declarations: completeness of the
     Pauli basis test, soundness of the simultaneous low-degree test, Pauli
     basis test soundness, and its qubit form.
   main_results:
@@ -118,7 +140,7 @@ status:
 alignment:
   source_statement: "other"
   translation_notes: >-
-    The four compact declarations retain the registered parameter and
+    The four compact declarations retain the configured parameter and
     quantifier order, witnesses, explicit deltaLd or deltaQld bounds, and the
     complete fixed-field selector contract. A source comparison by an AI
     agent (OpenAI Codex CLI, model gpt-6-astra) found no substantive drift
@@ -134,13 +156,18 @@ fidelity:
     This completes the unspecified choice of parameter in MIP*=RE v3 Figure 3.
     Low-degree soundness follows a directly indexed LIDT reduction and correlated
     seed dilation, with simultaneity obtained by the combining argument of
-    NEEXP Theorem 4.43. It does not use or establish the printed tensor-code
-    game correspondence or the asserted bound K >= 12 m (d + 1) for K = m^3 d.
-    The inherited LIDT theorem uses corrected sampling conditions
-    K >= 400 m d and K > 0; the QPBT constructs K = 2560000 m^3 d and proves
-    both conditions internally. The once-and-for-all finite-field selector
+    NEEXP Theorem 4.43. The printed proof of MIP*=RE Theorem 7.8 claims a game
+    correspondence and applies Theorem 4.7 of arXiv:2111.08131 with K = m^3 d.
+    The latter theorem assumes K >= 12 m t; for degree-d Reed-Solomon codes,
+    t = d + 1, so this choice fails its hypothesis for small m. MIP*=RE does
+    not print that inequality. This formalization neither uses nor establishes
+    that correspondence or the bound for the printed choice of K.
+    The inherited LIDT theorem instead requires K >= 400 M d and K > 0.
+    The proof constructs K = 2560000 M^3 d and establishes both internally,
+    with M = m for the standalone single-polynomial base case and M = m + k
+    in the general combining construction. The once-and-for-all finite-field selector
     records a self-dual normal basis and its natural binary encoding explicitly.
-    The four registered results keep their admissibility conditions and explicit
+    The four comparator-configured results keep their admissibility conditions and explicit
     deltaLd or deltaQld error functions; they concern finite-dimensional strategies
     and do not formalize the whole MIP*=RE theorem. SOURCE_NOTES.md explains
     these qualifications with links to the relevant local declarations.

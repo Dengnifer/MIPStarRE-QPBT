@@ -12,6 +12,12 @@ from `Preliminaries.Triangles.CompleteMeasurements`.  It preserves the same
 unsymmetrized polynomial measurements and the same completed projective
 measurements as the existing source route.
 
+Proof code is adapted from the modules
+`MIPStarRE.LDT.Test.MainTheorem.SourceRoleRegister.Core` and
+`MIPStarRE.LDT.Test.MainTheorem.SourceRoleRegister.Final`
+in LionSR/MIPStarRE at commit
+`5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79`.
+
 ## References
 
 * `references/ldt-paper/inductive_step.tex`, lines 68-185.

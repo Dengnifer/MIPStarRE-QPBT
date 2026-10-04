@@ -59,10 +59,12 @@ The first two consistency bounds compare the point-answer postprocessing of the
 strategy with evaluations of the polynomial measurements. Answers of the wrong
 form are folded into the zero tuple so that the point family remains a POVM.
 
-The printed tensor-code reduction still requires proofs of its claimed game
-correspondence and of its auxiliary parameter bound `K ≥ 12 * m * (d + 1)` for
-the printed choice `K = m ^ 3 * d`. Both remain open assertions of the source
-and are **not** discharged here. They are detailed in
+The printed proof of MIP*=RE Theorem 7.8 claims a game correspondence and
+applies arXiv:2111.08131v3, Theorem 4.7, with `K = m ^ 3 * d`. The latter
+theorem assumes `K ≥ 12 * m * t`, where `t = d + 1` for the Reed-Solomon code;
+the printed choice fails this hypothesis for small `m`. MIP*=RE does not print
+that inequality. Neither the correspondence nor the bound for that choice of
+`K` is used or established here. They are detailed in
 `docs/paper-gaps/qpbt_ld-dimension-divisibility.tex` and
 `rem:ld-soundness-provider`, and are tracked by issue Dengnifer/MIPStarRE-QPBT-bak#527.
 
@@ -78,10 +80,9 @@ the two mixed relations survive seed compression exactly. Global consistency
 is recovered from point agreement and the tuple Schwartz--Zippel bound, rather
 than double compression. The resulting square-root loss is absorbed by replacing
 the direct constants `(a, b)` with `(10 * a, b / 2)`. This discharges the
-general-`k` seed-indexed extension tracked by issue Dengnifer/MIPStarRE-QPBT-bak#527, without using
-either
-open assertion of the printed tensor-code proof; those two assertions are
-therefore avoided rather than proved, and the source gap above stays open.
+general-`k` seed-indexed extension tracked by issue Dengnifer/MIPStarRE-QPBT-bak#527,
+without using either of these obligations of the printed tensor-code route;
+the proof avoids them, and the source gap above stays open.
 (Issues #16 and #210, cited by earlier revisions of this docstring, are
 closed; #527 is the live tracker.) -/
 theorem exists_ld_soundness :
