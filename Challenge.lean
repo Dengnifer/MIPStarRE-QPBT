@@ -25,24 +25,24 @@ open scoped BigOperators Matrix ComplexOrder
 
 -- Compiler-generated declarations in the closure (no source
 -- range); they regenerate identically during elaboration:
---   MIPStarRE.QPBT.Palomar.PauliAnswer.ctorElimType  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliType.ctorElimType  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliKind.ofNat  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliKind.ctorIdx  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.lowDegreePivot._simp_1  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliAnswer.ctorIdx  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliKind.ofNat_ctorIdx  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliType.proxyTypeEquiv  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.LowDegreeType.ofNat  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliType.ctorIdx  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.instInhabitedLowDegreeType.default  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.instInhabitedPauliKind.default  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.LowDegreeType.ofNat_ctorIdx  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliType.point.injEq  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliType.point.inj  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.LowDegreeType.ctorIdx  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.PauliAnswer.proxyTypeEquiv  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
---   MIPStarRE.QPBT.Palomar.lowDegreePivot._simp_2  (from MIPStarRE/QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliAnswer.ctorElimType  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliType.ctorElimType  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliKind.ofNat  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliKind.ctorIdx  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.lowDegreePivot._simp_1  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliAnswer.ctorIdx  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliKind.ofNat_ctorIdx  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliType.proxyTypeEquiv  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.LowDegreeType.ofNat  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliType.ctorIdx  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.instInhabitedLowDegreeType.default  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.instInhabitedPauliKind.default  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.LowDegreeType.ofNat_ctorIdx  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliType.point.injEq  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliType.point.inj  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.LowDegreeType.ctorIdx  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.PauliAnswer.proxyTypeEquiv  (from QPBT/Palomar/Definitions.lean)
+--   MIPStarRE.QPBT.Palomar.lowDegreePivot._simp_2  (from QPBT/Palomar/Definitions.lean)
 namespace MIPStarRE.QPBT.Palomar
 /-- A finite two-player one-round game with a Mathlib probability mass function. -/
 structure Game (X Y A B : Type) [Fintype X] [Fintype Y] [Fintype A] [Fintype B]
@@ -786,7 +786,7 @@ end MIPStarRE.QPBT.Palomar
 namespace MIPStarRE.QPBT
 /-- `IsAdmissibleSize q` is the predicate `q = 2^k` for an odd exponent.
 This is blueprint `def:admissible-size`, with paper origin
-`references/qpbt-paper/04_preliminaries.tex:662-667`.
+`arXiv:2001.04383v3, Definition 3.15`.
 -/
 def IsAdmissibleSize (q : ℕ) : Prop := ∃ k : ℕ, Odd k ∧ q = 2 ^ k
 /--
@@ -796,7 +796,7 @@ the paper's once-and-for-all self-dual normal-basis convention; they are
 deliberately part of the model rather than quantified afresh by the soundness
 theorem.  This is the Lean carrier for blueprint
 `def:binary-representation`, paper origin
-`references/qpbt-paper/04_preliminaries.tex:653-728`.
+`arXiv:2001.04383v3, Section 3.3.2 and Lemma 3.16`.
 -/
 /- The finite-field carrier is specialized to `Type 0`, as are the finite
 models used by the surrounding Euclidean-space API. -/
@@ -818,7 +818,7 @@ structure FixedFieldModel (q : ℕ) extends MIPStarRE.LDT.FieldModel.{0} q where
   rather than allowing an unrelated permutation of `Fin q`.  It is the
   coordinate clause of blueprint
   `def:binary-representation`, with paper origin
-  `references/qpbt-paper/04_preliminaries.tex:669-680`.
+  `arXiv:2001.04383v3, Section 3.3.2`.
   -/
   representation_natural :
     ∀ v : Fin basisDim → ZMod 2,
@@ -833,7 +833,7 @@ structure FixedFieldModel (q : ℕ) extends MIPStarRE.LDT.FieldModel.{0} q where
 QPBT parameter record uses this same choice, matching the paper's fixed
 self-dual normal-basis identification rather than quantifying over arbitrary
 representations.  Blueprint `def:binary-representation`; paper origin
-`references/qpbt-paper/04_preliminaries.tex:653-680`.
+`arXiv:2001.04383v3, Section 3.3.2`.
 -/
 noncomputable def fixedFieldModel (q : ℕ) (hq : IsAdmissibleSize q) :
     FixedFieldModel q := by
@@ -848,7 +848,7 @@ noncomputable def binaryRepresentation {q : ℕ} (F : FixedFieldModel q) : F.K �
 /--
 The coordinate map associated with a finite basis.  This is the `κ` of
 blueprint `def:subfields-kappa`,
-whose paper origin is `references/qpbt-paper/04_preliminaries.tex:433-502`.
+whose paper origin is `arXiv:2001.04383v3, Section 3.3.1`.
 -/
 noncomputable abbrev kappa {F K ι : Type*} [CommSemiring F] [Semiring K]
     [Algebra F K] [Finite ι]
@@ -856,21 +856,21 @@ noncomputable abbrev kappa {F K ι : Type*} [CommSemiring F] [Semiring K]
   b.equivFun
 /--
 The finite-field trace used by the Pauli phases.  This is a thin wrapper around
-Mathlib's basis-independent `Algebra.trace`, matching Equation `eq:def-trace`
+Mathlib's basis-independent `Algebra.trace`, matching Equation (10)
 in blueprint `def:subfield-trace`
-(`references/qpbt-paper/04_preliminaries.tex:481-502`).
+(`arXiv:2001.04383v3, Section 3.3.1, Equation (10)`).
 -/
 noncomputable abbrev binTrace (K : Type*) [CommRing K] [Algebra (ZMod 2) K] :
     K →ₗ[ZMod 2] ZMod 2 :=
   Algebra.trace (ZMod 2) K
 /-- The trace selected by a fixed model; this is the map denoted `tr` in the
 paper's blueprint `def:binary-representation`,
-paper origin `references/qpbt-paper/04_preliminaries.tex:653-680`. -/
+paper origin `arXiv:2001.04383v3, Section 3.3.2`. -/
 noncomputable def fixedBinTrace {q : ℕ} (F : FixedFieldModel q) : F.K → ZMod 2 :=
   binTrace F.K
 /-- Coordinates in the fixed model's chosen binary basis;
 blueprint `def:binary-representation`, paper
-`04_preliminaries.tex:669-700`. -/
+`arXiv:2001.04383v3, Section 3.3.2`. -/
 noncomputable abbrev FixedFieldModel.binaryCoordinates {q : ℕ}
     (F : FixedFieldModel q) : F.K ≃ₗ[ZMod 2] (Fin F.basisDim → ZMod 2) :=
   kappa F.basis
@@ -888,7 +888,7 @@ end MIPStarRE.QPBT.Palomar
 
 namespace MIPStarRE.QPBT.Palomar
 
--- source: MIPStarRE/QPBT/Palomar/PauliCompleteness.lean:21-34
+-- source: QPBT/Palomar/PauliCompleteness.lean:21-34
 /-- Compact form of paper `lem:pauli-completeness`. -/
 theorem exists_spcc_value_one (P : PauliParams) :
     ∃ S : SymmetricPauliStrategy P
@@ -904,7 +904,7 @@ theorem exists_spcc_value_one (P : PauliParams) :
               (MIPStarRE.QPBT.fixedFieldModel P.q P.is_admissible_size))) = 1 := by
   sorry
 
--- source: MIPStarRE/QPBT/Palomar/LowDegreeSoundness.lean:20-44
+-- source: QPBT/Palomar/LowDegreeSoundness.lean:20-44
 /-- Compact form of paper `lem:ld-soundness`. -/
 theorem exists_ld_soundness :
     ∃ a b : ℝ, 1 ≤ a ∧ 0 < b ∧ b ≤ 1 ∧
@@ -930,7 +930,7 @@ theorem exists_ld_soundness :
                   deltaLd a b ε P.q P.m P.d P.k := by
   sorry
 
--- source: MIPStarRE/QPBT/Palomar/PauliSoundness.lean:22-48
+-- source: QPBT/Palomar/PauliSoundness.lean:22-48
 /-- Compact form of paper `thm:pauli`. -/
 theorem pauli_soundness :
     ∃ a b : ℝ, 1 ≤ a ∧ 0 < b ∧ b < 1 ∧
@@ -959,7 +959,7 @@ theorem pauli_soundness :
                 deltaQld a b epsilon P.m P.d P.q := by
   sorry
 
--- source: MIPStarRE/QPBT/Palomar/PauliSoundness.lean:68-95
+-- source: QPBT/Palomar/PauliSoundness.lean:68-95
 /-- Compact form of paper `cor:pauli-binary`. -/
 theorem pauli_soundness_qubit :
     ∃ a b : ℝ, 1 ≤ a ∧ 0 < b ∧ b < 1 ∧

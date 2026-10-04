@@ -35,18 +35,50 @@ sources:
     id: "arXiv:2001.04383"
     relationship: "formalizes"
     location: >-
-      Section 4.7, including lem:ld-soundness, lem:pauli-completeness,
-      thm:pauli, and cor:pauli-binary; the analysis continues in Section 8.
+      Version 3, Theorem 7.8 (simultaneous low-degree soundness), Lemma 7.13
+      (completeness), Theorem 7.14 (Pauli soundness), and Corollary 7.15
+      (qubit form); the soundness analysis is in Appendix A.
     author_endorsement: "not-contacted"
+
+  - type: "paper"
+    title: "Quantum soundness of the classical low individual degree test"
+    authors:
+      - "Zhengfeng Ji"
+      - "Anand Natarajan"
+      - "Thomas Vidick"
+      - "John Wright"
+      - "Henry Yuen"
+    id: "arXiv:2009.12982"
+    relationship: "background"
+    location: "The low individual degree test soundness theorem."
+    note: "Used through the pinned LionSR/MIPStarRE dependency and local quantitative extensions."
+  - type: "paper"
+    title: "NEEXP in MIP*"
+    authors:
+      - "Anand Natarajan"
+      - "John Wright"
+    id: "arXiv:1904.05870v3"
+    relationship: "background"
+    location: "Theorem 4.43 and its proof (the combining reduction)."
+    note: "The combining argument is adapted to the directly indexed low individual degree game."
 
 related_formalizations:
   - id: "https://github.com/LionSR/MIPStarRE"
     relationship: "builds-on"
     note: >-
-      Ports the low individual degree test formalization from commit
-      507e81220d95266ff3d589d125b2f87c7300a9fb to Lean modules and v4.35.0-rc2,
-      retaining its module paths. README.md credits its authors, Apache-2.0
-      provenance, arXiv:2609.19814, and the local extensions.
+      Imported at 5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79 as a pinned Lake
+      dependency, on Lean/Mathlib v4.35.0-rc2 with Lean modules. QPBT-local
+      extensions are complete-measurement triangle estimates and explicit
+      linear-triangle LDT consistency bounds under QPBT/LDT, together with
+      the public API lemmas in QPBT/Upstream.lean.
+  - id: "https://github.com/LionSR/LDT-comparator"
+    relationship: "builds-on"
+    note: >-
+      Registered as PALOMAR-2026-08-18-000001 for
+      MIPStarRE.LDT.Test.mainFormal, the upstream low individual degree theorem.
+  - id: "https://github.com/vidick/MIPRE-formalization"
+    relationship: "independent"
+    note: "Its MIPRE/Background/QLD formalizes the same Pauli basis test."
   - id: "https://github.com/Dengnifer/MIPStarRE-QPBT-bak"
     relationship: "other"
     note: >-
@@ -63,19 +95,19 @@ status:
   main_results:
     - name: "Pauli basis test completeness"
       declaration: "MIPStarRE.QPBT.Palomar.exists_spcc_value_one"
-      file: "MIPStarRE/QPBT/Palomar/PauliCompleteness.lean"
+      file: "QPBT/Palomar/PauliCompleteness.lean"
       comparator_config: "comparator.json"
     - name: "Simultaneous low-degree test soundness"
       declaration: "MIPStarRE.QPBT.Palomar.exists_ld_soundness"
-      file: "MIPStarRE/QPBT/Palomar/LowDegreeSoundness.lean"
+      file: "QPBT/Palomar/LowDegreeSoundness.lean"
       comparator_config: "comparator.json"
     - name: "Pauli basis test soundness"
       declaration: "MIPStarRE.QPBT.Palomar.pauli_soundness"
-      file: "MIPStarRE/QPBT/Palomar/PauliSoundness.lean"
+      file: "QPBT/Palomar/PauliSoundness.lean"
       comparator_config: "comparator.json"
     - name: "Qubit-coordinate Pauli soundness"
       declaration: "MIPStarRE.QPBT.Palomar.pauli_soundness_qubit"
-      file: "MIPStarRE/QPBT/Palomar/PauliSoundness.lean"
+      file: "QPBT/Palomar/PauliSoundness.lean"
       comparator_config: "comparator.json"
   declarations:
     - "MIPStarRE.QPBT.Palomar.exists_spcc_value_one"
@@ -88,12 +120,30 @@ alignment:
   translation_notes: >-
     The four compact declarations retain the registered parameter and
     quantifier order, witnesses, explicit deltaLd or deltaQld bounds, and the
-    complete fixed-field selector contract. An Astra source comparison found
-    no substantive drift, but that comparison is AI review, not human
-    approval. The inherited zero-direction convention and alternative
-    low-degree proof-route qualifications are explained in README.md, with links to
-    the archived mathematical notes. The compact declarations are transported from the original
-    library theorems by proved game, strategy, and extraction equivalences.
+    complete fixed-field selector contract. A source comparison by an AI
+    agent (OpenAI Codex CLI, model gpt-6-astra) found no substantive drift
+    between the compact declarations and the library statements; that is
+    agent review, not human approval. The compact declarations are transported
+    from the library theorems by proved game, strategy, and extraction equivalences.
+
+fidelity:
+  divergences: >-
+    The zero-direction line/point predicate uses universal quantification over
+    all affine parameters representing the point; at zero direction this
+    requires the answer polynomial to be constant with the point's value.
+    This completes the unspecified choice of parameter in MIP*=RE v3 Figure 3.
+    Low-degree soundness follows a directly indexed LIDT reduction and correlated
+    seed dilation, with simultaneity obtained by the combining argument of
+    NEEXP Theorem 4.43. It does not use or establish the printed tensor-code
+    game correspondence or the asserted bound K >= 12 m (d + 1) for K = m^3 d.
+    The inherited LIDT theorem uses corrected sampling conditions
+    K >= 400 m d and K > 0; the QPBT constructs K = 2560000 m^3 d and proves
+    both conditions internally. The once-and-for-all finite-field selector
+    records a self-dual normal basis and its natural binary encoding explicitly.
+    The four registered results keep their admissibility conditions and explicit
+    deltaLd or deltaQld error functions; they concern finite-dimensional strategies
+    and do not formalize the whole MIP*=RE theorem. SOURCE_NOTES.md explains
+    these qualifications with links to the relevant local declarations.
 
 automation:
   methods:
@@ -115,6 +165,7 @@ review:
   reviewers: []
   notes: >-
     The compact Challenge underwent prior agent source comparison, and this
-    source snapshot was self-assessed by the Codex operator. No independent
+    source snapshot was self-assessed by an AI
+    agent (OpenAI Codex CLI, model gpt-6-astra). No independent
     final review or human proof review of the QPBT development is claimed. Automated
     checks and agent assessments are not represented as human approval.

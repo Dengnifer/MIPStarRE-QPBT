@@ -1,9 +1,9 @@
 module
 
-public import MIPStarRE.QPBT.Palomar.PauliCompleteness
-public import MIPStarRE.QPBT.Palomar.LowDegreeSoundness
-public import MIPStarRE.QPBT.Palomar.PauliSoundness
-public import MIPStarRE.QPBT.Test.AxiomAudit
+public import QPBT.Palomar.PauliCompleteness
+public import QPBT.Palomar.LowDegreeSoundness
+public import QPBT.Palomar.PauliSoundness
+public import QPBT.Test.AxiomAudit
 
 /-! # Verified quantum Pauli basis test results
 

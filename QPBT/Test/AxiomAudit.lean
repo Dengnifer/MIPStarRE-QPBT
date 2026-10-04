@@ -1,0 +1,229 @@
+module
+
+public meta import Lean
+public import QPBT.Test.Soundness
+public import QPBT.Test.QubitForm
+public import QPBT.Test.QuantitativeSoundness
+public import QPBT.Test.QuantitativeQubitForm
+public import QPBT.Test.LowDegreeGameTheorems
+public import QPBT.Test.Completeness
+public import QPBT.Test.Soundness.ProjectiveSetting
+public import QPBT.Test.Soundness.NaimarkAssembly
+public import QPBT.Test.Soundness.OperatorTransfer
+public import QPBT.Combining.Lines
+public import QPBT.Combining.Apply
+public import QPBT.Combining.ActualErrorBounds
+public import QPBT.Games.Symmetrization
+public import QPBT.Palomar.PauliCompleteness
+public import QPBT.Palomar.LowDegreeSoundness
+public import QPBT.Palomar.PauliSoundness
+
+/-!
+# Axiom audits for the quantum Pauli basis test
+
+Reviewer-facing, machine-checked evidence that the QPBT headline results rest on
+nothing beyond Lean's three standard axioms.  Before this module the claim was
+reproducible only by running a throwaway metaprogram outside the repository; a
+reader of the artifact could not re-derive it.
+
+Each audit below both **prints** the axiom set of a declaration and **fails
+elaboration** unless that set is exactly
+
+`{Classical.choice, Quot.sound, propext}`.
+
+So the module is a compile-time regression test, not a report: if a `sorry`
+(`sorryAx`), a new `axiom` declaration, or any other unexpected dependency ever
+reaches one of these theorems, `lake build QPBT.Test.AxiomAudit`
+fails and CI goes red.  The printed lines remain in the build log as the
+positive record.
+
+This mirrors `MIPStarRE/LDT/Test/AxiomAudit.lean`, which uses the same
+`Lean.collectAxioms` mechanism for the classical low-individual-degree track.
+Like that module, this one is built explicitly as a CI target rather than
+imported from the `QPBT` umbrella, so the audits stay out of normal
+downstream imports while still acting as regression tests.
+
+## What is audited
+
+The declarations are the QPBT headline results, in dependency order from the
+soundness statement down to the combining and extraction layers:
+
+* `pauli_soundness` — the main theorem (blueprint `thm:pauli`).
+* `pauli_soundness_qubit` — its qubit form (`cor:pauli-binary`).
+* `pauli_soundness_explicit_baseline` and
+  `pauli_soundness_qubit_explicit_baseline` — the Lean-only issue Dengnifer/MIPStarRE-QPBT-bak#729
+  quantitative specializations with fixed current-proof constants.
+* `pauli_soundness_quantitative` and
+  `pauli_soundness_qubit_quantitative` — the structured degree-four issue
+  Dengnifer/MIPStarRE-QPBT-bak#729
+  bounds, with internally constructed global and extraction witnesses.
+* `pauli_soundness_quantitative_mixed_components` and its exact qubit form —
+  the capped squared-state and separate raw-operator component bounds.
+* `pauli_soundness_quantitative_fractional` and its exact qubit form — the
+  terminal fractional-dimensional common bound from the native estimates.
+* `pauli_soundness_quantitative_degree_two` and its exact qubit form — the
+  sharper degree-two issue Dengnifer/MIPStarRE-QPBT-bak#729 bounds, reconstructed on their
+  nonsaturated
+  branch.
+* `pauli_soundness_quantitative_canonical` and
+  `pauli_soundness_qubit_quantitative_canonical` — the corresponding canonical
+  `deltaQld 100` bounds at exponent `1 / 67108864`.
+* `exists_ld_soundness` — quantum low-degree soundness (`lem:ld-soundness`).
+* `exists_spcc_value_one` and `honestStrategy_isSPCC` — completeness, which is
+  what keeps the soundness hypothesis non-vacuous.
+* `exists_combinedLinesWitness`, `exists_extendedLinesWitness_established`,
+  `exists_globalPairWitness`, `exists_actual_rounded_global_pair_error_bound`,
+  and the native quantitative global-pair constructor, fractional comparison,
+  and legacy comparison — the combining layer.
+* `exists_projective_setting_isometry_bounds`,
+  `exists_arbitrary_strategy_isometry_bounds`,
+  `pauli_soundness_deltaQld_ofExtractionWitness` — the extraction layer.
+* `exists_symmetric_projective_strategy_approx` — the symmetrization interface.
+* The four compact Palomar aliases and the actual value of their registered
+  `fixedFieldModel` definition frontier.
+
+`exists_extendedLinesWitness_established` and
+`exists_symmetric_projective_strategy_approx` are the two *corrected* forms
+recorded in `docs/paper-gaps/qpbt-gap-register.md`; they are audited here
+precisely because they are the statements that were repaired against the source,
+so a regression in them is the one most likely to go unnoticed.
+-/
+
+public meta section
+
+open Lean Elab Command
+
+namespace MIPStarRE.QPBT.Test.AxiomAudit
+
+/-- The axioms Lean's own core development uses, and the only ones a QPBT
+headline declaration may depend on. -/
+private def standardAxioms : Array Name :=
+  (#[``propext, ``Classical.choice, ``Quot.sound] : Array Name).qsort Name.lt
+
+private def resolveDeclIdent (id : TSyntax `ident) : CommandElabM Name := do
+  liftCoreM <| Lean.Elab.realizeGlobalConstNoOverloadWithInfo id
+
+end MIPStarRE.QPBT.Test.AxiomAudit
+
+open MIPStarRE.QPBT.Test.AxiomAudit in
+/-- Print the axioms of a declaration and fail elaboration unless they are
+exactly `propext`, `Classical.choice` and `Quot.sound`.
+
+The failure branch names `sorryAx` explicitly when it is present, because that
+is the diagnosis a reader wants first: an unexpected `sorryAx` means a proof
+was left open, while any other extra axiom means a new assumption entered the
+development. -/
+elab "audit_standard_axioms " id:ident : command => do
+  let declName ← resolveDeclIdent id
+  let axioms := (← Lean.collectAxioms declName).qsort Name.lt
+  logInfo m!"axioms of '{declName}': {axioms.toList}"
+  unless axioms == standardAxioms do
+    if axioms.contains ``sorryAx then
+      throwError
+        m!"'{declName}' depends on `sorryAx`: a proof it relies on is still " ++
+          m!"open.  Axioms: {axioms.toList}"
+    else
+      throwError
+        m!"'{declName}' depends on axioms {axioms.toList}, expected exactly " ++
+          m!"{standardAxioms.toList}"
+
+/-! ### Main theorem and its qubit form -/
+
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_qubit
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_explicit_baseline
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_qubit_explicit_baseline
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_quantitative
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_quantitative_canonical
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_qubit_quantitative
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_qubit_quantitative_canonical
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_quantitative_mixed_components
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_qubit_quantitative_mixed_components
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_quantitative_fractional
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_qubit_quantitative_fractional
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_qubit_quantitative_degree_two
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_quantitative_power_eq_gain_mul_baseline
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_quantitative_envelope_pos
+audit_standard_axioms MIPStarRE.QPBT.sqrt_quantitative_extraction_scale_le
+audit_standard_axioms MIPStarRE.QPBT.sqrt_quantitative_extraction_scale_le_degree_two
+audit_standard_axioms MIPStarRE.QPBT.quantitative_ratio_le_degree_two_base
+audit_standard_axioms MIPStarRE.QPBT.quantitative_error_le_degree_two_base
+audit_standard_axioms
+  MIPStarRE.QPBT.quantitative_ratio_lt_four_billionth_of_degree_two_raw_lt_four
+audit_standard_axioms
+  MIPStarRE.QPBT.sqrt_quantitative_extraction_scale_lt_four_thousandths
+audit_standard_axioms
+  MIPStarRE.QPBT.quantitative_extraction_scale_lt_one_of_degree_two_raw_lt_four
+audit_standard_axioms
+  MIPStarRE.QPBT.quantitative_state_component_lt_degree_two_raw_error
+audit_standard_axioms
+  MIPStarRE.QPBT.quantitative_operator_component_lt_degree_two_raw_error
+audit_standard_axioms
+  MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two_error_le_quantitative_error
+audit_standard_axioms
+  MIPStarRE.QPBT.pauli_soundness_quantitative_fractional_error_le_degree_two
+audit_standard_axioms
+  MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two_error_lt_quantitative_error_iff
+audit_standard_axioms
+  MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two_error_le_deltaQld
+audit_standard_axioms MIPStarRE.QPBT.deltaQld_quantitative_lt_explicit_baseline
+audit_standard_axioms
+  MIPStarRE.QPBT.pauli_soundness_quantitative_error_lt_explicit_baseline_clipped
+audit_standard_axioms
+  MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two_error_lt_explicit_baseline_clipped
+
+/-! ### Quantum low-degree soundness -/
+
+audit_standard_axioms MIPStarRE.QPBT.exists_ld_soundness
+
+/-! ### Completeness
+
+Audited alongside soundness because it is what rules out the reading in which
+`pauli_soundness` is vacuous: `exists_spcc_value_one` produces a value-one
+strategy for every admissible parameter set. -/
+
+audit_standard_axioms MIPStarRE.QPBT.exists_spcc_value_one
+audit_standard_axioms MIPStarRE.QPBT.honestStrategy_isSPCC
+
+/-! ### Combining layer -/
+
+audit_standard_axioms MIPStarRE.QPBT.exists_combinedLinesWitness
+audit_standard_axioms MIPStarRE.QPBT.exists_extendedLinesWitness_established
+audit_standard_axioms MIPStarRE.QPBT.exists_globalPairWitness
+audit_standard_axioms MIPStarRE.QPBT.exists_actual_rounded_global_pair_error_bound
+audit_standard_axioms MIPStarRE.QPBT.quantitative_native_error_rpow_le_separated
+audit_standard_axioms MIPStarRE.QPBT.quantitative_native_global_pair_error_le_separated
+audit_standard_axioms MIPStarRE.QPBT.quantitative_native_global_pair_error_le_fractional
+audit_standard_axioms MIPStarRE.QPBT.quantitative_native_global_pair_error_bound
+audit_standard_axioms MIPStarRE.QPBT.exists_quantitative_global_pair_witness_native
+audit_standard_axioms MIPStarRE.QPBT.exists_quantitative_global_pair_witness_at_native_error
+
+/-! ### Extraction layer -/
+
+audit_standard_axioms MIPStarRE.QPBT.quantitative_native_extraction_scale_bounds
+audit_standard_axioms
+  MIPStarRE.QPBT.quantitative_native_error_one_sixteenth_le_fractional_base
+audit_standard_axioms
+  MIPStarRE.QPBT.quantitative_native_global_pair_sqrt_le_fractional_base
+audit_standard_axioms
+  MIPStarRE.QPBT.quantitative_native_extraction_sqrt_le_fractional_base
+audit_standard_axioms MIPStarRE.QPBT.exists_projective_setting_isometry_bounds
+audit_standard_axioms MIPStarRE.QPBT.exists_arbitrary_strategy_isometry_bounds
+audit_standard_axioms MIPStarRE.QPBT.pauli_soundness_deltaQld_ofExtractionWitness
+
+/-! ### Symmetrization interface -/
+
+audit_standard_axioms MIPStarRE.QPBT.exists_symmetric_projective_strategy_approx
+
+/-! ### Compact Palomar challenge
+
+The theorem aliases must retain the same exact standard-axiom closure as their
+library counterparts.  The registered `fixedFieldModel` frontier is checked on
+its actual Solution value, which also uses exactly the three standard axioms. -/
+
+audit_standard_axioms MIPStarRE.QPBT.Palomar.exists_spcc_value_one
+audit_standard_axioms MIPStarRE.QPBT.Palomar.exists_ld_soundness
+audit_standard_axioms MIPStarRE.QPBT.Palomar.pauli_soundness
+audit_standard_axioms MIPStarRE.QPBT.Palomar.pauli_soundness_qubit
+audit_standard_axioms MIPStarRE.QPBT.fixedFieldModel

@@ -5,10 +5,10 @@ A Lean formalization of four results from
 
 | Declaration in `MIPStarRE.QPBT.Palomar` | Paper result |
 |---|---|
-| `exists_spcc_value_one` | Pauli-test completeness, `lem:pauli-completeness` |
-| `exists_ld_soundness` | Simultaneous low-degree soundness, `lem:ld-soundness` |
-| `pauli_soundness` | Pauli basis test soundness, `thm:pauli` |
-| `pauli_soundness_qubit` | Qubit-coordinate soundness, `cor:pauli-binary` |
+| `exists_spcc_value_one` | Pauli-test completeness, Lemma 7.13 |
+| `exists_ld_soundness` | Simultaneous low-degree soundness, Theorem 7.8 |
+| `pauli_soundness` | Pauli basis test soundness, Theorem 7.14 |
+| `pauli_soundness_qubit` | Qubit-coordinate soundness, Corollary 7.15 |
 
 The statements retain their admissibility conditions, fixed-field contract,
 quantifier order, and explicit error functions. This is not a formalization of
@@ -26,35 +26,37 @@ lake build
 
 The build includes the axiom audit. CI builds `Solution` and runs the pinned
 official Palomar full verification with Lean, NanoDa, and con-ron.
-`Challenge.lean` is a single Mathlib-only file (994 lines, 52,141 bytes);
+`Challenge.lean` is a single Mathlib-only file (994 lines);
 its only intentional holes are the four theorem proofs and the registered
 `fixedFieldModel` value. The production library has no proof holes. Only
 `propext`, `Classical.choice`, and `Quot.sound` are permitted.
 
 ## Low-degree test
 
-`MIPStarRE.LDT` is ported from
-[LionSR/MIPStarRE at `507e81220d95266ff3d589d125b2f87c7300a9fb`](https://github.com/LionSR/MIPStarRE/tree/507e81220d95266ff3d589d125b2f87c7300a9fb),
-with its paths and declaration names preserved. We converted it to Lean modules
-and Lean/Mathlib `v4.35.0-rc2`. Local changes add QPBT strategy, distribution,
-and polynomial transport helpers, quantitative measurement estimates, and
-[sharper explicit LDT consistency bounds](https://github.com/Dengnifer/MIPStarRE-QPBT-bak/pull/731).
+The low individual degree test formalization by Sirui Lu, Ruixuan Deng, and
+Zhengfeng Ji is imported from
+[LionSR/MIPStarRE at `5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79`](https://github.com/LionSR/MIPStarRE/tree/5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79)
+as a pinned Lake dependency. Both libraries use Lean modules and Lean/Mathlib
+`v4.35.0-rc2`. Its account is [arXiv:2609.19814](https://arxiv.org/abs/2609.19814).
 
-The LIDT formalization is credited to Sirui Lu, Ruixuan Deng, and Zhengfeng Ji.
-Its account, [arXiv:2609.19814](https://arxiv.org/abs/2609.19814), is by Sirui Lu,
-Ruixuan Deng, David Zhu, and Zhengfeng Ji. It is Apache-2.0, as declared in
+The QPBT library retains its own [complete-measurement triangle estimates](QPBT/LDT/Preliminaries/Triangles/CompleteMeasurements.lean)
+and [explicit LDT consistency bounds](QPBT/LDT/Test/MainTheorem/LinearTriangle/MainFormal.lean).
+[QPBT/Upstream.lean](QPBT/Upstream.lean) supplies the additional public API lemmas;
+[controlled unitaries](QPBT/Quantum/ControlledUnitary.lean) are also local.
+The remaining LDT and shared quantum infrastructure come from the dependency.
+The LIDT formalization is Apache-2.0, as declared in
 [LionSR/LDT-comparator's metadata](https://github.com/LionSR/LDT-comparator/blob/main/formalization.yaml).
-We retain a copy because upstream does not yet use Lean's module system;
-the intent is to depend on upstream once it does and the ports are compatible.
+
+Module paths are rooted at `QPBT`; declaration namespaces remain
+`MIPStarRE.QPBT`, so the registered names in `comparator.json` are unchanged.
 
 ## Source qualifications
 
-The inherited zero-direction completion convention is retained. Low-degree
-soundness uses a direct and seed-indexed proof route instead of the paper's
-tensor-code imports. These qualifications and the other intermediate
-corrections are documented in the
-[archived mathematical notes](https://github.com/Dengnifer/MIPStarRE-QPBT-bak/blob/8df6267fa02edf52be1a4f946d188ca8f8feb5d3/docs/DEVIATIONS.md).
-Historical paper, blueprint, and note paths in source comments refer to that
-[development snapshot](https://github.com/Dengnifer/MIPStarRE-QPBT-bak/tree/8df6267fa02edf52be1a4f946d188ca8f8feb5d3);
-they are citations, not build inputs. The complete development history remains
-in that repository. This clean repository is licensed under [Apache-2.0](LICENSE).
+The zero-direction completion, alternative low-degree proof route, corrected
+LIDT sampling conditions, and finite-field conventions are stated in
+[formalization.yaml](formalization.yaml) and explained in [SOURCE_NOTES.md](SOURCE_NOTES.md).
+The submission and its checks are self-contained in this repository and its
+pinned dependencies. Historical blueprint and paper-gap paths in other source
+comments refer to the [development snapshot](https://github.com/Dengnifer/MIPStarRE-QPBT-bak/tree/8df6267fa02edf52be1a4f946d188ca8f8feb5d3);
+that archive records development history and is not a build input.
+This repository is licensed under [Apache-2.0](LICENSE).
