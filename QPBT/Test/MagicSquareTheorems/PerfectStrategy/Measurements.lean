@@ -157,7 +157,6 @@ theorem parityTriple_sum (i : Fin 6) (ab : ZMod 2 × ZMod 2) :
     ∑ k : Fin 3, parityTriple i ab k = msParity i := by
   rw [Fin.sum_univ_three]
   simp [parityTriple]
-  ring
 
 private theorem bit_embedding_injective :
     Function.Injective (MsAnswer.bit : ZMod 2 → MsAnswer) := by

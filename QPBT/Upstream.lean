@@ -11,7 +11,7 @@ public import MIPStarRE.LDT.Preliminaries.FiniteFields
 
 These finite-sum and measurement lemmas support the QPBT without modifying its LIDT dependency.
 The marginal-state construction and rank-zero argument adapt the private proofs in
-`LionSR/MIPStarRE`, commit `5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79`, module
+`LionSR/MIPStarRE`, commit `f382c801026f53a9efc260fdee707cb35e0adb15`, module
 `MIPStarRE.LDT.MakingMeasurementsProjective.LocalityPreservingRepair`.
 The remaining lemmas are QPBT extensions of the upstream measurement and distribution APIs.
 Their proofs use the public definitions and Mathlib finite-dimensional linear algebra.

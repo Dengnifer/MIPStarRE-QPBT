@@ -56,9 +56,10 @@ theorem nondegenerateLinePastingDist_collision_bound
   unfold avgOver at h
   simp only [mul_ite, mul_one, mul_zero] at h ⊢
   convert h using 1
-  apply Finset.sum_congr rfl
-  intro sample _
-  split_ifs <;> rfl
+  · rfl
+  · apply Finset.sum_congr rfl
+    intro sample _
+    split_ifs <;> rfl
 
 end
 

@@ -19,7 +19,7 @@ error function are unchanged.
 Proof code is adapted from the module
 `MIPStarRE.LDT.Test.MainTheorem.MainFormal`
 in LionSR/MIPStarRE at commit
-`5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79`.
+`f382c801026f53a9efc260fdee707cb35e0adb15`.
 
 ## References
 

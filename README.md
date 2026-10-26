@@ -17,7 +17,8 @@ review of this QPBT development is claimed. Ruixuan Deng is the responsible main
 
 ## Build and verify
 
-Lean and Mathlib are pinned to `v4.35.0-rc2`.
+Lean is pinned to `v4.33.1`, and Mathlib is pinned to
+`0df444a360eaa60ab8c11dca51a86af692955474`.
 
 ```sh
 lake exe cache get
@@ -35,9 +36,10 @@ its only intentional holes are the four theorem proofs and the comparator-config
 
 The low individual degree test formalization by Sirui Lu, Ruixuan Deng, and
 Zhengfeng Ji is imported from
-[LionSR/MIPStarRE at `5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79`](https://github.com/LionSR/MIPStarRE/tree/5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79)
+[LionSR/MIPStarRE at `f382c801026f53a9efc260fdee707cb35e0adb15`](https://github.com/LionSR/MIPStarRE/tree/f382c801026f53a9efc260fdee707cb35e0adb15)
 as a pinned Lake dependency. Both libraries use Lean modules and Lean/Mathlib
-`v4.35.0-rc2`. Its account, [arXiv:2609.19814](https://arxiv.org/abs/2609.19814),
+`v4.33.1` / `0df444a360eaa60ab8c11dca51a86af692955474`. Its account,
+[arXiv:2609.19814](https://arxiv.org/abs/2609.19814),
 is by Sirui Lu, Ruixuan Deng, David Zhu, and Zhengfeng Ji.
 
 The QPBT library retains its own [complete-measurement triangle estimates](QPBT/LDT/Preliminaries/Triangles/CompleteMeasurements.lean)

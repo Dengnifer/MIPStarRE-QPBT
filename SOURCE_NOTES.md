@@ -39,7 +39,7 @@ follows from point agreement and Schwartz–Zippel. See
 The combining argument is proved locally; the NEEXP theorem is not an axiom.
 
 The underlying LIDT theorem is imported from the pinned
-[LionSR/MIPStarRE dependency](https://github.com/LionSR/MIPStarRE/tree/5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79).
+[LionSR/MIPStarRE dependency](https://github.com/LionSR/MIPStarRE/tree/f382c801026f53a9efc260fdee707cb35e0adb15).
 Its public `MIPStarRE.LDT.Test.mainFormal` uses the corrected conditions
 `K ≥ 400 M d` and `K > 0`, where `M` is the dimension of the single-polynomial
 game passed to that theorem. The auxiliary choice `K = 2560000 M³ d` satisfies

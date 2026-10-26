@@ -4,6 +4,7 @@ keywords = ["math"]
 defaultTargets = ["QPBT", "Solution"]
 
 [leanOptions]
+autoImplicit = false
 pp.unicode.fun = true
 relaxedAutoImplicit = false
 weak.linter.mathlibStandardSet = true
@@ -12,12 +13,12 @@ maxSynthPendingDepth = 3
 [[require]]
 name = "mathlib"
 scope = "leanprover-community"
-rev = "v4.35.0-rc2"
+rev = "0df444a360eaa60ab8c11dca51a86af692955474"
 
 [[require]]
 name = "MIPStarRE"
 git = "https://github.com/LionSR/MIPStarRE"
-rev = "5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79"
+rev = "f382c801026f53a9efc260fdee707cb35e0adb15"
 
 [[lean_lib]]
 name = "QPBT"

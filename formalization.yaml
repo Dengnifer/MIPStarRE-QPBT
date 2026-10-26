@@ -81,8 +81,9 @@ related_formalizations:
   - id: "https://github.com/LionSR/MIPStarRE"
     relationship: "builds-on"
     note: >-
-      Imported at 5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79 as a pinned Lake
-      dependency, on Lean/Mathlib v4.35.0-rc2 with Lean modules. QPBT-local
+      Imported at f382c801026f53a9efc260fdee707cb35e0adb15 as a pinned Lake
+      dependency, on Lean v4.33.1 and Mathlib
+      0df444a360eaa60ab8c11dca51a86af692955474 with Lean modules. QPBT-local
       extensions are complete-measurement triangle estimates and explicit
       linear-triangle LDT consistency bounds under QPBT/LDT, together with
       the public API lemmas in QPBT/Upstream.lean and controlled unitaries in
@@ -94,7 +95,7 @@ related_formalizations:
       MIPStarRE.LDT.Test.mainFormal, the upstream low individual degree theorem.
       That wrapper pins LionSR/MIPStarRE at
       892b939c541e90192a8c77917cbb106678fd43b3 on Lean v4.32.0; the QPBT imports
-      5fc363bc8b77b1a6bbdaaeea634f1b0f3ff0ad79, whose mainFormal statement text
+      f382c801026f53a9efc260fdee707cb35e0adb15, whose mainFormal statement text
       is unchanged.
   - id: "https://github.com/vidick/MIPRE-formalization"
     relationship: "independent"
