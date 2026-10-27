@@ -720,12 +720,14 @@ def run_proved_node_phase(
         )
 
 
-def paged_tag(api: Api, endpoint: str, rows_key: str) -> list[dict[str, Any]]:
+def paged_rows(
+    api: Api, endpoint: str, rows_key: str, query_params: dict[str, Any],
+) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     offset = 0
     while True:
         query = urllib.parse.urlencode({
-            "tags": "QPBT", "view": "full", "limit": 200, "offset": offset,
+            **query_params, "view": "full", "limit": 200, "offset": offset,
         })
         payload = api.request("GET", endpoint + "?" + query)
         batch = payload.get(rows_key, [])
@@ -735,6 +737,20 @@ def paged_tag(api: Api, endpoint: str, rows_key: str) -> list[dict[str, Any]]:
             return rows
 
 
+def paged_tag(
+    api: Api, endpoint: str, rows_key: str,
+) -> tuple[list[dict[str, Any]], str, str | None]:
+    try:
+        return paged_rows(api, endpoint, rows_key, {"tags": "QPBT"}), "tag-filter", None
+    except RuntimeError as error:
+        searched = paged_rows(api, endpoint, rows_key, {"q": "QPBT"})
+        tagged = [
+            row for row in searched
+            if "qpbt" in {str(tag).lower() for tag in row.get("tags", [])}
+        ]
+        return tagged, "search-client-tag-filter", str(error)
+
+
 def final_verify(
     api: Api,
     state: State,
@@ -742,8 +758,12 @@ def final_verify(
     expected_theorems: set[str],
     targets: set[str],
 ) -> None:
-    definitions = paged_tag(api, "/definitions", "definitions")
-    theorems = paged_tag(api, "/theorems", "theorems")
+    definitions, definition_census, definition_tag_error = paged_tag(
+        api, "/definitions", "definitions",
+    )
+    theorems, theorem_census, theorem_tag_error = paged_tag(
+        api, "/theorems", "theorems",
+    )
     definition_names = {row.get("definition_name") for row in definitions}
     theorem_names = {row.get("theorem_name") for row in theorems}
     problems: list[str] = []
@@ -779,6 +799,14 @@ def final_verify(
         "open": sum(row.get("status") == "Open" for row in theorems),
         "allPrivate": not nonprivate,
         "targetTheoremIds": target_ids,
+        "censusMode": {
+            "definitions": definition_census,
+            "theorems": theorem_census,
+        },
+        "tagEndpointErrors": {
+            "definitions": definition_tag_error,
+            "theorems": theorem_tag_error,
+        },
         "problems": problems,
     }
     with state.lock:
