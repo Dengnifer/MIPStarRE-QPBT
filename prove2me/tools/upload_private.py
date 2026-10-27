@@ -30,9 +30,15 @@ LIDT_UPLOADED = Path("/home/drx/p2m/status/lidt-uploaded")
 API_KEY_PATH = Path("/home/drx/.config/prove2me/api_key")
 BASE = "https://prove2.me/api/v1"
 TERMINAL_JOB = {"PUBLISHED", "FAILED", "ERROR"}
+ACCEPTED_SUBMISSION = {"ACCEPTED"}
 TERMINAL_SUBMISSION = {
     "ACCEPTED", "SKETCH_ACCEPTED", "FAILED", "CE", "WA", "SORRY", "ERROR",
 }
+TRANSIENT_PUBLISH_FAILURE_MARKERS = (
+    "DB error looking up import",
+    "ConnectionTerminated",
+    "Imported platform theorems must be Proved at submission time",
+)
 
 
 def now() -> str:
@@ -354,6 +360,30 @@ def recover_published(api: Api, state: State, section: str, name: str, kind: str
     return True
 
 
+def is_transient_publish_failure(result: dict[str, Any]) -> bool:
+    message = result.get("error_message") or ""
+    return any(marker in message for marker in TRANSIENT_PUBLISH_FAILURE_MARKERS)
+
+
+def record_transient_publish_failure(
+    state: State, section: str, name: str, result: dict[str, Any],
+) -> None:
+    entry = state.entry(section, name)
+    retries = entry.get("transientRetries", 0) + 1
+    if retries > 8:
+        raise RuntimeError(
+            f"{section} job {name} exceeded transient retry limit: "
+            f"{result.get('error_message')}"
+        )
+    state.update(
+        section, name,
+        status="ERROR",
+        transientRetries=retries,
+        transientError=result.get("error_message"),
+        transientFailedAt=now(),
+    )
+
+
 def recover_job(api: Api, state: State, section: str, name: str, kind: str) -> bool:
     intent = state.entry(section, name).get("intentAt", "")
     offset = 0
@@ -386,9 +416,10 @@ def submit_definition(api: Api, state: State, payload: dict[str, Any]) -> None:
         return
     if entry.get("job_id") and entry.get("status") in {"PENDING", "COMPILING"}:
         return
-    if entry.get("status") == "INTENT":
+    if entry.get("status") in {"INTENT", "ERROR"}:
         if recover_published(api, state, "definitions", name, "definition"):
             return
+    if entry.get("status") == "INTENT":
         if not recover_job(api, state, "definitions", name, "definition"):
             raise RuntimeError(f"unresolved definition intent: {name}")
         return
@@ -417,9 +448,10 @@ def submit_theorem(api: Api, state: State, payload: dict[str, Any]) -> None:
         return
     if entry.get("job_id") and entry.get("status") in {"PENDING", "COMPILING"}:
         return
-    if entry.get("status") == "INTENT":
+    if entry.get("status") in {"INTENT", "ERROR"}:
         if recover_published(api, state, "theorems", name, "theorem"):
             return
+    if entry.get("status") == "INTENT":
         if not recover_job(api, state, "theorems", name, "theorem"):
             raise RuntimeError(f"unresolved theorem intent: {name}")
         return
@@ -454,12 +486,19 @@ def poll_publish(api: Api, state: State, section: str, name: str) -> None:
         for key in ("definition_id", "theorem_id", "visibility", "error_message"):
             if result.get(key) is not None:
                 values[key] = result[key]
+        if section == "definitions" and not values.get("definition_id"):
+            definition_id = result.get("definition_id") or result.get("theorem_id")
+            if definition_id:
+                values["definition_id"] = definition_id
         state.update(section, name, **values)
         if status == "PUBLISHED":
             if result.get("visibility") != "private":
                 raise RuntimeError(f"published entry is not private: {name}")
             return
         if status == "FAILED":
+            if is_transient_publish_failure(result):
+                record_transient_publish_failure(state, section, name, result)
+                return
             raise RuntimeError(f"publish failed for {name}: {result.get('error_message')}")
         if status == "ERROR":
             return
@@ -608,6 +647,53 @@ def run_solution_phase(
                 future.result()
 
 
+def run_proved_node_phase(
+    api: Api,
+    state: State,
+    order: list[str],
+    dependencies: dict[str, set[str]],
+    theorem_payloads: dict[str, dict[str, Any]],
+    solution_payloads: dict[str, dict[str, Any]],
+    jobs: int,
+) -> None:
+    pending = set(order)
+    while pending:
+        complete = {
+            name for name in order
+            if state.entry("solutions", name).get("status") in ACCEPTED_SUBMISSION
+        }
+        pending -= complete
+        if not pending:
+            return
+        ready = [
+            name for name in order
+            if name in pending and dependencies[name] <= complete
+        ][:jobs]
+        if not ready:
+            blocked = {name: sorted(dependencies[name] - complete) for name in sorted(pending)}
+            raise RuntimeError(f"blocked proved-node DAG: {dict(list(blocked.items())[:8])}")
+        for name in ready:
+            entry = state.entry("theorems", name)
+            if (
+                entry.get("status") == "FAILED"
+                and "Imported platform theorems must be Proved"
+                in (entry.get("error_message") or "")
+            ):
+                state.update(
+                    "theorems", name,
+                    status="ERROR",
+                    scheduleRetry=True,
+                    scheduleError=entry.get("error_message"),
+                )
+        run_publish_phase(
+            api, state, "theorems", ready, {name: set() for name in ready},
+            theorem_payloads, submit_theorem, jobs,
+        )
+        run_solution_phase(
+            api, state, ready, {name: set() for name in ready}, solution_payloads, jobs,
+        )
+
+
 def paged_tag(api: Api, endpoint: str, rows_key: str) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     offset = 0
@@ -679,7 +765,7 @@ def final_verify(
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--phase", choices=("definitions", "theorems", "solutions", "verify", "all"),
+        "--phase", choices=("definitions", "nodes", "verify", "all"),
         default="all",
     )
     parser.add_argument("--jobs", type=int, default=8)
@@ -730,10 +816,7 @@ def main() -> int:
         for cid in plan["nodeOrder"]
     }
     preflight(api, state, definition_order, theorem_order, args.jobs)
-    phases = (
-        ("definitions", "theorems", "solutions", "verify")
-        if args.phase == "all" else (args.phase,)
-    )
+    phases = (("definitions", "nodes", "verify") if args.phase == "all" else (args.phase,))
     for phase in phases:
         print(f"phase {phase}", flush=True)
         if phase == "definitions":
@@ -741,20 +824,13 @@ def main() -> int:
                 api, state, "definitions", definition_order, definition_dependencies,
                 definition_payloads, submit_definition, args.jobs,
             )
-        elif phase == "theorems":
+        elif phase == "nodes":
             if any(state.entry("definitions", name).get("status") != "PUBLISHED"
                    for name in definition_order):
-                raise RuntimeError("all QPBT definitions must be PUBLISHED before theorem stubs")
-            run_publish_phase(
-                api, state, "theorems", theorem_order, theorem_dependencies,
-                theorem_payloads, submit_theorem, args.jobs,
-            )
-        elif phase == "solutions":
-            if any(state.entry("theorems", name).get("status") != "PUBLISHED"
-                   for name in theorem_order):
-                raise RuntimeError("all QPBT theorem stubs must be PUBLISHED before solutions")
-            run_solution_phase(
-                api, state, theorem_order, theorem_dependencies, solution_payloads, args.jobs,
+                raise RuntimeError("all QPBT definitions must be PUBLISHED before theorem nodes")
+            run_proved_node_phase(
+                api, state, theorem_order, theorem_dependencies,
+                theorem_payloads, solution_payloads, args.jobs,
             )
         elif phase == "verify":
             final_verify(
