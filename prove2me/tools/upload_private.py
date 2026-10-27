@@ -37,6 +37,7 @@ TERMINAL_SUBMISSION = {
 TRANSIENT_PUBLISH_FAILURE_MARKERS = (
     "DB error looking up import",
     "ConnectionTerminated",
+    "Import parser timed out",
     "Imported platform theorems must be Proved at submission time",
 )
 
