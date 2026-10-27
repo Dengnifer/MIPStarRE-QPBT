@@ -446,7 +446,10 @@ def submit_definition(api: Api, state: State, payload: dict[str, Any]) -> None:
             raise RuntimeError(f"unresolved definition intent: {name}")
         return
     if entry.get("status") == "FAILED":
-        raise RuntimeError(f"definition previously failed: {name}")
+        if not is_transient_publish_failure(entry):
+            raise RuntimeError(f"definition previously failed: {name}")
+        record_transient_publish_failure(state, "definitions", name, entry)
+        entry = state.entry("definitions", name)
     if entry.get("status") == "ERROR":
         state.update("definitions", name, status="RETRY")
     if not entry and recover_published(api, state, "definitions", name, "definition"):
@@ -478,7 +481,12 @@ def submit_theorem(api: Api, state: State, payload: dict[str, Any]) -> None:
             raise RuntimeError(f"unresolved theorem intent: {name}")
         return
     if entry.get("status") == "FAILED":
-        raise RuntimeError(f"theorem previously failed: {name}")
+        if not is_transient_publish_failure(entry):
+            raise RuntimeError(f"theorem previously failed: {name}")
+        record_transient_publish_failure(state, "theorems", name, entry)
+        entry = state.entry("theorems", name)
+    if entry.get("status") == "ERROR":
+        state.update("theorems", name, status="RETRY")
     if not entry and recover_published(api, state, "theorems", name, "theorem"):
         return
     state.update("theorems", name, status="INTENT", intentAt=now())
