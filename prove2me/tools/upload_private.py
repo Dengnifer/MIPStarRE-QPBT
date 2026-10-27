@@ -280,6 +280,27 @@ def exact_search(api: Api, kind: str, name: str) -> list[dict[str, Any]]:
     return [row for row in payload.get(rows, []) if row.get(key) == name]
 
 
+def normalize_cascaded_sketch(api: Api, state: State, name: str) -> bool:
+    """Treat a sketch submission as complete only after its theorem cascades to Proved."""
+    entry = state.entry("solutions", name)
+    if entry.get("status") != "SKETCH_ACCEPTED":
+        return entry.get("status") == "ACCEPTED"
+    for attempt in range(8):
+        matches = exact_search(api, "theorem", name)
+        if len(matches) == 1 and matches[0].get("status") == "Proved":
+            state.update(
+                "solutions", name,
+                status="ACCEPTED",
+                platformSubmissionStatus="SKETCH_ACCEPTED",
+                acceptedViaCascade=True,
+            )
+            state.update("theorems", name, theoremStatus="Proved")
+            return True
+        if attempt < 7:
+            time.sleep(3)
+    return False
+
+
 def assert_safe_payloads(payloads: dict[str, Any]) -> None:
     if payloads.get("tag") != "QPBT" or payloads.get("private") is not True:
         raise RuntimeError("payload manifest is not private and tagged QPBT")
@@ -566,6 +587,9 @@ def submit_solution(api: Api, state: State, payload: dict[str, Any]) -> None:
     entry = state.entry("solutions", name)
     if entry.get("status") == "ACCEPTED":
         return
+    if entry.get("status") == "SKETCH_ACCEPTED" and normalize_cascaded_sketch(
+            api, state, name):
+        return
     if entry.get("submission_id") and entry.get("status") == "PENDING":
         return
     if entry.get("status") == "INTENT":
@@ -611,6 +635,8 @@ def poll_solution(api: Api, state: State, name: str) -> None:
         if status == "ACCEPTED":
             return
         if status == "ERROR":
+            return
+        if status == "SKETCH_ACCEPTED" and normalize_cascaded_sketch(api, state, name):
             return
         if status in TERMINAL_SUBMISSION:
             raise RuntimeError(
