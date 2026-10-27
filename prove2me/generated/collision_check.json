@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T13:31:22.892451+00:00",
+  "checkedAt": "2026-10-27T19:51:03.607001+00:00",
   "checkedDefinitions": [
     "QPBT_QPBT_Algebra_Coefficients",
     "QPBT_QPBT_Algebra_Decoding",
@@ -904,7 +904,7 @@
   "plannedDefinitions": 193,
   "plannedTheorems": 670,
   "platformVersions": [
-    "0.13.4"
+    "0.13.5"
   ],
   "sourceExtensions": 23,
   "theoremCollisions": [],
