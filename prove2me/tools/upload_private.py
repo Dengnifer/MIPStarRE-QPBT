@@ -780,9 +780,18 @@ def final_verify(
     nonprivate = [
         row.get("definition_name") for row in definitions if row.get("visibility") != "private"
     ] + [row.get("theorem_name") for row in theorems if row.get("visibility") != "private"]
+    mistagged = [
+        row.get("definition_name") for row in definitions
+        if {str(tag).lower() for tag in row.get("tags", [])} != {"qpbt"}
+    ] + [
+        row.get("theorem_name") for row in theorems
+        if {str(tag).lower() for tag in row.get("tags", [])} != {"qpbt"}
+    ]
     nonproved = [row.get("theorem_name") for row in theorems if row.get("status") != "Proved"]
     if nonprivate:
         problems.append(f"nonprivate entries: {nonprivate[:8]}")
+    if mistagged:
+        problems.append(f"entries not tagged exactly QPBT: {mistagged[:8]}")
     if nonproved:
         problems.append(f"non-Proved entries: {nonproved[:8]}")
     theorem_by_name = {row.get("theorem_name"): row for row in theorems}
@@ -798,6 +807,7 @@ def final_verify(
         "proved": sum(row.get("status") == "Proved" for row in theorems),
         "open": sum(row.get("status") == "Open" for row in theorems),
         "allPrivate": not nonprivate,
+        "allTagged": not mistagged,
         "targetTheoremIds": target_ids,
         "censusMode": {
             "definitions": definition_census,
