@@ -1,0 +1,10 @@
+{
+  "definitions": 193,
+  "payloadsSha256": "0d4903c7f715a37db3dee2be153907554cfa9f913111b9b7c7c5c90b92d0a5d9",
+  "planSha256": "0be041782fced8cc2db9780803f26d6bcd534bf08ec1f5fc599bdf473cfe82e1",
+  "platformSha256": "780d8f7d50306711db1a639860c24310517f70a7e2f8c3188715b7e6bfe7b98a",
+  "solutions": 670,
+  "theorems": 670,
+  "typeAuditFailures": 0,
+  "validatedAt": "2026-10-27T14:40:14.889994+00:00"
+}

@@ -1,0 +1,6 @@
+{"kind":"section","range":{"end":{"col":24,"line":26,"offset":1016},"start":{"col":0,"line":26,"offset":992}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":28,"offset":1042},"start":{"col":0,"line":28,"offset":1018}}}
+{"declEnd":{"col":78,"line":43,"offset":1836},"declStart":{"col":0,"line":30,"offset":1044},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":33,"offset":1274},"start":{"col":0,"line":33,"offset":1267}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":55,"line":63,"offset":2935},"declStart":{"col":0,"line":45,"offset":1838},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":15,"line":47,"offset":2004},"start":{"col":8,"line":47,"offset":1997}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":47,"line":127,"offset":6379},"declStart":{"col":0,"line":65,"offset":2937},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":76,"offset":3671},"start":{"col":0,"line":76,"offset":3664}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":18,"line":129,"offset":6399},"start":{"col":0,"line":129,"offset":6381}}}

@@ -1,0 +1,17 @@
+{"kind":"section","range":{"end":{"col":24,"line":25,"offset":1012},"start":{"col":0,"line":25,"offset":988}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":27,"offset":1038},"start":{"col":12,"line":27,"offset":1026}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":31,"line":27,"offset":1045},"start":{"col":25,"line":27,"offset":1039}}}
+{"kind":"openName","name":"MatrixOrder","range":{"end":{"col":43,"line":27,"offset":1057},"start":{"col":32,"line":27,"offset":1046}}}
+{"kind":"openName","name":"ComplexOrder","range":{"end":{"col":56,"line":27,"offset":1070},"start":{"col":44,"line":27,"offset":1058}}}
+{"kind":"openName","name":"Classical","range":{"end":{"col":66,"line":27,"offset":1080},"start":{"col":57,"line":27,"offset":1071}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":29,"offset":1106},"start":{"col":0,"line":29,"offset":1082}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":31,"offset":1126},"start":{"col":5,"line":31,"offset":1113}}}
+{"kind":"openName","name":"Measurement","range":{"end":{"col":37,"line":31,"offset":1145},"start":{"col":26,"line":31,"offset":1134}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":32,"offset":1168},"start":{"col":5,"line":32,"offset":1151}}}
+{"kind":"openName","name":"DistanceCalculus","range":{"end":{"col":39,"line":32,"offset":1185},"start":{"col":23,"line":32,"offset":1169}}}
+{"kind":"section","range":{"end":{"col":21,"line":34,"offset":1208},"start":{"col":0,"line":34,"offset":1187}}}
+{"declEnd":{"col":20,"line":64,"offset":2772},"declStart":{"col":0,"line":36,"offset":1210},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":38,"offset":1362},"start":{"col":0,"line":38,"offset":1355}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":88,"line":82,"offset":3824},"declStart":{"col":0,"line":66,"offset":2774},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":68,"offset":2940},"start":{"col":0,"line":68,"offset":2933}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":90,"line":100,"offset":4856},"declStart":{"col":0,"line":84,"offset":3826},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":86,"offset":3974},"start":{"col":0,"line":86,"offset":3967}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":102,"offset":4861},"start":{"col":0,"line":102,"offset":4858}}}
+{"kind":"end","range":{"end":{"col":18,"line":104,"offset":4881},"start":{"col":0,"line":104,"offset":4863}}}

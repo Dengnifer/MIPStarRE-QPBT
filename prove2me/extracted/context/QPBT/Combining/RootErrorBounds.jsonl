@@ -1,0 +1,4 @@
+{"kind":"section","range":{"end":{"col":24,"line":18,"offset":487},"start":{"col":0,"line":18,"offset":463}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":20,"offset":513},"start":{"col":0,"line":20,"offset":489}}}
+{"declEnd":{"col":50,"line":60,"offset":2787},"declStart":{"col":0,"line":22,"offset":515},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":27,"offset":854},"start":{"col":0,"line":27,"offset":847}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":18,"line":62,"offset":2807},"start":{"col":0,"line":62,"offset":2789}}}

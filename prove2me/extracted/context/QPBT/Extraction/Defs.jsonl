@@ -1,0 +1,14 @@
+{"kind":"section","range":{"end":{"col":24,"line":27,"offset":903},"start":{"col":0,"line":27,"offset":879}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":29,"offset":929},"start":{"col":12,"line":29,"offset":917}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":31,"line":29,"offset":936},"start":{"col":25,"line":29,"offset":930}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":31,"offset":962},"start":{"col":0,"line":31,"offset":938}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":33,"offset":986},"start":{"col":5,"line":33,"offset":969}}}
+{"kind":"section","range":{"end":{"col":21,"line":35,"offset":1009},"start":{"col":0,"line":35,"offset":988}}}
+{"kind":"namespace","name":"ProjectiveSetting","range":{"end":{"col":27,"line":86,"offset":3296},"start":{"col":0,"line":86,"offset":3269}}}
+{"kind":"end","range":{"end":{"col":21,"line":174,"offset":7286},"start":{"col":0,"line":174,"offset":7265}}}
+{"declEnd":{"col":5,"line":193,"offset":8177},"declStart":{"col":0,"line":186,"offset":7720},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":189,"offset":7912},"start":{"col":0,"line":189,"offset":7905}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":58,"line":246,"offset":10685},"declStart":{"col":0,"line":204,"offset":8625},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":211,"offset":8969},"start":{"col":0,"line":211,"offset":8962}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":30,"line":260,"offset":11226},"declStart":{"col":0,"line":248,"offset":10687},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":254,"offset":10982},"start":{"col":0,"line":254,"offset":10975}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":33,"line":275,"offset":12041},"declStart":{"col":0,"line":262,"offset":11228},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":268,"offset":11580},"start":{"col":0,"line":268,"offset":11573}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":309,"offset":13352},"start":{"col":0,"line":309,"offset":13349}}}
+{"kind":"end","range":{"end":{"col":18,"line":311,"offset":13372},"start":{"col":0,"line":311,"offset":13354}}}

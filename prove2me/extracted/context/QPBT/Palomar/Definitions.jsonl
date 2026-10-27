@@ -1,0 +1,15 @@
+{"kind":"section","range":{"end":{"col":24,"line":20,"offset":631},"start":{"col":0,"line":20,"offset":607}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":22,"offset":657},"start":{"col":12,"line":22,"offset":645}}}
+{"kind":"openName","name":"ComplexOrder","range":{"end":{"col":37,"line":22,"offset":670},"start":{"col":25,"line":22,"offset":658}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":44,"line":22,"offset":677},"start":{"col":38,"line":22,"offset":671}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT.Palomar","range":{"end":{"col":32,"line":24,"offset":711},"start":{"col":0,"line":24,"offset":679}}}
+{"declEnd":{"col":54,"line":153,"offset":6188},"declStart":{"col":0,"line":151,"offset":5976},"isLocal":false,"keyword":"instance","keywordRange":{"end":{"col":8,"line":152,"offset":6063},"start":{"col":0,"line":152,"offset":6055}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":58,"line":163,"offset":6485},"declStart":{"col":0,"line":162,"offset":6362},"isLocal":false,"keyword":"instance","keywordRange":{"end":{"col":8,"line":162,"offset":6370},"start":{"col":0,"line":162,"offset":6362}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":26,"line":190,"offset":7704},"declStart":{"col":0,"line":184,"offset":7336},"isLocal":false,"keyword":"instance","keywordRange":{"end":{"col":22,"line":185,"offset":7438},"start":{"col":14,"line":185,"offset":7430}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"section","range":{"end":{"col":21,"line":362,"offset":16081},"start":{"col":0,"line":362,"offset":16060}}}
+{"kind":"end","range":{"end":{"col":3,"line":445,"offset":20308},"start":{"col":0,"line":445,"offset":20305}}}
+{"declEnd":{"col":54,"line":460,"offset":20711},"declStart":{"col":0,"line":458,"offset":20510},"isLocal":false,"keyword":"instance","keywordRange":{"end":{"col":8,"line":459,"offset":20594},"start":{"col":0,"line":459,"offset":20586}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":42,"line":481,"offset":21187},"declStart":{"col":0,"line":480,"offset":21088},"isLocal":false,"keyword":"instance","keywordRange":{"end":{"col":8,"line":480,"offset":21096},"start":{"col":0,"line":480,"offset":21088}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":50,"line":576,"offset":25400},"declStart":{"col":0,"line":574,"offset":25229},"isLocal":false,"keyword":"instance","keywordRange":{"end":{"col":8,"line":575,"offset":25295},"start":{"col":0,"line":575,"offset":25287}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":56,"line":583,"offset":25771},"declStart":{"col":0,"line":581,"offset":25551},"isLocal":false,"keyword":"instance","keywordRange":{"end":{"col":22,"line":582,"offset":25638},"start":{"col":14,"line":582,"offset":25630}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":26,"line":868,"offset":40198},"start":{"col":0,"line":868,"offset":40172}}}

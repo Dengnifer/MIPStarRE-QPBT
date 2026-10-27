@@ -1,0 +1,8 @@
+{"kind":"section","range":{"end":{"col":24,"line":18,"offset":487},"start":{"col":0,"line":18,"offset":463}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":20,"offset":513},"start":{"col":0,"line":20,"offset":489}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":22,"offset":533},"start":{"col":5,"line":22,"offset":520}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":36,"line":22,"offset":551},"start":{"col":19,"line":22,"offset":534}}}
+{"kind":"section","range":{"end":{"col":21,"line":24,"offset":574},"start":{"col":0,"line":24,"offset":553}}}
+{"declEnd":{"col":76,"line":44,"offset":1686},"declStart":{"col":0,"line":26,"offset":576},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":29,"offset":786},"start":{"col":0,"line":29,"offset":779}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":46,"offset":1691},"start":{"col":0,"line":46,"offset":1688}}}
+{"kind":"end","range":{"end":{"col":18,"line":48,"offset":1711},"start":{"col":0,"line":48,"offset":1693}}}

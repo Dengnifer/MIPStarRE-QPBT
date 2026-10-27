@@ -1,0 +1,20 @@
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_wrongFormPauliMass_alice_le_error.lean:438:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_wrongFormPauliMass_alice_le_error.lean:440:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_wrongFormPauliMass_alice_le_error.lean:446:8: error: synthesized type class instance is not definitionally equal to expression inferred by typing rules, synthesized
+  fun a b => instDecidableEqProd a b
+inferred
+  fun a b => Classical.propDecidable (a = b)

@@ -1,0 +1,17 @@
+{
+  "graphDeclarations": 7937,
+  "instanceRoots": 135,
+  "lidtBoundaryUnion": 443,
+  "lidtInstances": 52,
+  "lidtTypeDependencies": 137,
+  "lidtValueDependencies": 403,
+  "reachableDeclarations": 4709,
+  "reachableSourceDeclarations": 3872,
+  "reachableSpanlessDeclarations": 837,
+  "targets": [
+    "MIPStarRE.QPBT.Palomar.exists_spcc_value_one",
+    "MIPStarRE.QPBT.Palomar.exists_ld_soundness",
+    "MIPStarRE.QPBT.Palomar.pauli_soundness",
+    "MIPStarRE.QPBT.Palomar.pauli_soundness_qubit"
+  ]
+}

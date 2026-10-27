@@ -1,0 +1,14 @@
+{"kind":"section","range":{"end":{"col":24,"line":19,"offset":555},"start":{"col":0,"line":19,"offset":531}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":21,"offset":581},"start":{"col":0,"line":21,"offset":557}}}
+{"kind":"openName","name":"MatrixOrder","range":{"end":{"col":23,"line":23,"offset":606},"start":{"col":12,"line":23,"offset":595}}}
+{"kind":"openName","name":"ComplexOrder","range":{"end":{"col":36,"line":23,"offset":619},"start":{"col":24,"line":23,"offset":607}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":25,"offset":639},"start":{"col":5,"line":25,"offset":626}}}
+{"kind":"openName","name":"Measurement","range":{"end":{"col":37,"line":25,"offset":658},"start":{"col":26,"line":25,"offset":647}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":26,"offset":681},"start":{"col":5,"line":26,"offset":664}}}
+{"kind":"section","range":{"end":{"col":21,"line":28,"offset":704},"start":{"col":0,"line":28,"offset":683}}}
+{"kind":"namespace","name":"ProjectiveSetting","range":{"end":{"col":27,"line":30,"offset":733},"start":{"col":0,"line":30,"offset":706}}}
+{"declEnd":{"col":86,"line":69,"offset":2655},"declStart":{"col":0,"line":32,"offset":735},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":34,"offset":900},"start":{"col":0,"line":34,"offset":893}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":86,"line":108,"offset":4577},"declStart":{"col":0,"line":71,"offset":2657},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":73,"offset":2822},"start":{"col":0,"line":73,"offset":2815}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":21,"line":110,"offset":4600},"start":{"col":0,"line":110,"offset":4579}}}
+{"kind":"end","range":{"end":{"col":3,"line":112,"offset":4605},"start":{"col":0,"line":112,"offset":4602}}}
+{"kind":"end","range":{"end":{"col":18,"line":114,"offset":4625},"start":{"col":0,"line":114,"offset":4607}}}

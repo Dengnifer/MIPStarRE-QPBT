@@ -1,0 +1,7 @@
+{"kind":"section","range":{"end":{"col":24,"line":21,"offset":534},"start":{"col":0,"line":21,"offset":510}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":23,"offset":560},"start":{"col":0,"line":23,"offset":536}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":25,"offset":580},"start":{"col":5,"line":25,"offset":567}}}
+{"declEnd":{"col":61,"line":66,"offset":2396},"declStart":{"col":0,"line":59,"offset":1921},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":64,"offset":2215},"start":{"col":0,"line":64,"offset":2208}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":49,"line":109,"offset":3894},"declStart":{"col":0,"line":108,"offset":3780},"isLocal":false,"keyword":"instance","keywordRange":{"end":{"col":22,"line":108,"offset":3802},"start":{"col":14,"line":108,"offset":3794}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":63,"line":111,"offset":3963},"declStart":{"col":0,"line":111,"offset":3896},"isLocal":false,"keyword":"instance","keywordRange":{"end":{"col":8,"line":111,"offset":3904},"start":{"col":0,"line":111,"offset":3896}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":18,"line":149,"offset":5365},"start":{"col":0,"line":149,"offset":5347}}}

@@ -1,0 +1,86 @@
+-- Generated from QPBT/Games/MeasurementCompression.lean by skeleton subtraction.
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_LIDT_MIPStarRE_Quantum_FiniteMatrix_Basic
+import Definitions.Def_LIDT_MIPStarRE_Quantum_Measurement
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace LIDT.MIPStarRE.Quantum.Measurement
+end LIDT.MIPStarRE.Quantum.Measurement
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+namespace MIPStarRE.QPBT.Measurement
+end MIPStarRE.QPBT.Measurement
+
+/-!
+# Ground-slice compression of measurements
+
+This module restricts a POVM on a product space to one distinguished ancillary
+coordinate. It also records that this restriction commutes with deterministic
+outcome postprocessing, recovers a POVM from its one-measurement Naimark
+dilation, and preserves consistency defects evaluated on the correspondingly
+padded bipartite state.
+
+The construction supports the pullback after the first paragraph of the proof
+of paper `lem:qld-4-7`,
+`references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:1279-1289`.
+-/
+
+@[expose] public section
+
+open scoped BigOperators Matrix MatrixOrder ComplexOrder
+
+namespace LIDT
+namespace MIPStarRE.Quantum.Measurement
+
+/-- Restrict every effect of a POVM to the matrix block at one fixed ancillary
+coordinate. The principal submatrix of a positive semidefinite effect remains
+positive semidefinite, and restricting the sum of the effects restricts the
+identity to the identity. -/
+noncomputable def compressAt
+    {Outcome I κ : Type*}
+    [Fintype Outcome] [Fintype I] [DecidableEq I]
+    [Fintype κ] [DecidableEq κ]
+    (k₀ : κ) (M : _root_.LIDT.MIPStarRE.Quantum.Measurement Outcome (I × κ)) :
+    _root_.LIDT.MIPStarRE.Quantum.Measurement Outcome I :=
+  _root_.LIDT.MIPStarRE.Quantum.Measurement.ofSumEqOne
+    (fun a => (M.effect a).submatrix (fun i => (i, k₀)) (fun i => (i, k₀)))
+    (fun a => Matrix.nonneg_iff_posSemidef.mpr
+      ((Matrix.nonneg_iff_posSemidef.mp (M.pos a)).submatrix (fun i => (i, k₀))))
+    (by
+      classical
+      ext i j
+      simpa only [Matrix.sum_apply, Matrix.submatrix_apply, Matrix.one_apply,
+        Prod.mk.injEq, and_true]
+        using congrFun (congrFun M.sum_eq_one (i, k₀)) (j, k₀))
+
+@[simp] theorem compressAt_effect
+    {Outcome I κ : Type*}
+    [Fintype Outcome] [Fintype I] [DecidableEq I]
+    [Fintype κ] [DecidableEq κ]
+    (k₀ : κ) (M : _root_.LIDT.MIPStarRE.Quantum.Measurement Outcome (I × κ)) (a : Outcome) :
+    (M.compressAt k₀).effect a =
+      (M.effect a).submatrix (fun i => (i, k₀)) (fun i => (i, k₀)) :=
+  rfl
+
+
+
+end MIPStarRE.Quantum.Measurement
+end LIDT

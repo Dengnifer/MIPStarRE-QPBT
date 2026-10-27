@@ -1,0 +1,6 @@
+{"kind":"section","range":{"end":{"col":24,"line":27,"offset":1105},"start":{"col":0,"line":27,"offset":1081}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":29,"offset":1131},"start":{"col":0,"line":29,"offset":1107}}}
+{"kind":"openName","name":"Filter","range":{"end":{"col":11,"line":31,"offset":1144},"start":{"col":5,"line":31,"offset":1138}}}
+{"kind":"openName","name":"Topology","range":{"end":{"col":20,"line":31,"offset":1153},"start":{"col":12,"line":31,"offset":1145}}}
+{"declEnd":{"col":18,"line":93,"offset":4390},"declStart":{"col":0,"line":33,"offset":1155},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":42,"offset":1760},"start":{"col":0,"line":42,"offset":1753}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":18,"line":95,"offset":4410},"start":{"col":0,"line":95,"offset":4392}}}

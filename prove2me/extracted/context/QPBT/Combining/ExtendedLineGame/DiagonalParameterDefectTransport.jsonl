@@ -1,0 +1,11 @@
+{"kind":"section","range":{"end":{"col":24,"line":31,"offset":1350},"start":{"col":0,"line":31,"offset":1326}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":33,"offset":1376},"start":{"col":0,"line":33,"offset":1352}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":35,"offset":1396},"start":{"col":5,"line":35,"offset":1383}}}
+{"kind":"openName","name":"Measurement","range":{"end":{"col":37,"line":35,"offset":1415},"start":{"col":26,"line":35,"offset":1404}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":36,"offset":1438},"start":{"col":5,"line":36,"offset":1421}}}
+{"kind":"section","range":{"end":{"col":21,"line":38,"offset":1461},"start":{"col":0,"line":38,"offset":1440}}}
+{"kind":"namespace","name":"ExtendedLineGame","range":{"end":{"col":26,"line":40,"offset":1489},"start":{"col":0,"line":40,"offset":1463}}}
+{"declEnd":{"col":5,"line":119,"offset":5346},"declStart":{"col":0,"line":46,"offset":1661},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":48,"offset":1808},"start":{"col":0,"line":48,"offset":1801}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":20,"line":121,"offset":5368},"start":{"col":0,"line":121,"offset":5348}}}
+{"kind":"end","range":{"end":{"col":3,"line":123,"offset":5373},"start":{"col":0,"line":123,"offset":5370}}}
+{"kind":"end","range":{"end":{"col":18,"line":125,"offset":5393},"start":{"col":0,"line":125,"offset":5375}}}

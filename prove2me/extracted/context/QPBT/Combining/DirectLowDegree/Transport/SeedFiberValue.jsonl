@@ -1,0 +1,14 @@
+{"kind":"section","range":{"end":{"col":24,"line":32,"offset":1403},"start":{"col":0,"line":32,"offset":1379}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":34,"offset":1429},"start":{"col":12,"line":34,"offset":1417}}}
+{"kind":"openName","name":"MatrixOrder","range":{"end":{"col":36,"line":34,"offset":1441},"start":{"col":25,"line":34,"offset":1430}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":43,"line":34,"offset":1448},"start":{"col":37,"line":34,"offset":1442}}}
+{"kind":"openName","name":"ComplexOrder","range":{"end":{"col":56,"line":34,"offset":1461},"start":{"col":44,"line":34,"offset":1449}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":36,"offset":1487},"start":{"col":0,"line":36,"offset":1463}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":38,"offset":1507},"start":{"col":5,"line":38,"offset":1494}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":39,"offset":1530},"start":{"col":5,"line":39,"offset":1513}}}
+{"kind":"section","range":{"end":{"col":21,"line":41,"offset":1553},"start":{"col":0,"line":41,"offset":1532}}}
+{"declEnd":{"col":40,"line":84,"offset":3631},"declStart":{"col":0,"line":43,"offset":1555},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":47,"offset":1839},"start":{"col":0,"line":47,"offset":1832}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":25,"line":214,"offset":10541},"declStart":{"col":0,"line":98,"offset":4231},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":15,"line":101,"offset":4460},"start":{"col":8,"line":101,"offset":4453}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":81,"line":246,"offset":12289},"declStart":{"col":0,"line":216,"offset":10543},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":222,"offset":10986},"start":{"col":0,"line":222,"offset":10979}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":248,"offset":12294},"start":{"col":0,"line":248,"offset":12291}}}
+{"kind":"end","range":{"end":{"col":18,"line":250,"offset":12314},"start":{"col":0,"line":250,"offset":12296}}}

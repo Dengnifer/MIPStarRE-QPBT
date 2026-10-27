@@ -1,0 +1,260 @@
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedPointsWitness_marginal_X_distance_le.lean =====
+===== prove2me/platform/Solutions/Sol_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_matrix_eq_zero_of_rank_eq_zero.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedPointsWitness_marginal_Z_distance_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_X_overlap_restricted_le_at.lean =====
+===== prove2me/platform/Solutions/Sol_LIDT_MIPStarRE_Quantum_Measurement_postprocess_comp.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_Z_overlap_le_at.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_Z_overlap_restricted_le_at.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_X_overlap_le_at.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_left_fiber_contraction.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_measurement_fiber_sum_adjoint_mul_le_one.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedPointsWitness_orderedXZ_dist_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedPointsWitness_orderedZX_dist_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_consistencyDefect_eq_one_sub_overlap.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_joint_marginal_product.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedPointsWitness_ordered_dist_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_diagonal_postprocess_stateQForm_ge.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_diagonal_postprocess_stateQForm_ge.lean:152:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_diagonal_postprocess_stateQForm_ge.lean:157:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_diagonal_postprocess_stateQForm_ge.lean:158:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_diagonal_postprocess_stateQForm_ge.lean:159:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_opFamilyDistSq_placed_le_four.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_postprocess_effect_mul_effect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_overlap_gap_le_of_opFamilyDistSq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_quadratic_form_mono.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_point_defect_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_point_distance_le_two_defect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_point_distance_eq_two_defect_of_projective.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_norm_finset_sum_projector_mul_sq_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_bind_const.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_right_fiber_contraction.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_bind_map.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_bind_isProbability.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_bind_map_left.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_bind_bind.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_sum_norm_mul_funIndexed_apply_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_DistanceCalculus_sum_norm_sub_apply_sq_le_four.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_prod_map_eq_bind.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_prod_bind_left.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_prod_map_fst.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_map_bijective_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_prod_isProbability.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_prod_map_left.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_bind_uniform_fin_two.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_bind_uniform_restrict_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_prod_map_right.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_restrict_map.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_aline_aline_rejection_le_axisParameterEvaluatedCoefficientDefect_add.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_aline_aline_rejection_eq_axisCoefficientAnswerDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_restrict_prod_snd.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_restrict_prod_fst.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Distribution_restrict_isProbability.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_aline_point_rejection_eq_completedLinePointDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_completed_defect_eq_read_defect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonalGameRead_diagonalAnswer_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_axis_same_line_evaluation_defect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_axis_parameter_evaluation_defect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_completedLinePointDefect_aaBa_nonneg.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_axis_parameter_evaluated_coefficient_defect_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_completed_defect_eq_read_defect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_axis_same_line_evaluation_defect_le_branch_chain.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_directEvalOpt_eq_some_iff.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_same_line_evaluation_defect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_directCombinedEmbedding_read.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_parameter_evaluated_coefficient_defect_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_point_win_iff_read_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_same_line_evaluation_defect_le_branch_chain.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_parameter_evaluation_defect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_directPairMeasurement_consistency_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_evalCoefficient_ne_imp_directEvalOpt_ne_or_eq_none.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_directPointExtendedQuestionEquiv_apply.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_dline_dline_rejection_le_diagonalParameterEvaluatedCoefficientDefect_add.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_dline_point_rejection_eq_completedLinePointDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_mixed_branch_rejection_eq_zero.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_dline_dline_rejection_eq_diagonalCoefficientAnswerDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_exists_polyPair_of_scalar_separated.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_outcomeWeight_eq_zero_of_invalid.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_point_dline_rejection_eq_completedLinePointDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_point_aline_rejection_eq_completedLinePointDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_place_BB_prime_mul_AB_prime_prime_comm.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_parameterEvalDefect_le_completed_add_none.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_pair_witness_of_points_lines_explicit.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_point_branch_rejection_eq_consistencyDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_point_point_rejection_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_reindexState_abBbRegrouping_psiHat.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_reversed_diagonal_completed_defect_eq_read_defect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_scalarPolynomial_eval.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_reversed_axis_completed_defect_eq_read_defect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_retainedPointMismatch_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_rounded_polynomial_ordered_estimates_explicit.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_rounded_polynomial_separated_mass_explicit.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_scalarNonlinearMass_le_ordered_error.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_retainedPointMismatch_le_ordered_error.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_seven_branch_rejections_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_stateQForm_pairState_eq_AA_prime_BA_prime_prime.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Extraction_norm_sub_eprProjection_le_of_pauli_dist.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_stateQForm_pairState_eq_AB_prime_prime_BB_prime.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_strategy_value_ge_directPassingErrorEnvelope.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Extraction_norm_heteroKron_pauliCorrelation_apply_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_scalarPolynomial_linear_read_fiber.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_scalarWrongVariableMass_le_ordered_error.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Extraction_pauliCorrelation_X_apply_diagonal.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_alice_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Extraction_vecTensor_eprPartialInner.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Extraction_pauliCorrelation_Z_apply.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Extraction_pauliCorrelation_Z_apply.lean:255:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Extraction_pauliCorrelation_mul_eq_epr.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_Extraction_norm_sub_pauliCorrelation_sq_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtractionWitness_isometryTensor_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_alice_le_components.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_alice_le_components.lean:1101:90: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_alice_le_components.lean:1101:90: warning: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_constraintParityFailure_of_bitSum_ne.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_IsAdmissibleSize_eq_two_or_eight_dvd.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_bob_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_conjTranspose_mul_le_one_conjIsometry.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_conjTranspose_mul_le_one_of_obsOf.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_applyOperatorToState_leftTensor_one_sub_groundProjection.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_applyOperatorToState_rightTensor_one_sub_groundProjection.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_bob_le_components.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_bob_le_components.lean:1101:90: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_bob_le_components.lean:1101:90: warning: Unused tactic linter: `rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_isProj_sum_of_isProj_of_sum_le_one.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_prod_of.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_isometryTensor_comp.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_mul_close_of_same_cells.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_isometryMatrix_conjTranspose_mul.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_exists_unit_residual.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_prod_close.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_prod_close.lean:599:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_close_msVarObsB.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_close_msVarObsB.lean:749:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_prod_of.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_single_close.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_mul_close.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_mul_close_of_same_cells.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_single_close.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_step.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_step.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_prod_close.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_prod_close.lean:601:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_ms_question_weight_ge.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_ms_support_subset_directed_incidences.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_mul_eq_zero_of_isProj_of_add_le_one.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsA_anticommute.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsB_anticommute.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsA_close_msCellObsB.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsA_close_msCellObsB.lean:750:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_ms_anticommutator_transfer_A.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_ms_anticommutator_transfer_A.lean:792:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_ms_anticommutator_transfer_B.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_ms_anticommutator_transfer_B.lean:789:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_norm_intertwine_obs_le_B.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_naimarkCompression_naimarkDilatedEffect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_naimarkDilatedEffect_isProj.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_norm_alice_sub_bob_signObs_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_norm_alice_sub_bob_signObs_sq_le.lean:399:53: error: Application type mismatch: The argument
+  G
+has type
+  Game
+but is expected to have type
+  MIPStarRE.QPBT.Game
+in the application
+  MIPStarRE.QPBT.Strategy G
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_norm_alice_sub_bob_signObs_sq_le.lean:399:61: error(lean.invalidField): Invalid field notation: Field projection operates on types of the form `C ...` where C is a constant. The expression
+  G
+has type `Game` which does not have the necessary form.
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_norm_alice_sub_bob_signObs_sq_le.lean:400:9: error(lean.invalidField): Invalid field notation: Field projection operates on types of the form `C ...` where C is a constant. The expression
+  G
+has type `Game` which does not have the necessary form.
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_norm_alice_sub_bob_signObs_sq_le.lean:402:9: error(lean.invalidField): Invalid field notation: Field projection operates on types of the form `C ...` where C is a constant. The expression
+  G
+has type `Game` which does not have the necessary form.
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_MagicSquareRigidity_norm_alice_sub_bob_signObs_sq_le.lean:402:34: error(lean.invalidField): Invalid field notation: Field projection operates on types of the form `C ...` where C is a constant. The expression
+  G
+has type `Game` which does not have the necessary form.

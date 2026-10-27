@@ -1,0 +1,15 @@
+{"kind":"section","range":{"end":{"col":24,"line":48,"offset":2312},"start":{"col":0,"line":48,"offset":2288}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":50,"offset":2338},"start":{"col":12,"line":50,"offset":2326}}}
+{"kind":"openName","name":"MatrixOrder","range":{"end":{"col":36,"line":50,"offset":2350},"start":{"col":25,"line":50,"offset":2339}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":43,"line":50,"offset":2357},"start":{"col":37,"line":50,"offset":2351}}}
+{"kind":"openName","name":"ComplexOrder","range":{"end":{"col":56,"line":50,"offset":2370},"start":{"col":44,"line":50,"offset":2358}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":52,"offset":2396},"start":{"col":0,"line":52,"offset":2372}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":54,"offset":2416},"start":{"col":5,"line":54,"offset":2403}}}
+{"kind":"openName","name":"MIPStarRE.LDT.Preliminaries","range":{"end":{"col":32,"line":55,"offset":2449},"start":{"col":5,"line":55,"offset":2422}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":56,"offset":2472},"start":{"col":5,"line":56,"offset":2455}}}
+{"kind":"section","range":{"end":{"col":21,"line":58,"offset":2495},"start":{"col":0,"line":58,"offset":2474}}}
+{"declEnd":{"col":6,"line":77,"offset":3281},"declStart":{"col":0,"line":62,"offset":2529},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":15,"line":64,"offset":2670},"start":{"col":8,"line":64,"offset":2663}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":11,"line":108,"offset":4455},"declStart":{"col":0,"line":79,"offset":3283},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":15,"line":83,"offset":3548},"start":{"col":8,"line":83,"offset":3541}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":20,"line":300,"offset":14578},"declStart":{"col":0,"line":112,"offset":4522},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":128,"offset":5425},"start":{"col":0,"line":128,"offset":5418}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":302,"offset":14583},"start":{"col":0,"line":302,"offset":14580}}}
+{"kind":"end","range":{"end":{"col":18,"line":304,"offset":14603},"start":{"col":0,"line":304,"offset":14585}}}

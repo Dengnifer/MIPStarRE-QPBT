@@ -1,0 +1,14 @@
+===== /home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_Preliminaries_completion_self_distance.lean =====
+/home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_Preliminaries_completion_self_distance.lean:65:6: warning: declaration uses `sorry`
+===== /home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_Preliminaries_fourier_fact_scalar.lean =====
+/home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_Preliminaries_fourier_fact_scalar.lean:43:8: warning: declaration uses `sorry`
+===== /home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_Test_sqrt_rpow_one_div.lean =====
+/home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_Test_sqrt_rpow_one_div.lean:29:8: warning: declaration uses `sorry`
+===== /home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_ProjStrat_lowIndividualDegreeFailureProbability_eq_role_averages.lean =====
+/home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_ProjStrat_lowIndividualDegreeFailureProbability_eq_role_averages.lean:104:8: warning: declaration uses `sorry`
+===== /home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_qBipartiteConsDefect_of_measurements.lean =====
+/home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_qBipartiteConsDefect_of_measurements.lean:47:8: warning: declaration uses `sorry`
+===== /home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_Test_mainFormal.lean =====
+/home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_Test_mainFormal.lean:318:8: warning: declaration uses `sorry`
+===== /home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_Quantum_Submeasurement_total_le_one.lean =====
+/home/drx/p2m/MIPStarRE/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_Quantum_Submeasurement_total_le_one.lean:49:8: warning: declaration uses `sorry`

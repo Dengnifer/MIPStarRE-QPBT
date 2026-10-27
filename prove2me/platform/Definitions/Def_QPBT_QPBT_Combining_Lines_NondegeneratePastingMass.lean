@@ -1,0 +1,104 @@
+-- Generated from QPBT/Combining/Lines/NondegeneratePastingMass.lean by skeleton subtraction.
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_Distribution
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DistributionAvg
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Combining_Lines_ZeroDirectionMass
+import Definitions.Def_QPBT_QPBT_Games_DistributionAux
+import Definitions.Def_QPBT_QPBT_Games_Sandwich_Support
+import Definitions.Def_QPBT_QPBT_Observables_LineDefs
+import Definitions.Def_QPBT_QPBT_Test_LowDegreeGame
+import Mathlib
+import Mathlib.Analysis.MeanInequalitiesPow
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+
+/-!
+# Retained mass for nondegenerate-line pasting
+
+This module defines the mass retained when the first line in the product
+line-point law is restricted to nonzero direction and proves uniform lower and
+upper bounds for that mass.
+
+## References
+
+The restriction is the proof-only conditioning used in `lem:qld-xz-lines`,
+`references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:950-963`.
+-/
+
+@[expose] public section
+
+namespace MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT
+
+noncomputable section
+
+/-- Probability retained by the proof-only first-line nondegeneracy
+restriction in the pasting argument for `lem:qld-xz-lines`. -/
+def nondegenerateLinePastingMass (L : _root_.MIPStarRE.QPBT.LdParams) : ℝ :=
+  ∑ samples ∈
+      (_root_.MIPStarRE.QPBT.Distribution.prod (_root_.MIPStarRE.QPBT.linePointDist L) (_root_.MIPStarRE.QPBT.linePointDist L)).support.filter
+        (fun samples => samples.1.1.direction ≠ 0),
+    (_root_.MIPStarRE.QPBT.Distribution.prod (_root_.MIPStarRE.QPBT.linePointDist L) (_root_.MIPStarRE.QPBT.linePointDist L)).weight samples
+
+/-- The retained product-law mass lies between one half and one. -/
+theorem nondegenerateLinePastingMass_bounds (L : _root_.MIPStarRE.QPBT.LdParams) :
+    1 / 2 ≤ _root_.MIPStarRE.QPBT.nondegenerateLinePastingMass L ∧
+      _root_.MIPStarRE.QPBT.nondegenerateLinePastingMass L ≤ 1 := by
+  classical
+  let indicator := fun sample : _root_.MIPStarRE.QPBT.LineDesc L × (Fin L.m → _root_.MIPStarRE.QPBT.ScalarQ L) =>
+    if sample.1.direction ≠ 0 then (1 : ℝ) else 0
+  have hmass : _root_.MIPStarRE.QPBT.nondegenerateLinePastingMass L =
+      _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.linePointDist L) indicator := by
+    unfold _root_.MIPStarRE.QPBT.nondegenerateLinePastingMass
+    rw [_root_.MIPStarRE.QPBT.Distribution.sum_filter_weight_eq_avgOver, _root_.MIPStarRE.QPBT.SandwichProduct.avgOver_distribution_prod]
+    change _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.linePointDist L) (fun sample =>
+      _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.linePointDist L) (fun _ => indicator sample)) = _
+    simp_rw [_root_.LIDT.MIPStarRE.LDT.avgOver_const_of_isProbability _ (_root_.MIPStarRE.QPBT.linePointDist_isProbability L)]
+  have haxis : _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.aLinePointDist L) indicator = 1 := by
+    have hindicator : indicator = fun sample =>
+        1 - if sample.1.direction = 0 then (1 : ℝ) else 0 := by
+      funext sample
+      by_cases hzero : sample.1.direction = 0 <;> simp [indicator, hzero]
+    rw [hindicator, _root_.LIDT.MIPStarRE.LDT.avgOver_sub,
+      _root_.LIDT.MIPStarRE.LDT.avgOver_const_of_isProbability _ (_root_.MIPStarRE.QPBT.aLinePointDist_isProbability L),
+      _root_.MIPStarRE.QPBT.aLinePointDist_zero_direction_mass]
+    norm_num
+  have hdiag : 0 ≤ _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.dLinePointDist L) indicator :=
+    _root_.LIDT.MIPStarRE.LDT.avgOver_nonneg _ _ fun sample => by
+      by_cases hzero : sample.1.direction = 0 <;> simp [indicator, hzero]
+  have hlower : 1 / 2 ≤ _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.linePointDist L) indicator := by
+    rw [_root_.MIPStarRE.QPBT.linePointDist, _root_.MIPStarRE.QPBT.avgOver_mix, haxis]
+    norm_num
+    linarith
+  rw [hmass]
+  refine ⟨hlower, ?_⟩
+  calc
+    _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.linePointDist L) indicator ≤
+      _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.linePointDist L) (fun _ => 1) :=
+      _root_.LIDT.MIPStarRE.LDT.avgOver_mono _ _ _ fun sample => by
+        by_cases hzero : sample.1.direction = 0 <;> simp [indicator, hzero]
+    _ = 1 := _root_.LIDT.MIPStarRE.LDT.avgOver_const_of_isProbability _ (_root_.MIPStarRE.QPBT.linePointDist_isProbability L) 1
+
+end
+
+end MIPStarRE.QPBT

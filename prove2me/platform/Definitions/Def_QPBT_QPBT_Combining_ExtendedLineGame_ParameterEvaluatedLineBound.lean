@@ -1,0 +1,154 @@
+-- Generated from QPBT/Combining/ExtendedLineGame/ParameterEvaluatedLineBound.lean by skeleton subtraction.
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_Distribution
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Combining_DirectLowDegree_Game
+import Definitions.Def_QPBT_QPBT_Combining_DirectLowDegree_Geometry
+import Definitions.Def_QPBT_QPBT_Combining_ExtendedLineGame
+import Definitions.Def_QPBT_QPBT_Combining_ExtendedLineGame_ParameterCompletion
+import Definitions.Def_QPBT_QPBT_Combining_Witnesses
+import Definitions.Def_QPBT_QPBT_Observables_Defs
+import Definitions.Def_QPBT_QPBT_Test_LowDegreeGame
+import Definitions.Def_QPBT_QPBT_Test_PauliBasisTest
+import Mathlib
+import Mathlib.Analysis.MeanInequalitiesPow
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+namespace MIPStarRE.QPBT.ExtendedLineGame
+end MIPStarRE.QPBT.ExtendedLineGame
+
+/-!
+# Bounds for independently parameter-evaluated line answers
+
+This module specializes the parameter/completed-read comparison to the axis
+and diagonal measurements supplied by an `ExtendedLinesWitness`. The affine
+parameter is sampled independently of the line. Affine resampling then
+recovers the original joint line-point law, including zero directions.
+The numerical estimates are formalization-only consequences of the supplied
+point and line witnesses supporting the classical-game construction in the
+proof of `lem:qld-4-7`.
+
+## References
+
+- `references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:1020-1034`
+- `references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:1279-1288`
+- `references/qpbt-paper/06_nonlocal_games_and_mipstar.tex:295-311`
+- Blueprint `lem:qld-4-7`.
+- Issue Dengnifer/MIPStarRE-QPBT-bak#341.
+-/
+
+@[expose] public section
+
+open scoped BigOperators MatrixOrder ComplexOrder
+
+namespace MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT hiding Measurement
+open LIDT.MIPStarRE.Quantum
+
+noncomputable section
+
+namespace ExtendedLineGame
+
+variable {P : _root_.MIPStarRE.QPBT.AdmissibleParams} {epsilon deltaQ deltaL : ℝ}
+variable {setting : _root_.MIPStarRE.QPBT.ProjectiveSetting P epsilon}
+variable {points : _root_.MIPStarRE.QPBT.CombinedPointsWitness setting deltaQ}
+
+/-- The unique coordinate in the extended direct game. -/
+def lineCoordinate : Fin P.extendedDirectLd.k :=
+  ⟨0, by change 0 < 1; decide⟩
+
+
+
+/-- Read the axis coefficient vector from a direct-game answer. Wrong answer
+formats receive an arbitrary zero value; their Born weight is zero. -/
+def axisCoefficients
+    (answer : _root_.MIPStarRE.QPBT.DirectLdAnswer P.extendedDirectLd) :
+    _root_.MIPStarRE.QPBT.DirectDegPoly P.extendedDirectLd P.d :=
+  match answer with
+  | .alinePolys coefficients => coefficients _root_.MIPStarRE.QPBT.ExtendedLineGame.lineCoordinate
+  | _ => 0
+
+/-- Read the diagonal coefficient vector from a direct-game answer. Wrong
+answer formats receive an arbitrary zero value; their Born weight is zero. -/
+def diagonalCoefficients
+    (answer : _root_.MIPStarRE.QPBT.DirectLdAnswer P.extendedDirectLd) :
+    _root_.MIPStarRE.QPBT.DirectDegPoly P.extendedDirectLd
+      (P.extendedDirectLd.m * P.extendedDirectLd.d) :=
+  match answer with
+  | .dlinePolys coefficients => coefficients _root_.MIPStarRE.QPBT.ExtendedLineGame.lineCoordinate
+  | _ => 0
+
+/-- The canonical direct-game axis question represented by an axis line. -/
+def axisQuestion (line : _root_.MIPStarRE.QPBT.DirectLineDesc P.extendedDirectLd) :
+    _root_.MIPStarRE.QPBT.DirectLdQuestion P.extendedDirectLd :=
+  (.aline, ⟨line.base, line.index, 0⟩)
+
+/-- The canonical direct-game diagonal question represented by a diagonal line. -/
+def diagonalQuestion (line : _root_.MIPStarRE.QPBT.DirectLineDesc P.extendedDirectLd) :
+    _root_.MIPStarRE.QPBT.DirectLdQuestion P.extendedDirectLd :=
+  (.dline, ⟨line.base, line.index, line.direction⟩)
+
+/-- The axis parameter-evaluation defect under the actual axis-line marginal
+and an independent uniform affine parameter. -/
+noncomputable def axisParameterEvaluationDefect
+    (lines : _root_.MIPStarRE.QPBT.ExtendedLinesWitness setting points deltaL) : ℝ :=
+  _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.directALinePointDist P.extendedDirectLd) fun sample =>
+    _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.LIDT.MIPStarRE.LDT.uniformDistribution (_root_.MIPStarRE.QPBT.DirectScalarQ P.extendedDirectLd)) fun parameter =>
+      _root_.MIPStarRE.QPBT.ExtendedLineGame.parameterEvalDefect (_root_.MIPStarRE.QPBT.ExtendedLineGame.strategy lines) (_root_.MIPStarRE.QPBT.ExtendedLineGame.axisQuestion sample.1)
+        (_root_.MIPStarRE.QPBT.ExtendedLineGame.axisQuestion sample.1) _root_.MIPStarRE.QPBT.ExtendedLineGame.axisCoefficients _root_.MIPStarRE.QPBT.ExtendedLineGame.axisCoefficients parameter
+
+/-- The diagonal parameter-evaluation defect under the actual diagonal-line
+marginal and an independent uniform affine parameter, including zero directions. -/
+noncomputable def diagonalParameterEvaluationDefect
+    (lines : _root_.MIPStarRE.QPBT.ExtendedLinesWitness setting points deltaL) : ℝ :=
+  _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.directDLinePointDist P.extendedDirectLd) fun sample =>
+    _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.LIDT.MIPStarRE.LDT.uniformDistribution (_root_.MIPStarRE.QPBT.DirectScalarQ P.extendedDirectLd)) fun parameter =>
+      _root_.MIPStarRE.QPBT.ExtendedLineGame.parameterEvalDefect (_root_.MIPStarRE.QPBT.ExtendedLineGame.strategy lines) (_root_.MIPStarRE.QPBT.ExtendedLineGame.diagonalQuestion sample.1)
+        (_root_.MIPStarRE.QPBT.ExtendedLineGame.diagonalQuestion sample.1) _root_.MIPStarRE.QPBT.ExtendedLineGame.diagonalCoefficients _root_.MIPStarRE.QPBT.ExtendedLineGame.diagonalCoefficients parameter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end ExtendedLineGame
+
+end
+
+end MIPStarRE.QPBT

@@ -1,0 +1,15 @@
+{"kind":"section","range":{"end":{"col":24,"line":23,"offset":783},"start":{"col":0,"line":23,"offset":759}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":25,"offset":809},"start":{"col":12,"line":25,"offset":797}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":27,"offset":835},"start":{"col":0,"line":27,"offset":811}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":29,"offset":855},"start":{"col":5,"line":29,"offset":842}}}
+{"kind":"openName","name":"Measurement","range":{"end":{"col":37,"line":29,"offset":874},"start":{"col":26,"line":29,"offset":863}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":30,"offset":897},"start":{"col":5,"line":30,"offset":880}}}
+{"kind":"section","range":{"end":{"col":21,"line":32,"offset":920},"start":{"col":0,"line":32,"offset":899}}}
+{"kind":"namespace","name":"ExtendedLineGame","range":{"end":{"col":26,"line":34,"offset":948},"start":{"col":0,"line":34,"offset":922}}}
+{"declEnd":{"col":9,"line":111,"offset":4913},"declStart":{"col":0,"line":70,"offset":2792},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":15,"line":70,"offset":2807},"start":{"col":8,"line":70,"offset":2800}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":9,"line":155,"offset":7099},"declStart":{"col":0,"line":113,"offset":4915},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":15,"line":113,"offset":4930},"start":{"col":8,"line":113,"offset":4923}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":68,"line":185,"offset":8775},"declStart":{"col":0,"line":157,"offset":7101},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":159,"offset":7226},"start":{"col":0,"line":159,"offset":7219}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":68,"line":216,"offset":10596},"declStart":{"col":0,"line":187,"offset":8777},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":189,"offset":8915},"start":{"col":0,"line":189,"offset":8908}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":20,"line":218,"offset":10618},"start":{"col":0,"line":218,"offset":10598}}}
+{"kind":"end","range":{"end":{"col":3,"line":220,"offset":10623},"start":{"col":0,"line":220,"offset":10620}}}
+{"kind":"end","range":{"end":{"col":18,"line":222,"offset":10643},"start":{"col":0,"line":222,"offset":10625}}}

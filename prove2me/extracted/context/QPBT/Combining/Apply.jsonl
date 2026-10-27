@@ -1,0 +1,11 @@
+{"kind":"section","range":{"end":{"col":24,"line":42,"offset":1903},"start":{"col":0,"line":42,"offset":1879}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":44,"offset":1929},"start":{"col":0,"line":44,"offset":1905}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":46,"offset":1949},"start":{"col":5,"line":46,"offset":1936}}}
+{"kind":"section","range":{"end":{"col":21,"line":48,"offset":1972},"start":{"col":0,"line":48,"offset":1951}}}
+{"declEnd":{"col":55,"line":224,"offset":12408},"declStart":{"col":0,"line":125,"offset":6524},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":171,"offset":9354},"start":{"col":0,"line":171,"offset":9347}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":4,"line":274,"offset":15442},"declStart":{"col":0,"line":226,"offset":12410},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":231,"offset":12762},"start":{"col":0,"line":231,"offset":12755}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":37,"line":317,"offset":17879},"declStart":{"col":0,"line":276,"offset":15444},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":301,"offset":16985},"start":{"col":0,"line":301,"offset":16978}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":81,"line":354,"offset":20011},"declStart":{"col":0,"line":319,"offset":17881},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":322,"offset":18090},"start":{"col":0,"line":322,"offset":18083}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":81,"line":417,"offset":23677},"declStart":{"col":0,"line":356,"offset":20013},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":381,"offset":21628},"start":{"col":0,"line":381,"offset":21621}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":419,"offset":23682},"start":{"col":0,"line":419,"offset":23679}}}
+{"kind":"end","range":{"end":{"col":18,"line":421,"offset":23702},"start":{"col":0,"line":421,"offset":23684}}}

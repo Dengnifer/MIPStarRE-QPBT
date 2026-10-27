@@ -1,0 +1,1340 @@
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_actual_rounding_error_le_root.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_actual_rounding_error_le_root.lean:41:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_indicatorVec_mul_indicatorVec.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_indicatorVec_mul_indicatorVec.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_evalCoefficient_collision_card_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_evalCoefficient_collision_card_le.lean:48:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliProj_reindex_quditQubitLabelEquiv.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliProj_reindex_quditQubitLabelEquiv.lean:51:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_trace_basis_eq_one_of_selfDual_normal.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_trace_basis_eq_one_of_selfDual_normal.lean:49:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_trace_mul_eq_dotProduct_basisCoord.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_trace_mul_eq_dotProduct_basisCoord.lean:40:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliProj_eq_avg_tauObservable.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliProj_eq_avg_tauObservable.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_IsAdmissibleSize_eq_two_or_eight_dvd.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_IsAdmissibleSize_eq_two_or_eight_dvd.lean:45:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combineLinePolynomial_natDegree_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combineLinePolynomial_natDegree_le.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_actual_rounded_global_pair_error_bound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_actual_rounded_global_pair_error_bound.lean:46:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_scale_deltaQld_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_scale_deltaQld_le.lean:43:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_globalPairWitness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_globalPairWitness.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_extendedLinesWitness_established_ofPointsWitness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_extendedLinesWitness_established_ofPointsWitness.lean:96:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_extendedDirectLd_coefficientCollisionLoss_le_five_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_extendedDirectLd_coefficientCollisionLoss_le_five_mul.lean:42:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combineLinePoly_spec.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combineLinePoly_spec.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoefficientCollision_avg_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoefficientCollision_avg_le.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdRejectionProbability_eq_one_sub_value.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdRejectionProbability_eq_one_sub_value.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdBranchRejectionProbability_nonneg.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdBranchRejectionProbability_nonneg.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_deltaLd_of_transportBound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_deltaLd_of_transportBound.lean:94:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointAnswerReadout_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointAnswerReadout_eq_of_win.lean:91:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_direct_ld_soundness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_direct_ld_soundness.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_qBipartiteConsDefect_le_directRejectedMass.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_qBipartiteConsDefect_le_directRejectedMass.lean:75:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_direct_ld_soundness_of_k_eq_one_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_direct_ld_soundness_of_k_eq_one_explicit.lean:102:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directAxisAnswerReadout_zeroCoord_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directAxisAnswerReadout_zeroCoord_eq_of_win.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_degreeOf_combinedCoef_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_degreeOf_combinedCoef_le.lean:137:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directDiagonalAnswerReadout_zeroCoord_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directDiagonalAnswerReadout_zeroCoord_eq_of_win.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedCoefAlgHom_combinePolyTuple.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedCoefAlgHom_combinePolyTuple.lean:125:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointAnswerReadout_eq_axis_zeroCoord_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointAnswerReadout_eq_axis_zeroCoord_of_win.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_eq_sum_monomial_single.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_eq_sum_monomial_single.lean:123:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedCoefAlgHom_monomial.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedCoefAlgHom_monomial.lean:95:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_point_agreement_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_point_agreement_le.lean:122:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointAnswerReadout_eq_diagonal_zeroCoord_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointAnswerReadout_eq_diagonal_zeroCoord_of_win.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_directCombinedTransportConstants.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_directCombinedTransportConstants.lean:102:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_outcomeWeight_directCombinedStrategy.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_outcomeWeight_directCombinedStrategy.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedRestrict_combiningLinearForm_avg_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedRestrict_combiningLinearForm_avg_le.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedRestrict_collision_avg_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedRestrict_collision_avg_le.lean:92:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directRejectedMass_directCombinedStrategy_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directRejectedMass_directCombinedStrategy_le.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdIndexedBranchRejectionProbability_point_point.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdIndexedBranchRejectionProbability_point_point.lean:85:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedExactLinearity_avg_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedExactLinearity_avg_le.lean:91:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_polynomialAgreement_avg_eq_agreementProbability.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_polynomialAgreement_avg_eq_agreementProbability.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombiningCollision_avg_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombiningCollision_avg_le.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedRecoveryLocalBound_avg_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedRecoveryLocalBound_avg_le.lean:115:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedRecovery_relation_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedRecovery_relation_one.lean:119:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_of_recoveryBound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_of_recoveryBound.lean:117:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombined_measuredQuestion_of_coefficientVar.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombined_measuredQuestion_of_coefficientVar.lean:108:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombined_measuredQuestion_of_pointVar.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombined_measuredQuestion_of_pointVar.lean:109:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedRecoveryEvent_avg_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedRecoveryEvent_avg_le.lean:110:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_of_recoveryBound_right.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_of_recoveryBound_right.lean:117:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdBranchRejectionProbability_directCombinedStrategy_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdBranchRejectionProbability_directCombinedStrategy_le.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedWinTransport_aline_point.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedWinTransport_aline_point.lean:134:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directRejectedMass_directCombinedStrategy_le_measured.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directRejectedMass_directCombinedStrategy_le_measured.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedWinTransport_point_aline.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedWinTransport_point_aline.lean:134:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directCombinedMeasuredRejectedMass_coefficientVar.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directCombinedMeasuredRejectedMass_coefficientVar.lean:75:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedWinTransport_dline_point.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedWinTransport_dline_point.lean:134:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_directSimultaneousPolynomialMeasurements_combinedError.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_directSimultaneousPolynomialMeasurements_combinedError.lean:104:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedRecovery_relation_two.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedRecovery_relation_two.lean:119:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedWinTransport_point_dline.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCombinedWinTransport_point_dline.lean:134:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_right.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_right.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialPolynomial_consistencyDefect_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialPolynomial_consistencyDefect_eq.lean:72:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialPolynomial_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialPolynomial_consistencyDefect_le.lean:75:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_polynomialPoint_compression.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_polynomialPoint_compression.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialMeasurement_evaluation_effect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialMeasurement_evaluation_effect.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_pointPolynomial_compression.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_pointPolynomial_compression.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_left.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_left.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdtPointNonempty.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdtPointNonempty.lean:70:20: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_strategyConsRel_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_strategyConsRel_consistencyDefect_le.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_blockDiagonalMeasurement_postprocess.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_blockDiagonalMeasurement_postprocess.lean:102:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_parseLdQuestion_ldCL_ofDirectResidue.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_parseLdQuestion_ldCL_ofDirectResidue.lean:99:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinatePointMeasurementB_effect_transport.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinatePointMeasurementB_effect_transport.lean:81:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinatePointMeasurement_effect_transport.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinatePointMeasurement_effect_transport.lean:81:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_diagonal_line_point_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_diagonal_line_point_le.lean:133:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consRel_iff_consistencyDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consRel_iff_consistencyDefect.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_diagonal_point_line_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_diagonal_point_line_le.lean:133:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointPolynomial_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointPolynomial_consistencyDefect_le.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialPoint_consistencyDefect_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialPoint_consistencyDefect_eq.lean:72:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_heteroKron_le_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_heteroKron_le_one.lean:182:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointPolynomial_consistencyDefect_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointPolynomial_consistencyDefect_eq.lean:72:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_one_le_deltaLd_of_one_le_error.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_one_le_deltaLd_of_one_le_error.lean:160:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialPoint_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialPoint_consistencyDefect_le.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_direct_ld_transport_constants_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_direct_ld_transport_constants_explicit.lean:154:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_failure_le_three_mul_rejection.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_failure_le_three_mul_rejection.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directDiagonalIndexOf_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directDiagonalIndexOf_eq.lean:83:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_failure_le_weightedFailure.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directCoordinate_failure_le_weightedFailure.lean:81:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdPointPair_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdPointPair_consistencyDefect_le.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_pointPair_compression.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_pointPair_compression.lean:100:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directDLinePointDist_resample.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directDLinePointDist_resample.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directALinePointDist_resample.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directALinePointDist_resample.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_averageDiagonalBlock_blockDiagonal_const.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_averageDiagonalBlock_blockDiagonal_const.lean:87:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_isProjective.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_isProjective.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_error_and_collision_le_deltaLd.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_error_and_collision_le_deltaLd.lean:41:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldCL_ldSpaceOfDirectResidue_directLdMap.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldCL_ldSpaceOfDirectResidue_directLdMap.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialAgreement_avg_le_mdq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPolynomialAgreement_avg_le_mdq.lean:100:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_value_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldStrategyToDirect_value_eq.lean:72:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_direct_passing_polynomial_bound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_direct_passing_polynomial_bound.lean:44:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ten_sqrt_deltaLd_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ten_sqrt_deltaLd_le.lean:40:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_blockDiagonalMeasurement_isProjective.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_blockDiagonalMeasurement_isProjective.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_conditioned_polynomial_bound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_conditioned_polynomial_bound.lean:49:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_directEvalOpt_eq_some_iff.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_directEvalOpt_eq_some_iff.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sqrt_deficit_bound_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sqrt_deficit_bound_le.lean:48:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_outcomeWeight_eq_zero_of_invalid.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_outcomeWeight_eq_zero_of_invalid.lean:108:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_combining_polynomial_bound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_combining_polynomial_bound.lean:49:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_direct_global_pair_error_bound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_direct_global_pair_error_bound.lean:47:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_global_pair_error_bound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_global_pair_error_bound.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_global_pair_error_bound_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_global_pair_error_bound_explicit.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_axis_same_line_evaluation_defect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_axis_same_line_evaluation_defect_le.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_same_line_evaluation_defect_le_branch_chain.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_same_line_evaluation_defect_le_branch_chain.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_completed_defect_eq_read_defect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_completed_defect_eq_read_defect.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_axis_parameter_evaluated_coefficient_defect_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_axis_parameter_evaluated_coefficient_defect_eq.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_same_line_evaluation_defect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_same_line_evaluation_defect_le.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_parameter_evaluated_coefficient_defect_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_parameter_evaluated_coefficient_defect_eq.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_mixed_branch_rejection_eq_zero.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_mixed_branch_rejection_eq_zero.lean:105:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_axis_same_line_evaluation_defect_le_branch_chain.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_axis_same_line_evaluation_defect_le_branch_chain.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_dline_point_rejection_eq_completedLinePointDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_dline_point_rejection_eq_completedLinePointDefect.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_place_BB_prime_mul_AB_prime_prime_comm.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_place_BB_prime_mul_AB_prime_prime_comm.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonalGameRead_diagonalAnswer_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonalGameRead_diagonalAnswer_eq.lean:73:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_point_aline_rejection_eq_completedLinePointDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_point_aline_rejection_eq_completedLinePointDefect.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_point_win_iff_read_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_point_win_iff_read_eq.lean:75:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_aline_point_rejection_eq_completedLinePointDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_aline_point_rejection_eq_completedLinePointDefect.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_reversed_axis_completed_defect_eq_read_defect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_reversed_axis_completed_defect_eq_read_defect.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_completed_defect_eq_read_defect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_completed_defect_eq_read_defect.lean:85:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_parameterEvalDefect_le_completed_add_none.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_parameterEvalDefect_le_completed_add_none.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_point_dline_rejection_eq_completedLinePointDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_point_dline_rejection_eq_completedLinePointDefect.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_directPairMeasurement_consistency_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_directPairMeasurement_consistency_le.lean:78:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_evalCoefficient_ne_imp_directEvalOpt_ne_or_eq_none.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_evalCoefficient_ne_imp_directEvalOpt_ne_or_eq_none.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_pair_witness_of_points_lines_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_pair_witness_of_points_lines_explicit.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_reversed_diagonal_completed_defect_eq_read_defect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_reversed_diagonal_completed_defect_eq_read_defect.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_directCombinedEmbedding_read.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_directCombinedEmbedding_read.lean:64:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_retainedPointMismatch_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_retainedPointMismatch_eq.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_point_point_rejection_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_point_point_rejection_le.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_seven_branch_rejections_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_seven_branch_rejections_le.lean:75:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_strategy_value_ge_directPassingErrorEnvelope.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_strategy_value_ge_directPassingErrorEnvelope.lean:72:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_point_branch_rejection_eq_consistencyDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_point_branch_rejection_eq_consistencyDefect.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_axis_parameter_evaluation_defect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_axis_parameter_evaluation_defect_le.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_retainedPointMismatch_le_ordered_error.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_retainedPointMismatch_le_ordered_error.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_parameter_evaluation_defect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_diagonal_parameter_evaluation_defect_le.lean:87:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_directPointExtendedQuestionEquiv_apply.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_directPointExtendedQuestionEquiv_apply.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_aline_aline_rejection_eq_axisCoefficientAnswerDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_aline_aline_rejection_eq_axisCoefficientAnswerDefect.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_dline_dline_rejection_eq_diagonalCoefficientAnswerDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_dline_dline_rejection_eq_diagonalCoefficientAnswerDefect.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_scalarPolynomial_linear_read_fiber.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_scalarPolynomial_linear_read_fiber.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_aline_aline_rejection_le_axisParameterEvaluatedCoefficientDefect_add.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_aline_aline_rejection_le_axisParameterEvaluatedCoefficientDefect_add.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_rounded_polynomial_ordered_estimates_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_rounded_polynomial_ordered_estimates_explicit.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_scalarPolynomial_eval.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_scalarPolynomial_eval.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_scalarNonlinearMass_le_ordered_error.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_scalarNonlinearMass_le_ordered_error.lean:83:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_dline_dline_rejection_le_diagonalParameterEvaluatedCoefficientDefect_add.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_dline_dline_rejection_le_diagonalParameterEvaluatedCoefficientDefect_add.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_rounded_polynomial_separated_mass_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_rounded_polynomial_separated_mass_explicit.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_exists_polyPair_of_scalar_separated.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_exists_polyPair_of_scalar_separated.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_stateQForm_pairState_eq_AA_prime_BA_prime_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_stateQForm_pairState_eq_AA_prime_BA_prime_prime.lean:81:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subline_remove_x_factor_at_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subline_remove_x_factor_at_explicit.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_stateQForm_pairState_eq_AB_prime_prime_BB_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_stateQForm_pairState_eq_AB_prime_prime_BB_prime.lean:81:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_reindexState_abBbRegrouping_psiHat.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_reindexState_abBbRegrouping_psiHat.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subline_z_term_near_one_at_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subline_z_term_near_one_at_explicit.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_scalarWrongVariableMass_le_ordered_error.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_scalarWrongVariableMass_le_ordered_error.lean:83:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combineLinePoly_axis_degree.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combineLinePoly_axis_degree.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directLinePointDist_resample_parameter.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directLinePointDist_resample_parameter.lean:61:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subline_joint_overlap_near_one_at_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subline_joint_overlap_near_one_at_explicit.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_avgOver_conditionalLaw.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_avgOver_conditionalLaw.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_completedPoint_effect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_completedPoint_effect_le.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_affineData_axis.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_affineData_axis.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_extendedMeasurement_axis_degree.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_extendedMeasurement_axis_degree.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_combinedPolynomial_evaluatesTo.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_combinedPolynomial_evaluatesTo.lean:64:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_paired_ordered_overlap_gap_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_paired_ordered_overlap_gap_le.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_extendedMeasurement_overlap.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_extendedMeasurement_overlap.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_aLinePointDist_resample_parameter.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_aLinePointDist_resample_parameter.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_subLineWitness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_subLineWitness.lean:97:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_extended_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_extended_consistencyDefect_le.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_avgOver_extendedPointOverlap_ge.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_avgOver_extendedPointOverlap_ge.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_nondegenerateLinePastingDist_collision_bound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_nondegenerateLinePastingDist_collision_bound.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_extendedPointOverlap_ge.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_extendedPointOverlap_ge.lean:73:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_exists_opposite_bipartition.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_exists_opposite_bipartition.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_nondegenerateLinePastingDist_add_mass.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_nondegenerateLinePastingDist_add_mass.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_points_conditioned_line_marginal_defect_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_points_conditioned_line_marginal_defect_le_explicit.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_offDiagonalPlacedProduct_nonneg.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_offDiagonalPlacedProduct_nonneg.lean:91:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_bipartition.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_bipartition.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_integrand_nonneg.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_integrand_nonneg.lean:91:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_line_restored_defect_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_line_restored_defect_le_explicit.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_line_conditioned_defect_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_line_conditioned_defect_le_explicit.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_dLinePointDist_resample_parameter.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_dLinePointDist_resample_parameter.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_dLinePointDist_zero_direction_mass_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_dLinePointDist_zero_direction_mass_le.lean:43:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_collision_bound_of_fiber_averages.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_collision_bound_of_fiber_averages.lean:48:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_points_line_marginal_distance_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_points_line_marginal_distance_le_explicit.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_pairState_eq_AB_prime_prime_BB_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_pairState_eq_AB_prime_prime_BB_prime.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_pairState_eq_AA_prime_BA_prime_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_pairState_eq_AA_prime_BA_prime_prime.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exp_line_point_same_placement_distance_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exp_line_point_same_placement_distance_le_explicit.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_line_measurement_consistency.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_line_measurement_consistency.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_aLinePointDist_eq_bind_restricted.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_aLinePointDist_eq_bind_restricted.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_dLinePointDist_eq_bind_restricted.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_dLinePointDist_eq_bind_restricted.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_integrand_le_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_integrand_le_one.lean:61:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_restrictedLinePointDist_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_restrictedLinePointDist_le.lean:61:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_prod_restrictedLinePointDist_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_prod_restrictedLinePointDist_le.lean:61:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_prod_linePointDist_nondegenerate_weighted_collision_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_prod_linePointDist_nondegenerate_weighted_collision_le.lean:52:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_points_line_marginal_defect_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combined_points_line_marginal_defect_le_explicit.lean:73:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_clDistribution_seedEvent_mass.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_clDistribution_seedEvent_mass.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_samplingData_of_mem_subLineDist_support.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_samplingData_of_mem_subLineDist_support.lean:117:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projZ_subLineExtDirection_mem_span.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projZ_subLineExtDirection_mem_span.lean:113:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projX_subLineExtDirection_mem_span.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projX_subLineExtDirection_mem_span.lean:113:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrictedDLineDist_eq_map_prod.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrictedDLineDist_eq_map_prod.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_extendedCoordinate_cases.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_extendedCoordinate_cases.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_lineRepMap_projZ_directPointToPauli_lineRepMap.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_lineRepMap_projZ_directPointToPauli_lineRepMap.lean:117:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrictedALineDist_eq_map_prod.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrictedALineDist_eq_map_prod.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_lineRepMap_projX_directPointToPauli_lineRepMap.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_lineRepMap_projX_directPointToPauli_lineRepMap.lean:117:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_map_projX_projZ.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_map_projX_projZ.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineBranchDist_map_fst.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineBranchDist_map_fst.lean:141:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineTripleOf_xBase.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineTripleOf_xBase.lean:120:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineDist_map_fst.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineDist_map_fst.lean:138:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_lineRepMap_projX_subLineExtLine_point.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_lineRepMap_projX_subLineExtLine_point.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_lineRepMap_projZ_subLineExtLine_point.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_lineRepMap_projZ_subLineExtLine_point.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineTripleOf_zBase.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineTripleOf_zBase.lean:120:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineTripleOf_compatibility.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineTripleOf_compatibility.lean:120:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_linePointDist_nondegenerate_weighted_collision_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_linePointDist_nondegenerate_weighted_collision_le.lean:51:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldSeedEvent_positive.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldSeedEvent_positive.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointToPauli_coordinateDirection.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointToPauli_coordinateDirection.lean:124:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_orderedXZ_dist_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_orderedXZ_dist_le.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_orderedZX_dist_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_orderedZX_dist_le.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineBranchSamplingData_map_joint.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_subLineBranchSamplingData_map_joint.lean:92:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_map_lineRepMap_add_smul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_map_lineRepMap_add_smul.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_dLineDescOf_ldDLineCL.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_dLineDescOf_ldDLineCL.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projective_refinement_ordered_dist_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projective_refinement_ordered_dist_le.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_sum_re_inner_le_sqrt_mul_sqrt.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_sum_re_inner_le_sqrt_mul_sqrt.lean:61:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrictedALineDist_eq_map_restrict.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrictedALineDist_eq_map_restrict.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_norm_inner_applyOperatorToState_le_sqrt_mul_sqrt.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_norm_inner_applyOperatorToState_le_sqrt_mul_sqrt.lean:61:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrict_uniform_ldSeedEvent_map_block.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrict_uniform_ldSeedEvent_map_block.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_overlap_gap_le_sqrt_of_opFamilyDistSq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_overlap_gap_le_sqrt_of_opFamilyDistSq.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrictedDLineDist_eq_map_restrict.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrictedDLineDist_eq_map_restrict.lean:85:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_ordered_dist_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_ordered_dist_le.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_avgOver_sum_stateQForm_mul_mul_le_sqrt_mul_sqrt.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_avgOver_sum_stateQForm_mul_mul_le_sqrt_mul_sqrt.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_avgOver_sum_stateQForm_mul_le_sqrt_of_isProj.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_avgOver_sum_stateQForm_mul_le_sqrt_of_isProj.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_avgOver_sum_re_inner_le_sqrt_mul_sqrt.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_avgOver_sum_re_inner_le_sqrt_mul_sqrt.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_overlap_gap_le_sqrt_one_sub_of_isProj.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_overlap_gap_le_sqrt_one_sub_of_isProj.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_completedPairMeasurement_effect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_completedPairMeasurement_effect.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedPairSubmeasurement_missing.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_combinedPairSubmeasurement_missing.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_avgOver_sum_stateQForm_mul_le_sqrt_of_isProj_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_avgOver_sum_stateQForm_mul_le_sqrt_of_isProj_prime.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_sum_stateQForm_mul_le_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_sum_stateQForm_mul_le_one.lean:72:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_mul_conjTranspose_mul_self_eq_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_mul_conjTranspose_mul_self_eq_one.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_error_terms_le_rpow_eighth.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_error_terms_le_rpow_eighth.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_sum_smul_sq_of_orthogonal.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_sum_smul_sq_of_orthogonal.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_norm_sub_projective_mul_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_norm_sub_projective_mul_sq_le.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_fixedCharacter_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_fixedCharacter_mul.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_extendedQ_spec.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_extendedQ_spec.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_combined_points_witness_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_combined_points_witness_explicit.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_chain_bounds.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_chain_bounds.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_avg_sandwich_defect_bound_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_avg_sandwich_defect_bound_le_explicit.lean:124:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sandwich_overlap_identity.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sandwich_overlap_identity.lean:100:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_pairCharacter_mul_pairCharacter.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_pairCharacter_mul_pairCharacter.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sandwich_defect_pointwise_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sandwich_defect_pointwise_le.lean:100:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_norm_place_expPointOp_commutator_sq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_norm_place_expPointOp_commutator_sq.lean:121:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_fixedCharacter_mul_fixedCharacter.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_fixedCharacter_mul_fixedCharacter.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_exp_point_comm_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_exp_point_comm_explicit.lean:129:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sandwich_offDiagonal_le_sandwichDefectBound.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sandwich_offDiagonal_le_sandwichDefectBound.lean:127:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_norm_marginal_sub_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_norm_marginal_sub_sq_le.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_place_conjTranspose.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_place_conjTranspose.lean:92:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_reindex_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_reindex_eq.lean:117:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_rpow_quarter_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_rpow_quarter_le.lean:81:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_place_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_place_mul.lean:94:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_place_comm.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_place_comm.lean:95:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_exists_projective_close_sandwich.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_exists_projective_close_sandwich.lean:123:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_ordered_cross_dist_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_ordered_cross_dist_le_explicit.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_marginal_Z_distance_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_marginal_Z_distance_le.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_avg_weighted_fiber_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_avg_weighted_fiber_le.lean:58:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_marginal_X_distance_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedPointsWitness_marginal_X_distance_le.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_affine_collision_average.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_affine_collision_average.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_avg_orderedIndicator_norm_sq_le_of_nonconstant.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_avg_orderedIndicator_norm_sq_le_of_nonconstant.lean:72:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opFamilyDistSq_uniform_affine_postprocess_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opFamilyDistSq_uniform_affine_postprocess_le.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_exists_common_exceptional_coefficient.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_exists_common_exceptional_coefficient.lean:58:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_placed_measurement_products_eq_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_placed_measurement_products_eq_one.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_exists_avgOver_X_eq_mixture.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_exists_avgOver_X_eq_mixture.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sqrt_deltaQld_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sqrt_deltaQld_le.lean:41:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_abs_orderedIndicator_norm_sq_sub_diagonal_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_abs_orderedIndicator_norm_sq_sub_diagonal_le.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_avg_wrong_ordered_norm_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_avg_wrong_ordered_norm_sq_le.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_regroup_line_answer_sum_at.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_regroup_line_answer_sum_at.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_one_sub_avgOver_xPointOverlap_le_at.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_one_sub_avgOver_xPointOverlap_le_at.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_nonlinear_mass_le_ordered_error.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_nonlinear_mass_le_ordered_error.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_point_mismatch_le_ordered_error.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_PolynomialImageBounds_point_mismatch_le_ordered_error.lean:64:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_completedLinePointDefect_aaBa_nonneg.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtendedLineGame_completedLinePointDefect_aaBa_nonneg.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directLinePointDist_line_add_smul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_directLinePointDist_line_add_smul.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_uniform_directLdSpace_line_add_smul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_uniform_directLdSpace_line_add_smul.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_exists_avgOver_Z_eq_mixture.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_exists_avgOver_Z_eq_mixture.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_avgOver_projX_projZ.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_avgOver_projX_projZ.lean:61:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_avgOver_zPointOverlap_le_one_at.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_avgOver_zPointOverlap_le_one_at.lean:104:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_map_directLine_add_smul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_map_directLine_add_smul.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_one_sub_avgOver_zPointOverlap_le_at.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SubLineWitness_one_sub_avgOver_zPointOverlap_le_at.lean:102:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_blockMeasurement_isProjective.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_blockMeasurement_isProjective.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_option_prod_eq_of_none.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_option_prod_eq_of_none.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_Z_overlap_restricted_le_at.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_Z_overlap_restricted_le_at.lean:154:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_norm_place_completedPair_sub_sq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_norm_place_completedPair_sub_sq.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_X_overlap_restricted_le_at.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_X_overlap_restricted_le_at.lean:94:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_Z_overlap_le_at.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_Z_overlap_le_at.lean:128:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_one_sub_overlap_le_of_consistencyDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_one_sub_overlap_le_of_consistencyDefect.lean:104:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_X_overlap_le_at.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_CombinedLinesWitness_one_sub_X_overlap_le_at.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_placePlayers.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_consistencyDefect_placePlayers.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_placeExtractedRegister_pauli_sq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_placeExtractedRegister_pauli_sq.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_basis_character_opDistSq_le_four_consistencyDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_basis_character_opDistSq_le_four_consistencyDefect.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_placePlayers.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_placePlayers.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_conj_pauli_sq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_conj_pauli_sq.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_distance_on_ideal_right_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_distance_on_ideal_right_le.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeObs_opDistSq_le_four_consistencyDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeObs_opDistSq_le_four_consistencyDefect.lean:73:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_placePlayer_pauli_sq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_placePlayer_pauli_sq.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_vecTensor_eprPartialInner.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_vecTensor_eprPartialInner.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_pauliCorrelation_X_apply_diagonal.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_pauliCorrelation_X_apply_diagonal.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_pauliCorrelation_mul_eq_epr.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_pauliCorrelation_mul_eq_epr.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_norm_heteroKron_pauliCorrelation_apply_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_norm_heteroKron_pauliCorrelation_apply_le.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tauDotProj_isProj.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tauDotProj_isProj.lean:98:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_extraction_pauli_dist_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_extraction_pauli_dist_le.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_marginalPoly_eval_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_marginalPoly_eval_mul.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_pauliCorrelation_Z_apply.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_pauliCorrelation_Z_apply.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_evaluated_pauli_tilde_consistency_of_global_pair_witness_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_evaluated_pauli_tilde_consistency_of_global_pair_witness_explicit.lean:73:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_global_marginal_encoding_consistency_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_global_marginal_encoding_consistency_explicit.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tilde_obs_self_consistent_of_global_pair_witness_card.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tilde_obs_self_consistent_of_global_pair_witness_card.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_exists_unit_aux_near_eprProjection.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_exists_unit_aux_near_eprProjection.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_stateQForm_placeSide_bob_tensor_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_stateQForm_placeSide_bob_tensor_one.lean:78:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_measurement_symm.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_measurement_symm.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_stateQForm_placeSide_alice_tensor_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_stateQForm_placeSide_alice_tensor_one.lean:78:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_idealExpState_extractionAux0.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_idealExpState_extractionAux0.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_extraction_small_error_absorption.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_extraction_small_error_absorption.lean:52:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeObs_eq_heteroKron.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeObs_eq_heteroKron.lean:87:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_stateQForm_sub_le_of_contraction.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_stateQForm_sub_le_of_contraction.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_distance_on_ideal_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_distance_on_ideal_le.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_swapUnitary_conj_tildeM.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_swapUnitary_conj_tildeM.lean:116:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_isProj.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_isProj.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_swapUnitary_conj_tildeObs.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_swapUnitary_conj_tildeObs.lean:116:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_tildeM_eq_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_tildeM_eq_one.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_eq_one_sub_decoded_overlap.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_eq_one_sub_decoded_overlap.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_eq_one_sub_decoded_overlap_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_eq_one_sub_decoded_overlap_prime.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_placeSide_extracted.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_placeSide_extracted.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_swapped_block_overlap_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_swapped_block_overlap_eq.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_marginal_eval_overlap_le_decoded_add_nonencoding_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_marginal_eval_overlap_le_decoded_add_nonencoding_prime.lean:81:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_swapped_pauli_overlap_bob.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_swapped_pauli_overlap_bob.lean:85:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_swapped_pauli_overlap_alice.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_swapped_pauli_overlap_alice.lean:85:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_marginal_eval_overlap_le_decoded_add_nonencoding.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_marginal_eval_overlap_le_decoded_add_nonencoding.lean:81:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_eval_point_consistent_alice.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_eval_point_consistent_alice.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_polyFunc_eval_collision_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_polyFunc_eval_collision_le.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_eval_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_eval_consistencyDefect_le.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_eval_point_consistent_bob.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_eval_point_consistent_bob.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_le_pulling_eval_add.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_le_pulling_eval_add.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_norm_sub_eprProjection_le_of_pauli_dist.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_norm_sub_eprProjection_le_of_pauli_dist.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_norm_sub_pauliCorrelation_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Extraction_norm_sub_pauliCorrelation_sq_le.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_postprocess_effect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_postprocess_effect.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tilde_m_consistent_point_meas_of_global_pair_witness_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tilde_m_consistent_point_meas_of_global_pair_witness_explicit.lean:72:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_pauli_dist_reindex_extraction.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_pauli_dist_reindex_extraction.lean:72:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tilde_m_consistent_point_meas_prime_of_global_pair_witness_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tilde_m_consistent_point_meas_prime_of_global_pair_witness_explicit.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_extraction_aux_of_global_pair_witness_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_extraction_aux_of_global_pair_witness_explicit.lean:75:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_eval_effect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pullingMeas_eval_effect.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_le_deltaG_add_nonencoding_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_le_deltaG_add_nonencoding_prime.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opDistSq_conjBy_apply_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opDistSq_conjBy_apply_eq.lean:58:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_le_deltaG_add_nonencoding.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tildeM_consistencyDefect_le_deltaG_add_nonencoding.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_delta_extract_le_delta_qld_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_delta_extract_le_delta_qld_explicit.lean:58:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_extractionWitness_ofGlobalPairWitness_of_four_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_extractionWitness_ofGlobalPairWitness_of_four_le.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_outcome_weight_right.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_outcome_weight_right.lean:99:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_outcome_equiv.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_outcome_equiv.lean:43:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_uniform_question_outcome_equiv.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_uniform_question_outcome_equiv.lean:43:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_outcomeWeight_sum_eq_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_outcomeWeight_sum_eq_one.lean:99:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_congr.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_congr.lean:43:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_extraction_witness_of_global_pair_witness_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_extraction_witness_of_global_pair_witness_explicit.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_outcome_event_weight_mono.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_outcome_event_weight_mono.lean:99:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opFamilyDistSq_le_two_mul_consistencyDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opFamilyDistSq_le_two_mul_consistencyDefect.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Strategy_value_le_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Strategy_value_le_one.lean:99:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_outcome_weight_left.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_outcome_weight_left.lean:99:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_povm_to_obs.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_povm_to_obs.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tensorMeasurement_postprocess.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tensorMeasurement_postprocess.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avg_closeness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avg_closeness.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_rejectionMass_eq_one_sub_value.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_rejectionMass_eq_one_sub_value.lean:100:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_op_dist_sq_commutator_right_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_op_dist_sq_commutator_right_le_explicit.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opFamilyDistSq_mul_left_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opFamilyDistSq_mul_left_le.lean:58:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_opFamilyDistSq_of_projective.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_le_opFamilyDistSq_of_projective.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_op_dist_sq_commutator_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_op_dist_sq_commutator_le_explicit.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_postprocess_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_postprocess_le.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opFamilyDistSq_le_of_le_of_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_opFamilyDistSq_le_of_le_of_le.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projective_rounding_with_explicit_constant.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projective_rounding_with_explicit_constant.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_trans_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_trans_le.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_norm_finset_sum_projector_mul_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_norm_finset_sum_projector_mul_sq_le.lean:52:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_point_defect_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_point_defect_eq.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_quadratic_form_mono.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_quadratic_form_mono.lean:51:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_sum_norm_sub_apply_sq_le_four.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_sum_norm_sub_apply_sq_le_four.lean:52:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_sum_norm_mul_funIndexed_apply_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_sum_norm_mul_funIndexed_apply_le.lean:52:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projective_rounding_preserves_postprocessed_consistency_left.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projective_rounding_preserves_postprocessed_consistency_left.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projective_rounding_preserves_postprocessed_consistency_right.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_projective_rounding_preserves_postprocessed_consistency_right.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_point_distance_le_two_defect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_point_distance_le_two_defect.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_left_fiber_contraction.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_left_fiber_contraction.lean:51:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_overlap_gap_le_of_opFamilyDistSq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_overlap_gap_le_of_opFamilyDistSq.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_measurement_fiber_sum_adjoint_mul_le_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_measurement_fiber_sum_adjoint_mul_le_one.lean:52:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_diagonal_postprocess_stateQForm_ge.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_diagonal_postprocess_stateQForm_ge.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_point_distance_eq_two_defect_of_projective.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_point_distance_eq_two_defect_of_projective.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_inner_prodShuffle_vecTensor_heteroKron.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_inner_prodShuffle_vecTensor_heteroKron.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_convolution_eq_of_perfect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_convolution_eq_of_perfect.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_consistencyDefect_eq_one_sub_overlap.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_consistencyDefect_eq_one_sub_overlap.lean:54:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_isProbability.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_isProbability.lean:41:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_restrict_isProbability.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_restrict_isProbability.lean:41:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_uniform_restrict_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_uniform_restrict_eq.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_map.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_map.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_joint_marginal_product.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_joint_marginal_product.lean:52:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_postprocess_effect_mul_effect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_postprocess_effect_mul_effect.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_isProbability.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_isProbability.lean:42:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_right_fiber_contraction.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_right_fiber_contraction.lean:51:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_uniform_fin_two.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_uniform_fin_two.lean:112:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_map_fst.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_map_fst.lean:64:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_map_left.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_map_left.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_const.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_const.lean:96:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_bind_left.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_bind_left.lean:108:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_bind.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_bind.lean:104:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_bind.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_bind.lean:116:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_map_left.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_bind_map_left.lean:96:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_map_bijective_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_map_bijective_eq.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrict_uniform_prod_snd.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrict_uniform_prod_snd.lean:94:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_restrict_prod_snd.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_restrict_prod_snd.lean:94:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_map_eq_bind.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_map_eq_bind.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_prod.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_prod.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_map_right.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_prod_map_right.lean:84:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrict_uniform_prod_fst.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_restrict_uniform_prod_fst.lean:102:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_restrict_prod_fst.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_restrict_prod_fst.lean:102:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_placed_le_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_placed_le_one.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_padState_compressAt.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_padState_compressAt.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pinched_coarse_sub_fine_eq_distinct_families.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pinched_coarse_sub_fine_eq_distinct_families.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_mass_ordered_product_ge.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_mass_ordered_product_ge.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_pasted_le_sqrt_one_sided.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_pasted_le_sqrt_one_sided.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pasting_error_sqrt_le_rpow.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pasting_error_sqrt_le_rpow.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_restrict_map.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Distribution_restrict_map.lean:110:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_commutator_mass_fine_le_distinct_families.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_commutator_mass_fine_le_distinct_families.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_pinched_collision_le_distinct_families.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_pinched_collision_le_distinct_families.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_ordered_product_le_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_ordered_product_le_one.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_cross_move_gap_le_sqrt_distinct_families.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_abs_cross_move_gap_le_sqrt_distinct_families.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_codeword_fine_le_coarse_add_distinct_families.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_codeword_fine_le_coarse_add_distinct_families.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_collision_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_avgOver_collision_le.lean:53:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_coarse_commutator_bound_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_coarse_commutator_bound_explicit.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_schmidtMirror_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_schmidtMirror_le.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_commutator_mass_eq_expansion.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_commutator_mass_eq_expansion.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_schmidt_action_norm_sq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_schmidt_action_norm_sq.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pasting_error_heterogeneous_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pasting_error_heterogeneous_explicit.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_pinched_le_marginal_add_sqrt.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_pinched_le_marginal_add_sqrt.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_schmidt_pair_mirror_estimate.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_schmidt_pair_mirror_estimate.lean:48:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_schmidtMirror_norm_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_schmidtMirror_norm_sq_le.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pasting_error_of_marginal_consistency_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pasting_error_of_marginal_consistency_explicit.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_schmidt_diagonal_mirror_estimate.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_schmidt_diagonal_mirror_estimate.lean:49:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_pasted_le_marginal_add_pinched.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_consistencyDefect_pasted_le_marginal_add_pinched.lean:58:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_point_codeword_defect_le_avg_evaluated_add.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_point_codeword_defect_le_avg_evaluated_add.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_anticommProb_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_anticommProb_eq.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_anticommProb_ge_of_m_le_q.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_anticommProb_ge_of_m_le_q.lean:87:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_diagonal_postprocess_stateQForm_eq_pair_sum.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_diagonal_postprocess_stateQForm_eq_pair_sum.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_consistencyDefect_placed_eq_avg_point.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_consistencyDefect_placed_eq_avg_point.lean:58:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_avg_diagonal_postprocess_stateQForm_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_avg_diagonal_postprocess_stateQForm_le.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_consistencyDefect_codewords_le_evaluated_add.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_SandwichProduct_consistencyDefect_codewords_le_evaluated_add.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_mass_outside_support_le_point_defect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_mass_outside_support_le_point_defect.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_place_AB_prime_prime_mul_BB_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_place_AB_prime_prime_mul_BB_prime.lean:122:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_tauPointProj_pair_stateQForm_eprState.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_tauPointProj_pair_stateQForm_eprState.lean:85:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_applyOperatorToState_heteroKron_vecTensor.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_applyOperatorToState_heteroKron_vecTensor.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_twisted_commutator_avg_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_twisted_commutator_avg_le_explicit.lean:98:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_tauZ_mul_tauX.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_tauZ_mul_tauX.lean:78:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_place_AA_prime_mul_BA_prime_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_place_AA_prime_mul_BA_prime_prime.lean:122:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_inner_vecTensor.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_inner_vecTensor.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_tauPointProj_mul_tauPointProj.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_tauPointProj_mul_tauPointProj.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_norm_place_BB_prime_heteroKron_psiHat.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_norm_place_BB_prime_heteroKron_psiHat.lean:122:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_norm_place_AB_prime_prime_heteroKron_psiHat.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_norm_place_AB_prime_prime_heteroKron_psiHat.lean:122:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_stateQForm_evalClass_AA_prime_BA_prime_prime_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_stateQForm_evalClass_AA_prime_BA_prime_prime_eq.lean:78:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_norm_place_BA_prime_prime_heteroKron_psiHat.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_norm_place_BA_prime_prime_heteroKron_psiHat.lean:122:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_norm_place_AA_prime_heteroKron_psiHat.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_norm_place_AA_prime_heteroKron_psiHat.lean:122:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_stateQForm_evalClass_BA_prime_prime_AA_prime_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_stateQForm_evalClass_BA_prime_prime_AA_prime_eq.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_stateQForm_evalClass_AB_prime_prime_BB_prime_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_stateQForm_evalClass_AB_prime_prime_BB_prime_eq.lean:78:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exp_line_point_cons_explicit_prime.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exp_line_point_cons_explicit_prime.lean:108:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_lineMeas_effect_eq_zero_of_axis.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_lineMeas_effect_eq_zero_of_axis.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_expLineOp_zero_of_not_deg_d.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_expLineOp_zero_of_not_deg_d.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_place_AA_prime_mul_BA_prime_prime_two.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_place_AA_prime_mul_BA_prime_prime_two.lean:128:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_evalClassDist_aaBa_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_evalClassDist_aaBa_le.lean:94:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_evalClassDist_bbAb_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_evalClassDist_bbAb_le.lean:94:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_evalClassDist_baAa_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_evalClassDist_baAa_le.lean:94:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_stateQForm_evalClass_BB_prime_AB_prime_prime_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_sum_stateQForm_evalClass_BB_prime_AB_prime_prime_eq.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_evalClassDist_abBb_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_evalClassDist_abBb_le.lean:94:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tauLineProj_mul_tauPointProj.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_tauLineProj_mul_tauPointProj.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_overlap_BB_prime_AB_prime_prime_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_overlap_BB_prime_AB_prime_prime_eq.lean:162:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_overlap_AB_prime_prime_BB_prime_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_overlap_AB_prime_prime_BB_prime_eq.lean:160:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_overlap_AA_prime_BA_prime_prime_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_overlap_AA_prime_BA_prime_prime_eq.lean:160:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_place_AB_prime_prime_mul_BB_prime_two.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_stateQForm_place_AB_prime_prime_mul_BB_prime_two.lean:128:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_overlap_identity_of_mem.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_overlap_identity_of_mem.lean:148:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_overlap_BA_prime_prime_AA_prime_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_overlap_BA_prime_prime_AA_prime_eq.lean:162:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_overlap_identity_of_not_mem.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_overlap_identity_of_not_mem.lean:143:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_le_mul_sqrt_of_le_mul_of_le_four.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_le_mul_sqrt_of_le_mul_of_le_four.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_polynomialOnLine_lowDegreeEncoding_natDegree_le_one_of_axis.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_polynomialOnLine_lowDegreeEncoding_natDegree_le_one_of_axis.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_eval_polynomialOnLine.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_eval_polynomialOnLine.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_stateQForm_eprState_tauPointProj_tauLineProj.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_stateQForm_eprState_tauPointProj_tauLineProj.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pointConsistency_eq_mismatch.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pointConsistency_eq_mismatch.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_opFamilyDistSq_placed_le_four.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_DistanceCalculus_opFamilyDistSq_placed_le_four.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_stateQForm_eprState_tauLineProj_tauPointProj.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_stateQForm_eprState_tauLineProj_tauPointProj.lean:87:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_polynomialOnLine_lowDegreeEncoding_natDegree_le_sum.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_polynomialOnLine_lowDegreeEncoding_natDegree_le_sum.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msVarObs_anticommutator_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msVarObs_anticommutator_le.lean:85:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_expPointDist_aaBa_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_expPointDist_aaBa_le.lean:95:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_point_self_consistency_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_point_self_consistency_le.lean:73:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exp_point_self_cons_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exp_point_self_cons_explicit.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_expPointDist_abBb_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_expPointDist_abBb_le.lean:95:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_applyOperatorToState_heteroKron_one_naimarkInflation.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_applyOperatorToState_heteroKron_one_naimarkInflation.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_pointTauConsistency_aaBa_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_pointTauConsistency_aaBa_eq.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_pointTauConsistency_abBb_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ProjectiveSetting_pointTauConsistency_abBb_eq.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_obsOf_conjTranspose_mul_self.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_obsOf_conjTranspose_mul_self.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_obsDist_le_of_consistencyDefect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_obsDist_le_of_consistencyDefect.lean:109:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_commConsistency_eq_mismatch_interchanged.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_commConsistency_eq_mismatch_interchanged.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msVarObsA_anticommutator_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msVarObsA_anticommutator_le.lean:85:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_norm_product_transfer_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_norm_product_transfer_le.lean:91:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_applyOperatorToState_heteroKron_naimarkInflation_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_applyOperatorToState_heteroKron_naimarkInflation_one.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_anticommutator_anticomm_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_anticommutator_anticomm_le_explicit.lean:126:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_obs_anticommutator_avg_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_obs_anticommutator_avg_le.lean:115:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_low_degree_interchanged_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_low_degree_interchanged_explicit.lean:83:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_lowDegreeConsistency_eq_mismatch_interchanged.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_lowDegreeConsistency_eq_mismatch_interchanged.lean:78:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_comm_interchanged_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_comm_interchanged_explicit.lean:78:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_comm_cons_interchanged_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_comm_cons_interchanged_explicit.lean:91:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msConsConsistency_eq_mismatch_interchanged.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msConsConsistency_eq_mismatch_interchanged.lean:100:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_commConsConsistency_eq_mismatch_interchanged.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_commConsConsistency_eq_mismatch_interchanged.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointMsMismatch_le_rejection_interchanged.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointMsMismatch_le_rejection_interchanged.lean:97:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_ms_cons_interchanged_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_ms_cons_interchanged_explicit.lean:103:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pauliBasisConsistency_eq_mismatch_interchanged.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pauliBasisConsistency_eq_mismatch_interchanged.lean:97:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_consistencyDefect_postprocess_eq_mismatch.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_consistencyDefect_postprocess_eq_mismatch.lean:61:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_avgOver_mix.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_avgOver_mix.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_avgOver_anticomm_le_sixteen_mul_gated.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_avgOver_anticomm_le_sixteen_mul_gated.lean:60:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_cardRatio_mul_avgOver_filter.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_cardRatio_mul_avgOver_filter.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_avgOver_uniform_fixed_le_card_mul_prod.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_avgOver_uniform_fixed_le_card_mul_prod.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_pauli_basis_cons_interchanged_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_pauli_basis_cons_interchanged_explicit.lean:102:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pairLabels_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pairLabels_eq_of_win.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_comm_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_comm_explicit.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointObs_eq_one_sub_two_smul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointObs_eq_one_sub_two_smul.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pairWConsistency_eq_mismatch.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pairWConsistency_eq_mismatch.lean:81:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointPairLabels_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointPairLabels_eq_of_win.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_comm_cons_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_comm_cons_explicit.lean:70:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_trace_commutator_comm_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_trace_commutator_comm_le_explicit.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pairW_self_consistency_comm_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pairW_self_consistency_comm_le.lean:85:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_commConsConsistency_eq_mismatch.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_commConsConsistency_eq_mismatch.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_stateQForm_reindexState.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_stateQForm_reindexState.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msVarBitObsA_anticommutator_swapped_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msVarBitObsA_anticommutator_swapped_le.lean:89:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_twisted_commutation_interchanged_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_twisted_commutation_interchanged_explicit.lean:104:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_consistencyDefect_swappedState.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_consistencyDefect_swappedState.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_anticommutator_anticomm_le_bob_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_anticommutator_anticomm_le_bob_explicit.lean:97:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_evalCoefficient_padTo.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_evalCoefficient_padTo.lean:61:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_commutator_comm_le_bob_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_commutator_comm_le_bob_explicit.lean:93:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_commutator_comm_le_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_commutator_comm_le_explicit.lean:102:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_dline_winning_condition.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_dline_winning_condition.lean:66:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_alineLabels_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_alineLabels_eq_of_win.lean:66:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_lowDegreeConsistency_eq_mismatch.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_lowDegreeConsistency_eq_mismatch.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pauliCL_dline_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pauliCL_dline_eq.lean:64:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_dlineLabels_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_dlineLabels_eq_of_win.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_mem_sampled_dline.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_mem_sampled_dline.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pauliCL_aline_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pauliCL_aline_eq.lean:64:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_aline_winning_condition.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_aline_winning_condition.lean:66:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msRejection_implies_pauliRejection.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msRejection_implies_pauliRejection.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pauliBasisConsistency_eq_mismatch.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pauliBasisConsistency_eq_mismatch.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_pauli_basis_cons_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_pauli_basis_cons_explicit.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msConsConsistency_eq_mismatch.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msConsConsistency_eq_mismatch.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointMsLabels_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointMsLabels_eq_of_win.lean:64:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_low_degree_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_low_degree_explicit.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msRejection_eq_source.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_msRejection_eq_source.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_ms_cons_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_ms_cons_explicit.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_avgOver_uniform_split_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_avgOver_uniform_split_le.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_norm_twistedCommutator_sq_le_four.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_norm_twistedCommutator_sq_le_four.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_twisted_commutation_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_twisted_commutation_explicit.lean:92:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointObs_eq_traceMeas_obs.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_pointObs_eq_traceMeas_obs.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_commutator_comm_le_alice_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_point_obs_commutator_comm_le_alice_explicit.lean:92:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_twisted_commutation_of_halves.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_twisted_commutation_of_halves.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_magic_square_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_win_magic_square_explicit.lean:66:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_gatedMsRejection_le_fixedEdge.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_WinImplications_gatedMsRejection_le_fixedEdge.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_isCommutingOn_relabel_iff.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_isCommutingOn_relabel_iff.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_exists_spcc_value_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_exists_spcc_value_one.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_lowDegreeQuestionPMF_map.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_lowDegreeQuestionPMF_map.lean:51:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_lowDegreeStrategyToLibrary_value.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_lowDegreeStrategyToLibrary_value.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_Strategy_relabel_isProjective_iff.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_Strategy_relabel_isProjective_iff.lean:71:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_lowDegreeWin_equiv.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_lowDegreeWin_equiv.lean:51:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_lowDegreeGame_relabel_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_lowDegreeGame_relabel_eq.lean:75:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_exists_ld_soundness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_exists_ld_soundness.lean:51:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_pauli_soundness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_pauli_soundness.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_rejected_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_rejected_mul.lean:83:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_pauliStrategyToLibrary_value.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_pauliStrategyToLibrary_value.lean:92:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_placedPauliMeasurement_postprocess_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_placedPauliMeasurement_postprocess_eq.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_spcc_value_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_spcc_value_one.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliEdges_cases.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliEdges_cases.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_pauli_soundness_qubit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_Palomar_pauli_soundness_qubit.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliQuestionDistribution_pos_incidence.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliQuestionDistribution_pos_incidence.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_commuting.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_commuting.lean:102:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliMagicMeasurement_var_effect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauliMagicMeasurement_var_effect.lean:171:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_evalCoefficient_restrictToAxisLine_lowDegreeEncoding.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_evalCoefficient_restrictToAxisLine_lowDegreeEncoding.lean:138:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_placedBasis_of_basisType.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_placedBasis_of_basisType.lean:90:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestPairW_pair_commute.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestPairW_pair_commute.lean:97:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMagicMeasurement_var_eq_placedBasis.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMagicMeasurement_var_eq_placedBasis.lean:98:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMagicMeasurement_ms_commute.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMagicMeasurement_ms_commute.lean:97:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_commute_of_oriented.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_commute_of_oriented.lean:107:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMagicMeasurement_effect_eq_zero.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMagicMeasurement_effect_eq_zero.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_dlinePointCondition.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_dlinePointCondition.lean:126:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_dline_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_dline_eq.lean:111:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldDLineCL_idempotent.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ldDLineCL_idempotent.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestPairMeasurement_effect_eq_zero.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestPairMeasurement_effect_eq_zero.lean:66:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_postprocess_effect_mul_eq_zero_of_incompatible.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_postprocess_effect_mul_eq_zero_of_incompatible.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_aline_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honestMeasurement_aline_eq.lean:111:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_postprocess_effect_commute.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_postprocess_effect_commute.lean:62:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_point_msVar_X_rejected_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_point_msVar_X_rejected_mul.lean:135:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_point_msVar_Z_rejected_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_point_msVar_Z_rejected_mul.lean:135:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_oriented_rejected_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_oriented_rejected_mul.lean:166:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_ms_rejected_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_ms_rejected_mul.lean:161:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_map_ldSeed.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_uniformDistribution_map_ldSeed.lean:66:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_pairW_pair_rejected_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_honest_pairW_pair_rejected_mul.lean:153:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_aLinePointDist_point_marginal_uniform.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_aLinePointDist_point_marginal_uniform.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_dLinePointDist_point_marginal_uniform.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_dLinePointDist_point_marginal_uniform.lean:67:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_step.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_step.lean:126:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_msCellConstraintJoint_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_msCellConstraintJoint_mul.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_heteroKron_mulVec_epr_eq_zero_of_mul_eq_zero.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_heteroKron_mulVec_epr_eq_zero_of_mul_eq_zero.lean:54:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_mul_close_of_same_cells.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_mul_close_of_same_cells.lean:126:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_ld_soundness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_ld_soundness.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_reflection_pair_absorbs_parity_effect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_reflection_pair_absorbs_parity_effect.lean:88:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_msStrategyMeasurement_incident_commute.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_msStrategyMeasurement_incident_commute.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_msGame_support_incidence.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_msGame_support_incidence.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_step.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_step.lean:138:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_intertwine_obs_le_B.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_intertwine_obs_le_B.lean:58:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_mul_close_of_same_cells.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_mul_close_of_same_cells.lean:137:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsA_anticommute.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsA_anticommute.lean:130:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsB_anticommute.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsB_anticommute.lean:137:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_single_close.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_single_close.lean:136:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_product_transfer_le_B.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_product_transfer_le_B.lean:57:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_rightTensor_compressed_product_sub_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_rightTensor_compressed_product_sub_le.lean:56:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_prod_close.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_prod_close.lean:133:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_close_msVarObsB.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_close_msVarObsB.lean:150:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_constraintParityFailure_of_bitSum_ne.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_constraintParityFailure_of_bitSum_ne.lean:129:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_prod_close.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_prod_close.lean:133:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_alice_sub_bob_signObs_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_alice_sub_bob_signObs_sq_le.lean:77:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_prod_of.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsA_prod_of.lean:156:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_ms_anticommutator_transfer_B.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_ms_anticommutator_transfer_B.lean:66:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsA_close_msCellObsB.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msVarObsA_close_msCellObsB.lean:150:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_isProj_sum_of_isProj_of_sum_le_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_isProj_sum_of_isProj_of_sum_le_one.lean:83:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_naimarkCompression_naimarkDilatedEffect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_naimarkCompression_naimarkDilatedEffect.lean:120:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_single_close.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_single_close.lean:201:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_prod_of.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_prod_of.lean:156:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_mul_eq_zero_of_isProj_of_add_le_one.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_mul_eq_zero_of_isProj_of_add_le_one.lean:83:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_isometryTensor_comp.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_isometryTensor_comp.lean:209:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_mul_close.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_msCellObsB_mul_close.lean:202:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_naimarkDilatedEffect_isProj.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_naimarkDilatedEffect_isProj.lean:120:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_conjTranspose_mul_le_one_conjIsometry.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_conjTranspose_mul_le_one_conjIsometry.lean:124:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_leftTensor_one_sub_groundProjection_mul_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_leftTensor_one_sub_groundProjection_mul_le.lean:170:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_applyOperatorToState_rightTensor_one_sub_groundProjection.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_applyOperatorToState_rightTensor_one_sub_groundProjection.lean:148:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_exists_unit_residual.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_exists_unit_residual.lean:126:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_applyOperatorToState_leftTensor_one_sub_groundProjection.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_applyOperatorToState_leftTensor_one_sub_groundProjection.lean:148:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_isometryMatrix_conjTranspose_mul.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_isometryMatrix_conjTranspose_mul.lean:122:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_conjTranspose_mul_le_one_of_obsOf.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_conjTranspose_mul_le_one_of_obsOf.lean:74:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_rightTensor_one_sub_groundProjection_mul_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_rightTensor_one_sub_groundProjection_mul_le.lean:170:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_sum_stateQForm_reverse_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_sum_stateQForm_reverse_eq.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_sum_stateQForm_forward_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_sum_stateQForm_forward_eq.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_ms_support_subset_directed_incidences.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_ms_support_subset_directed_incidences.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_rejection_mass_le_thirty_six_mul_total.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_rejection_mass_le_thirty_six_mul_total.lean:80:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_signObs_eq_obsOf_postprocess.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_signObs_eq_obsOf_postprocess.lean:159:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_apply_joint_defect_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_apply_joint_defect_sq_le.lean:191:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_ms_question_weight_ge.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_ms_question_weight_ge.lean:65:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_total_rejection_mass_eq_one_sub_value.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_total_rejection_mass_eq_one_sub_value.lean:79:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_qubit_operator_distance_a_to_qubit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_qubit_operator_distance_a_to_qubit.lean:101:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_product_transfer_le_A.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_product_transfer_le_A.lean:137:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_intertwine_obs_le_A.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_intertwine_obs_le_A.lean:137:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_qubit_operator_distance_b_to_qubit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_qubit_operator_distance_b_to_qubit.lean:101:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_sum_norm_sq_intertwining_le_forward.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_sum_norm_sq_intertwining_le_forward.lean:95:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_leftTensor_compressed_product_sub_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_norm_leftTensor_compressed_product_sub_le.lean:136:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_sum_norm_sq_intertwining_le_reverse.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_sum_norm_sq_intertwining_le_reverse.lean:95:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_ms_anticommutator_transfer_A.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_MagicSquareRigidity_ms_anticommutator_transfer_A.lean:145:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_alice_le_components.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_alice_le_components.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_arbitrary_strategy_isometry_bounds.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_arbitrary_strategy_isometry_bounds.lean:69:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_soundness_deltaQld_ofExtractionWitness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_soundness_deltaQld_ofExtractionWitness.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_bob_le_components.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_bob_le_components.lean:82:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_naimark_operator_distanceA_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_naimark_operator_distanceA_le.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_naimark_operator_distanceB_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_pauli_naimark_operator_distanceB_le.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_bob_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_bob_le.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_alice_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_pauli_distance_alice_le.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_rightTensor_conjIsometry_sub_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_rightTensor_conjIsometry_sub_sq_le.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_wrongFormPauliMass_bob_le_error.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_wrongFormPauliMass_bob_le_error.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_raw_pauli_operator_distanceA_le_completed.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_raw_pauli_operator_distanceA_le_completed.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_arbitrary_strategy_raw_isometry_bounds.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_exists_arbitrary_strategy_raw_isometry_bounds.lean:63:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_mul_projection_sub_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_mul_projection_sub_sq_le.lean:58:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_leftTensor_conjIsometry_sub_sq_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_sum_norm_leftTensor_conjIsometry_sub_sq_le.lean:59:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_completedPauliEffect_eq_raw_add_wrongForm.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_completedPauliEffect_eq_raw_add_wrongForm.lean:68:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_wrongFormPauliMass_alice_le_error.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_wrongFormPauliMass_alice_le_error.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_Quantum_Measurement_postprocess_comp.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_Quantum_Measurement_postprocess_comp.lean:50:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_raw_pauli_operator_distanceB_le_completed.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_raw_pauli_operator_distanceB_le_completed.lean:86:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_three_add_six_sq_deltaQld_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_three_add_six_sq_deltaQld_le.lean:50:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_deltaQld_mono.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_deltaQld_mono.lean:55:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_isometryTensor_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_ExtractionWitness_isometryTensor_eq.lean:76:8: warning: declaration uses `sorry`
+===== prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_matrix_eq_zero_of_rank_eq_zero.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_matrix_eq_zero_of_rank_eq_zero.lean:82:8: warning: declaration uses `sorry`

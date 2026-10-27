@@ -1,0 +1,9 @@
+{"kind":"section","range":{"end":{"col":24,"line":32,"offset":1306},"start":{"col":0,"line":32,"offset":1282}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":34,"offset":1332},"start":{"col":0,"line":34,"offset":1308}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":36,"offset":1352},"start":{"col":5,"line":36,"offset":1339}}}
+{"kind":"openName","name":"Measurement","range":{"end":{"col":37,"line":36,"offset":1371},"start":{"col":26,"line":36,"offset":1360}}}
+{"kind":"openName","name":"MIPStarRE.LDT.Preliminaries","range":{"end":{"col":32,"line":37,"offset":1404},"start":{"col":5,"line":37,"offset":1377}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":50,"line":37,"offset":1422},"start":{"col":33,"line":37,"offset":1405}}}
+{"kind":"section","range":{"end":{"col":21,"line":39,"offset":1445},"start":{"col":0,"line":39,"offset":1424}}}
+{"kind":"end","range":{"end":{"col":3,"line":324,"offset":15566},"start":{"col":0,"line":324,"offset":15563}}}
+{"kind":"end","range":{"end":{"col":18,"line":326,"offset":15586},"start":{"col":0,"line":326,"offset":15568}}}

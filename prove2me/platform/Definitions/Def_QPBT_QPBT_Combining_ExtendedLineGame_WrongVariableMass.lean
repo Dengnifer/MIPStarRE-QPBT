@@ -1,0 +1,138 @@
+-- Generated from QPBT/Combining/ExtendedLineGame/WrongVariableMass.lean by skeleton subtraction.
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Preliminaries_Polynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_LIDT_MIPStarRE_Quantum_Measurement
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Algebra_LowDegreeCode
+import Definitions.Def_QPBT_QPBT_Combining_Defs
+import Definitions.Def_QPBT_QPBT_Combining_DirectLowDegree_Game
+import Definitions.Def_QPBT_QPBT_Combining_DirectLowDegree_Geometry
+import Definitions.Def_QPBT_QPBT_Combining_ExtendedLineGame_ScalarPolynomial
+import Definitions.Def_QPBT_QPBT_Combining_Witnesses
+import Definitions.Def_QPBT_QPBT_Games_Defs
+import Definitions.Def_QPBT_QPBT_Observables_Defs
+import Definitions.Def_QPBT_QPBT_Observables_ExpandedDefs
+import Definitions.Def_QPBT_QPBT_Test_LowDegreeGameMeasurements
+import Definitions.Def_QPBT_QPBT_Test_PauliBasisTest
+import Mathlib
+import Mathlib.Algebra.MvPolynomial.Equiv
+import Mathlib.Analysis.MeanInequalitiesPow
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+namespace MIPStarRE.QPBT.DistanceCalculus
+end MIPStarRE.QPBT.DistanceCalculus
+namespace MIPStarRE.QPBT.ExtendedLineGame
+end MIPStarRE.QPBT.ExtendedLineGame
+namespace MIPStarRE.QPBT.PolynomialImageBounds
+end MIPStarRE.QPBT.PolynomialImageBounds
+
+/-!
+# Wrong-variable mass of rounded polynomial outcomes
+
+The two block orders use the actual projected state vectors and the full
+ordered-error sum. A common exceptional coefficient controls all outcomes
+of the fixed-block measurement before their weights are summed.
+
+## References
+
+Paper `references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:1328-1368`,
+`eq:qld-g-separable`, `eq:qld-g-48`, `eq:qld-g-2`, and the two wrong-variable
+mass bounds. This supports blueprint `lem:qld-4-7`; it does not establish
+the subsequent retained overlaps or global polynomial-pair witness.
+-/
+
+@[expose] public section
+
+open scoped BigOperators Matrix MatrixOrder ComplexOrder
+
+namespace MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT hiding Measurement
+open LIDT.MIPStarRE.Quantum DistanceCalculus PolynomialImageBounds
+
+noncomputable section
+
+namespace ExtendedLineGame
+
+/-- Actual mass of scalar-linear outcomes whose second coefficient in the
+chosen order depends on the varying block. In order `XZ` this is the coefficient
+of beta depending on x; in order `ZX` it is the coefficient of alpha depending
+on z. These are the two classes in `eq:qld-g-prime-xpt-bound` and
+`eq:qld-g-prime-zpt-bound`, supporting blueprint `lem:qld-4-7`. -/
+def scalarWrongVariableMass {P : _root_.MIPStarRE.QPBT.AdmissibleParams} {ε : ℝ}
+    (S : _root_.MIPStarRE.QPBT.ProjectiveSetting P ε) (p : _root_.MIPStarRE.QPBT.Placement)
+    (R : _root_.MIPStarRE.QPBT.DirectPolyMeasTuple P.extendedDirectLd (S.ExpandedLocalSpace p.side))
+    (reverse : Bool) : ℝ := by
+  classical
+  exact ∑ g ∈ Finset.univ.filter (fun g =>
+    (∃ r t : MvPolynomial (Fin (2 * P.m)) (_root_.MIPStarRE.QPBT.PauliScalar P),
+      _root_.MIPStarRE.QPBT.ExtendedLineGame.scalarPolynomial P g = MvPolynomial.C r * MvPolynomial.X 0 +
+        MvPolynomial.C t * MvPolynomial.X 1) ∧
+    ¬ ∃ r, _root_.MIPStarRE.QPBT.ExtendedLineGame.blockCoefficientPolynomial P g
+      (Finsupp.single (if reverse then 0 else 1) 1) reverse = MvPolynomial.C r),
+    ‖_root_.MIPStarRE.QPBT.applyOperatorToState (S.place p (R.effect g)) S.psiHat‖ ^ 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-- Mass outside the existing bounded polynomial-pair combining image after
+the canonical field transport. This is the actual separated image of
+`eq:qld-g-non-separable` and `def:combine-map`, supporting blueprint
+`lem:qld-4-7`; no completion or overlap assertion is included. -/
+def separatedPolynomialMass {P : _root_.MIPStarRE.QPBT.AdmissibleParams} {ε : ℝ}
+    (S : _root_.MIPStarRE.QPBT.ProjectiveSetting P ε) (p : _root_.MIPStarRE.QPBT.Placement)
+    (R : _root_.MIPStarRE.QPBT.DirectPolyMeasTuple P.extendedDirectLd (S.ExpandedLocalSpace p.side)) : ℝ := by
+  classical
+  exact ∑ g ∈ Finset.univ.filter (fun g => ¬ ∃ pair : _root_.MIPStarRE.QPBT.PolyPair P,
+      MvPolynomial.map (_root_.MIPStarRE.QPBT.extendedDirectScalarEquiv P).toRingHom (g (0 : Fin 1)).1 =
+        _root_.MIPStarRE.QPBT.combinePoly pair.1.1 pair.2.1),
+    ‖_root_.MIPStarRE.QPBT.applyOperatorToState (S.place p (R.effect g)) S.psiHat‖ ^ 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end ExtendedLineGame
+
+end
+
+end MIPStarRE.QPBT

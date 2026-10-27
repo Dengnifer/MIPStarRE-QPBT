@@ -1,0 +1,302 @@
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Coefficients.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_CondLinear.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_LowDegreeCode.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Subspaces.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_State.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Upstream.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Defs.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean:94:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean:399:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean:500:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean:502:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistanceTheorems_Support.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistanceTheorems_Support.lean:90:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistanceTheorems_Support.lean:93:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Distance.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_RowEchelon.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquare.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistributionAux.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistributionAux.lean:271:10: warning: `Equiv.apply_eq_iff_eq_symm_apply` has been deprecated: Use `Equiv.eq_symm_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u_1} {β : Sort u_2} (e : α ≃ β) {x : β} {y : α}, y = e.symm x ↔ e y = x
+instead of
+  ∀ {α : Sort u} {β : Sort v} {x : α} {y : β} (f : α ≃ β), f x = y ↔ x = f.symm y
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Pauli.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Pauli.lean:197:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Pauli.lean:403:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_StrategyClasses.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistributionMarginals.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistributionMarginals.lean:67:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Consistency.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Lines.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_LowDegreeGame.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Test_LowDegreeGame.lean:191:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_LowDegreeGameMeasurements.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Test_LowDegreeGameMeasurements.lean:101:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_PauliBasisTest.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Test_PauliBasisTest.lean:631:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_LineDefs.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Geometry.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Game.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Correspondence.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_SeedFiber.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_SeedFiber.lean:144:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:228:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:253:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:269:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:281:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:296:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:329:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:343:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:365:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:429:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:449:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Measurements.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Measurements.lean:133:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Measurements.lean:144:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Measurements.lean:195:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean:160:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean:189:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean:211:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean:236:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_State.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_State.lean:99:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_State.lean:112:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_State.lean:135:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directLdtPointNonempty.lean:69:20: warning: declaration uses `sorry`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Theorems/Thm_MIPStarRE_QPBT_directPointPolynomial_consistencyDefect_le.lean:74:8: warning: declaration uses `sorry`

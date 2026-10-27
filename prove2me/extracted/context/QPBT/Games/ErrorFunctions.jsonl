@@ -1,0 +1,4 @@
+{"kind":"section","range":{"end":{"col":24,"line":18,"offset":475},"start":{"col":0,"line":18,"offset":451}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":20,"offset":501},"start":{"col":0,"line":20,"offset":477}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":22,"offset":527},"start":{"col":12,"line":22,"offset":515}}}
+{"kind":"end","range":{"end":{"col":18,"line":81,"offset":3800},"start":{"col":0,"line":81,"offset":3782}}}

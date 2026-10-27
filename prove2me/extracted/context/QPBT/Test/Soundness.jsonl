@@ -1,0 +1,12 @@
+{"kind":"section","range":{"end":{"col":24,"line":33,"offset":1252},"start":{"col":0,"line":33,"offset":1228}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":35,"offset":1278},"start":{"col":12,"line":35,"offset":1266}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":31,"line":35,"offset":1285},"start":{"col":25,"line":35,"offset":1279}}}
+{"kind":"openName","name":"ComplexOrder","range":{"end":{"col":44,"line":35,"offset":1298},"start":{"col":32,"line":35,"offset":1286}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":37,"offset":1324},"start":{"col":0,"line":37,"offset":1300}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":39,"offset":1344},"start":{"col":5,"line":39,"offset":1331}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":40,"offset":1367},"start":{"col":5,"line":40,"offset":1350}}}
+{"kind":"section","range":{"end":{"col":21,"line":42,"offset":1390},"start":{"col":0,"line":42,"offset":1369}}}
+{"declEnd":{"col":90,"line":100,"offset":4401},"declStart":{"col":0,"line":44,"offset":1392},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":56,"offset":2053},"start":{"col":0,"line":56,"offset":2046}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":53,"line":126,"offset":5747},"declStart":{"col":0,"line":102,"offset":4403},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":115,"offset":5094},"start":{"col":0,"line":115,"offset":5087}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":128,"offset":5752},"start":{"col":0,"line":128,"offset":5749}}}
+{"kind":"end","range":{"end":{"col":18,"line":130,"offset":5772},"start":{"col":0,"line":130,"offset":5754}}}

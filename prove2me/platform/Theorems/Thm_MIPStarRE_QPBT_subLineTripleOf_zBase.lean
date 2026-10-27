@@ -1,0 +1,125 @@
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Algebra_Lines
+import Definitions.Def_QPBT_QPBT_Combining_Defs
+import Definitions.Def_QPBT_QPBT_Combining_DirectLowDegree_Geometry
+import Definitions.Def_QPBT_QPBT_Combining_Lines_SubLineBranch
+import Definitions.Def_QPBT_QPBT_Combining_Lines_SubLineConstruct
+import Definitions.Def_QPBT_QPBT_Combining_Witnesses
+import Definitions.Def_QPBT_QPBT_Observables_LineDefs
+import Definitions.Def_QPBT_QPBT_Test_LowDegreeGame
+import Definitions.Def_QPBT_QPBT_Test_PauliBasisTest
+import Mathlib
+import Mathlib.Analysis.MeanInequalitiesPow
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+
+/-!
+# The sampling procedure of the sub-line lemma
+
+This module carries out the sampling procedure of `lem:qld-sublines`.  A line
+kind is drawn from the two kinds, an extended coordinate and an extended point
+and direction are drawn uniformly, and two scalar seeds are drawn
+independently in the coordinate-index fibers of the two coordinates that the
+two source lines must carry.  The sampled triple consists of the axis or
+diagonal line of the extended sample together with the two source lines
+decoded from the two coordinate blocks of the extended point and direction and
+from the two seeds.
+
+The module records the elementary evaluations of that triple, the description
+of the support of the resulting law, the three pointwise properties of a
+sampled triple -- incidence of the two source blocks, compatibility of the
+affine data, and closure of the axis branch -- and the identification of its
+extended-line marginal.
+
+## References
+
+The construction is the proof of `lem:qld-sublines` in
+blueprint `lem:qld-sublines`, whose source is
+`references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:1063-1116`.
+The restricted laws are `def:ith-restricted-line`, blueprint lines
+1209--1228, paper lines 1038--1048.
+-/
+
+
+
+open scoped BigOperators
+
+open MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT
+
+
+
+/-! ## The auxiliary randomness of one branch -/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-! ## The sampled triple -/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-! ## Elementary evaluations of the sampled triple -/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-! ## The support of the sub-line law -/
+
+
+
+/-! ## Pointwise properties of a sampled triple -/
+
+theorem MIPStarRE.QPBT.subLineTripleOf_zBase (P : _root_.MIPStarRE.QPBT.AdmissibleParams) (kind : _root_.MIPStarRE.QPBT.LineKind)
+    (k : Fin (2 * P.m + 2)) (w : _root_.MIPStarRE.QPBT.SubLineSamplingData P)
+    (hz : _root_.MIPStarRE.QPBT.chiIndex P.toLdParams w.2.2 = _root_.MIPStarRE.QPBT.subLineZIndex P k) :
+    (_root_.MIPStarRE.QPBT.subLineTripleOf P kind k w).2.2.base =
+      _root_.MIPStarRE.QPBT.lineRepMap (_root_.MIPStarRE.QPBT.subLineTripleOf P kind k w).2.2.direction
+        (_root_.MIPStarRE.QPBT.projZ (_root_.MIPStarRE.QPBT.directPointToPauli P (_root_.MIPStarRE.QPBT.subLineTripleOf P kind k w).1.base)) := by sorry

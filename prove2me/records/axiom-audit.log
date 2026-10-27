@@ -1,0 +1,88 @@
+axioms of 'MIPStarRE.QPBT.pauli_soundness': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_qubit': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_explicit_baseline': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_qubit_explicit_baseline': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_canonical': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_qubit_quantitative': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_qubit_quantitative_canonical': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_mixed_components': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_qubit_quantitative_mixed_components': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_fractional': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_qubit_quantitative_fractional': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_qubit_quantitative_degree_two': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_power_eq_gain_mul_baseline': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_envelope_pos': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.sqrt_quantitative_extraction_scale_le': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.sqrt_quantitative_extraction_scale_le_degree_two': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_ratio_le_degree_two_base': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_error_le_degree_two_base': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_ratio_lt_four_billionth_of_degree_two_raw_lt_four': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.sqrt_quantitative_extraction_scale_lt_four_thousandths': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_extraction_scale_lt_one_of_degree_two_raw_lt_four': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_state_component_lt_degree_two_raw_error': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_operator_component_lt_degree_two_raw_error': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two_error_le_quantitative_error': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_fractional_error_le_degree_two': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two_error_lt_quantitative_error_iff': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two_error_le_deltaQld': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.deltaQld_quantitative_lt_explicit_baseline': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_error_lt_explicit_baseline_clipped': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_quantitative_degree_two_error_lt_explicit_baseline_clipped': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_ld_soundness': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_spcc_value_one': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.honestStrategy_isSPCC': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_combinedLinesWitness': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_extendedLinesWitness_established': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_globalPairWitness': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_actual_rounded_global_pair_error_bound': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_native_error_rpow_le_separated': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_native_global_pair_error_le_separated': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_native_global_pair_error_le_fractional': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_native_global_pair_error_bound': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_quantitative_global_pair_witness_native': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_quantitative_global_pair_witness_at_native_error': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_native_extraction_scale_bounds': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_native_error_one_sixteenth_le_fractional_base': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_native_global_pair_sqrt_le_fractional_base': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.quantitative_native_extraction_sqrt_le_fractional_base': [propext,
+ Classical.choice,
+ Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_projective_setting_isometry_bounds': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_arbitrary_strategy_isometry_bounds': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.pauli_soundness_deltaQld_ofExtractionWitness': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.exists_symmetric_projective_strategy_approx': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.Palomar.exists_spcc_value_one': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.Palomar.exists_ld_soundness': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.Palomar.pauli_soundness': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.Palomar.pauli_soundness_qubit': [propext, Classical.choice, Quot.sound]
+axioms of 'MIPStarRE.QPBT.fixedFieldModel': [propext, Classical.choice, Quot.sound]

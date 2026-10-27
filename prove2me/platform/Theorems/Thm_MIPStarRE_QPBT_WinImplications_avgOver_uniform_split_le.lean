@@ -1,0 +1,78 @@
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_Distribution
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Algebra_LowDegreeCode
+import Definitions.Def_QPBT_QPBT_Observables_Anticommuting
+import Definitions.Def_QPBT_QPBT_Observables_WinImplications_TwistedCommutation
+import Definitions.Def_QPBT_QPBT_Test_PauliBasisTest
+import Mathlib
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+namespace MIPStarRE.QPBT.WinImplications
+end MIPStarRE.QPBT.WinImplications
+
+/-!
+# The phase-signed commutation relation of the point observables
+
+This module assembles the commuting and anticommuting halves into Equation
+`eq:pts-obs-commutation` of `lem:qld-win-implications-obs`: on average over a
+uniformly random tuple the two point observables commute up to the sign
+`(-1)^gamma(omega)`, with error the square root of the test error.
+
+## References
+
+The declarations formalize the first assertion of
+`lem:qld-win-implications-obs` in
+`blueprint/src/chapter/ch14_qpbt_observables.tex:761-794`, whose paper source
+is `references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:309-362`.
+-/
+
+
+
+open scoped BigOperators Matrix ComplexOrder
+
+open MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT hiding Measurement
+open LIDT.MIPStarRE.Quantum
+
+
+
+open MIPStarRE.QPBT.WinImplications
+
+
+
+/-! ## The unconditional bound on a difference of reflections -/
+
+
+
+
+
+/-! ## Splitting the uniform average -/
+attribute [local instance] _root_.MIPStarRE.QPBT.WinImplications.pauliEdgeNonemptyTwisted
+
+theorem MIPStarRE.QPBT.WinImplications.avgOver_uniform_split_le (P : _root_.MIPStarRE.QPBT.AdmissibleParams)
+    (f : _root_.MIPStarRE.QPBT.PauliTuple P → ℝ) (hf : ∀ ω, 0 ≤ f ω) {Kc Ka : ℝ}
+    (hc : _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.commTupleDist P) f ≤ Kc)
+    (ha : _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.MIPStarRE.QPBT.anticommTupleDist P) f ≤ Ka) :
+    _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.LIDT.MIPStarRE.LDT.uniformDistribution (_root_.MIPStarRE.QPBT.PauliTuple P)) f ≤ Kc + Ka := by sorry

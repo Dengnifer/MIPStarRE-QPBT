@@ -1,0 +1,10 @@
+{"kind":"section","range":{"end":{"col":24,"line":20,"offset":635},"start":{"col":0,"line":20,"offset":611}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":22,"offset":661},"start":{"col":12,"line":22,"offset":649}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":24,"offset":687},"start":{"col":0,"line":24,"offset":663}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":26,"offset":707},"start":{"col":5,"line":26,"offset":694}}}
+{"kind":"openName","name":"Measurement","range":{"end":{"col":37,"line":26,"offset":726},"start":{"col":26,"line":26,"offset":715}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":27,"offset":749},"start":{"col":5,"line":27,"offset":732}}}
+{"kind":"section","range":{"end":{"col":21,"line":29,"offset":772},"start":{"col":0,"line":29,"offset":751}}}
+{"declEnd":{"col":82,"line":73,"offset":3227},"declStart":{"col":0,"line":31,"offset":774},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":37,"offset":1137},"start":{"col":0,"line":37,"offset":1130}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":75,"offset":3232},"start":{"col":0,"line":75,"offset":3229}}}
+{"kind":"end","range":{"end":{"col":18,"line":77,"offset":3252},"start":{"col":0,"line":77,"offset":3234}}}

@@ -1,0 +1,126 @@
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_LIDT_MIPStarRE_Quantum_FiniteMatrix_Basic
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Algebra_LowDegreeCode
+import Definitions.Def_QPBT_QPBT_Algebra_Pauli
+import Definitions.Def_QPBT_QPBT_Games_Defs
+import Definitions.Def_QPBT_QPBT_Observables_Defs
+import Definitions.Def_QPBT_QPBT_Observables_ExpandedDefs
+import Definitions.Def_QPBT_QPBT_State
+import Definitions.Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Reflections
+import Definitions.Def_QPBT_QPBT_Test_PauliBasisTest
+import Mathlib
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+namespace MIPStarRE.QPBT.ProjectiveSetting
+end MIPStarRE.QPBT.ProjectiveSetting
+
+/-!
+# Placing operators on the expanded state
+
+The four register placements of `def:symmetric-equivalents` put an operator of
+one player's expanded local space on one of the register pairs `AA'`, `BA''`,
+`BB'` and `AB''` of the expanded state `psiHat`.  This module records how such
+a placement acts on `psiHat`: after the shuffle of `eq:def-psihat` the placed
+operator is a threefold tensor product, so a factorized operator whose Pauli
+factor is an isometry has the same state-dependent norm as its strategy factor
+placed on the original state.  No symmetry between the two players is used;
+each of the four placements is treated explicitly.
+
+## References
+
+The declarations support `def:symmetric-equivalents` and `lem:qld-comm-cons`
+in `blueprint/src/chapter/ch14_qpbt_observables.tex:1002-1031` and
+`blueprint/src/chapter/ch14_qpbt_observables.tex:1139-1178`.  Their paper source
+is `references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:420-505`.
+-/
+
+
+
+-- The unshuffled six-register index type of `eq:def-psihat` is a fourfold
+-- iterated product; instance search for its `Fintype` and `DecidableEq`
+-- structure needs a larger budget than the default.
+set_option synthInstance.maxSize 400
+
+open scoped BigOperators Matrix ComplexOrder
+
+open MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT hiding Measurement
+open LIDT.MIPStarRE.Quantum
+
+
+
+/-! ## Coordinate tensors -/
+
+
+
+
+
+
+
+
+
+
+
+open MIPStarRE.QPBT.ProjectiveSetting
+
+
+
+
+
+variable {P : _root_.MIPStarRE.QPBT.AdmissibleParams} {ε : ℝ}
+
+/-! ## The strategy factor of a placement -/
+
+
+
+
+
+/-! ## The action of a placement on the expanded state -/
+
+
+
+
+
+/-! ## Opposite-placement bipartitions -/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-! ## The four placements -/
+
+theorem MIPStarRE.QPBT.ProjectiveSetting.norm_place_AB_prime_prime_heteroKron_psiHat (S : _root_.MIPStarRE.QPBT.ProjectiveSetting P ε)
+    (T : _root_.LIDT.MIPStarRE.Quantum.Op S.toStrategy.ιA) (V : _root_.LIDT.MIPStarRE.Quantum.Op (_root_.MIPStarRE.QPBT.PauliRegister P)) (hV : Vᴴ * V = 1) :
+    ‖_root_.MIPStarRE.QPBT.applyOperatorToState (S.place .AB'' (_root_.MIPStarRE.QPBT.heteroKron T V)) S.psiHat‖ =
+      ‖_root_.MIPStarRE.QPBT.applyOperatorToState
+        (_root_.MIPStarRE.QPBT.heteroKron T (1 : _root_.LIDT.MIPStarRE.Quantum.Op S.toStrategy.ιB)) S.toStrategy.ψ‖ := by sorry

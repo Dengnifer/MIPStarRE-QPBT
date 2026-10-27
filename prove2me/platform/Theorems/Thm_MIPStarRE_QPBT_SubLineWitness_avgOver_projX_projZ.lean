@@ -1,0 +1,72 @@
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_Distribution
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Combining_Defs
+import Definitions.Def_QPBT_QPBT_Combining_DirectLowDegree_Geometry
+import Definitions.Def_QPBT_QPBT_Combining_Lines_SubLineTransport
+import Definitions.Def_QPBT_QPBT_Combining_Witnesses
+import Definitions.Def_QPBT_QPBT_Games_DistributionAux
+import Definitions.Def_QPBT_QPBT_Observables_LineDefs
+import Definitions.Def_QPBT_QPBT_Test_PauliBasisTest
+import Mathlib
+import Mathlib.Analysis.MeanInequalitiesPow
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+
+/-!
+# A uniform point of the extended space from the sub-line law
+
+The first scalar estimate in the combining argument samples an extended line
+from the directly indexed sub-line witness and then a uniform affine parameter.
+This module records that the resulting extended point is uniform and hence
+that its two source coordinate blocks are independent uniform points.
+This is an auxiliary law. Transport to the source's seed-indexed extended
+distribution remains open, as recorded in
+`docs/paper-gaps/qpbt_subline-claims-line-marginal.tex`.
+
+## References
+
+These statements support `lem:claim-17-1` in
+`blueprint/src/chapter/ch15_qpbt_combining.tex`.  The paper uses this sampling
+fact at
+`references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:1159-1166`.
+-/
+
+
+
+open scoped BigOperators
+
+open MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT
+
+theorem MIPStarRE.QPBT.SubLineWitness.avgOver_projX_projZ (P : _root_.MIPStarRE.QPBT.AdmissibleParams)
+    (sublines : _root_.MIPStarRE.QPBT.SubLineWitness P)
+    (f : ((Fin P.m → _root_.MIPStarRE.QPBT.PauliScalar P) × (Fin P.m → _root_.MIPStarRE.QPBT.PauliScalar P)) → ℝ) :
+    _root_.LIDT.MIPStarRE.LDT.avgOver sublines.D (fun sample =>
+        _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.LIDT.MIPStarRE.LDT.uniformDistribution (_root_.MIPStarRE.QPBT.DirectScalarQ P.extendedDirectLd))
+          (fun t =>
+            f (_root_.MIPStarRE.QPBT.projX (_root_.MIPStarRE.QPBT.directPointToPauli P
+                (sample.1.base + t • sample.1.direction)),
+              _root_.MIPStarRE.QPBT.projZ (_root_.MIPStarRE.QPBT.directPointToPauli P
+                (sample.1.base + t • sample.1.direction))))) =
+      _root_.LIDT.MIPStarRE.LDT.avgOver (_root_.LIDT.MIPStarRE.LDT.uniformDistribution
+        ((Fin P.m → _root_.MIPStarRE.QPBT.PauliScalar P) × (Fin P.m → _root_.MIPStarRE.QPBT.PauliScalar P))) f := by sorry

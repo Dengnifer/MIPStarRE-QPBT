@@ -1,0 +1,186 @@
+-- Generated from QPBT/Observables/LineMeasurement/Projector.lean by skeleton subtraction.
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_LIDT_MIPStarRE_Quantum_FiniteMatrix_Basic
+import Definitions.Def_LIDT_MIPStarRE_Quantum_Measurement
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Algebra_LowDegreeCode
+import Definitions.Def_QPBT_QPBT_Algebra_Pauli
+import Definitions.Def_QPBT_QPBT_Observables_LineDefs
+import Definitions.Def_QPBT_QPBT_Observables_LineMeasurement_Restriction
+import Definitions.Def_QPBT_QPBT_Test_LowDegreeGame
+import Definitions.Def_QPBT_QPBT_Test_PauliBasisTest
+import Mathlib
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+
+/-!
+# Pauli-register line projectors
+
+This module constructs the projective measurement `tau^{W,line}` of one
+generalized-Pauli register whose outcome is the restriction to a canonical
+line of the low-degree encoding of the measured basis label. It records that
+the outcome projectors are orthogonal projections summing to the identity,
+that they are symmetric matrices (so that they act identically on either half
+of an EPR pair), and that on an axis-parallel line they vanish outside the
+embedded degree-`d` subspace.
+
+## References
+
+The projectors are `tau^{W,line}_{f''}` of `def:expanded-line-measurement`,
+with paper source
+`references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:552-556`. Their
+perfect self-consistency on an EPR pair is the ancillary input to item 1 of
+`lem:qld-comm-line-cons`, paper
+`references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:527-532`.
+-/
+
+@[expose] public section
+
+open scoped BigOperators Matrix MatrixOrder ComplexOrder
+
+namespace MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT hiding Measurement
+open LIDT.MIPStarRE.Quantum
+
+noncomputable section
+
+/-- The Pauli-register projector onto labels whose low-degree encoding
+restricts to `f` on `line`. This is `tau^{W,line}_f` in the proof of
+`lem:qld-comm-line-cons`, paper
+`14_analysis_of_the_pauli_basis_test.tex:552-556`, blueprint
+`def:expanded-line-measurement`. -/
+noncomputable def tauLineProj (P : _root_.MIPStarRE.QPBT.AdmissibleParams) (W : _root_.MIPStarRE.QPBT.PauliKind)
+    (line : _root_.MIPStarRE.QPBT.LineDesc P.toLdParams) (f : _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d)) :
+    _root_.LIDT.MIPStarRE.Quantum.Op (_root_.MIPStarRE.QPBT.PauliRegister P) :=
+  ∑ h ∈ Finset.univ.filter (fun h : _root_.MIPStarRE.QPBT.PauliRegister P =>
+      _root_.MIPStarRE.QPBT.restrictToLine P.toLdParams line (_root_.MIPStarRE.QPBT.lowDegreeEncoding h) = f),
+    _root_.MIPStarRE.QPBT.pauliProj W h
+
+/-- Pauli line projectors are positive semidefinite. This is the positivity of
+the ancillary measurement in `def:expanded-line-measurement`, paper
+`14_analysis_of_the_pauli_basis_test.tex:552-556`. -/
+theorem tauLineProj_nonneg (P : _root_.MIPStarRE.QPBT.AdmissibleParams) (W : _root_.MIPStarRE.QPBT.PauliKind)
+    (line : _root_.MIPStarRE.QPBT.LineDesc P.toLdParams) (f : _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d)) :
+    0 ≤ _root_.MIPStarRE.QPBT.tauLineProj P W line f := by
+  classical
+  unfold _root_.MIPStarRE.QPBT.tauLineProj
+  exact Finset.sum_nonneg fun e _ => (_root_.MIPStarRE.QPBT.posSemidef_pauliProj W e).nonneg
+
+
+
+/-- Pauli line projectors belonging to distinct line polynomials are
+orthogonal, while each projector is idempotent. This is the ancillary product
+calculation in `def:expanded-line-measurement` and item 1 of
+`lem:qld-comm-line-cons`, paper
+`14_analysis_of_the_pauli_basis_test.tex:552-558`. -/
+theorem tauLineProj_mul_tauLineProj (P : _root_.MIPStarRE.QPBT.AdmissibleParams) (W : _root_.MIPStarRE.QPBT.PauliKind)
+    (line : _root_.MIPStarRE.QPBT.LineDesc P.toLdParams) (f g : _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d)) :
+    _root_.MIPStarRE.QPBT.tauLineProj P W line f * _root_.MIPStarRE.QPBT.tauLineProj P W line g =
+      if f = g then _root_.MIPStarRE.QPBT.tauLineProj P W line f else 0 := by
+  classical
+  unfold _root_.MIPStarRE.QPBT.tauLineProj
+  rw [Finset.sum_mul]
+  simp_rw [Finset.mul_sum]
+  by_cases hfg : f = g
+  · subst g
+    rw [if_pos rfl]
+    apply Finset.sum_congr rfl
+    intro e he
+    rw [Finset.sum_eq_single e]
+    · rw [_root_.MIPStarRE.QPBT.pauliProj_mul_pauliProj, if_pos rfl]
+    · intro e' he' hee'
+      rw [_root_.MIPStarRE.QPBT.pauliProj_mul_pauliProj, if_neg hee'.symm]
+    · exact fun h => (h he).elim
+  · rw [if_neg hfg]
+    apply Finset.sum_eq_zero
+    intro e he
+    apply Finset.sum_eq_zero
+    intro e' he'
+    rw [_root_.MIPStarRE.QPBT.pauliProj_mul_pauliProj, if_neg]
+    intro hee'
+    apply hfg
+    rw [← (Finset.mem_filter.mp he).2, ← (Finset.mem_filter.mp he').2, hee']
+
+/-- The line fibers partition the complete family of Pauli eigenspace
+projectors. This is the completeness of the ancillary measurement in
+`def:expanded-line-measurement`, paper
+`14_analysis_of_the_pauli_basis_test.tex:552-556`. -/
+theorem sum_tauLineProj_eq_one (P : _root_.MIPStarRE.QPBT.AdmissibleParams) (W : _root_.MIPStarRE.QPBT.PauliKind)
+    (line : _root_.MIPStarRE.QPBT.LineDesc P.toLdParams) :
+    ∑ f, _root_.MIPStarRE.QPBT.tauLineProj P W line f = 1 := by
+  classical
+  rw [show (∑ f, _root_.MIPStarRE.QPBT.tauLineProj P W line f) =
+      ∑ e : _root_.MIPStarRE.QPBT.PauliRegister P, _root_.MIPStarRE.QPBT.pauliProj W e by
+    simp only [_root_.MIPStarRE.QPBT.tauLineProj]
+    exact Finset.sum_fiberwise Finset.univ
+      (fun e : _root_.MIPStarRE.QPBT.PauliRegister P =>
+        _root_.MIPStarRE.QPBT.restrictToLine P.toLdParams line (_root_.MIPStarRE.QPBT.lowDegreeEncoding e))
+      (fun e => _root_.MIPStarRE.QPBT.pauliProj W e)]
+  exact _root_.MIPStarRE.QPBT.sum_pauliProj_eq_one W
+
+/-- The projective line measurement on one Pauli register obtained by
+measuring the generalized Pauli basis and restricting the low-degree encoding
+of the outcome to `line`. This is the ancillary measurement of
+`def:expanded-line-measurement`, paper
+`14_analysis_of_the_pauli_basis_test.tex:552-556`. -/
+noncomputable def tauLineMeas (P : _root_.MIPStarRE.QPBT.AdmissibleParams) (W : _root_.MIPStarRE.QPBT.PauliKind)
+    (line : _root_.MIPStarRE.QPBT.LineDesc P.toLdParams) :
+    _root_.LIDT.MIPStarRE.Quantum.Measurement (_root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d)) (_root_.MIPStarRE.QPBT.PauliRegister P) :=
+  _root_.LIDT.MIPStarRE.Quantum.Measurement.ofSumEqOne (_root_.MIPStarRE.QPBT.tauLineProj P W line) (_root_.MIPStarRE.QPBT.tauLineProj_nonneg P W line)
+    (_root_.MIPStarRE.QPBT.sum_tauLineProj_eq_one P W line)
+
+/-- The effects of the Pauli line measurement are the line projectors. -/
+@[simp] theorem tauLineMeas_effect (P : _root_.MIPStarRE.QPBT.AdmissibleParams) (W : _root_.MIPStarRE.QPBT.PauliKind)
+    (line : _root_.MIPStarRE.QPBT.LineDesc P.toLdParams) (f : _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d)) :
+    (_root_.MIPStarRE.QPBT.tauLineMeas P W line).effect f = _root_.MIPStarRE.QPBT.tauLineProj P W line f := rfl
+
+
+
+/-! ## Interaction with the point projectors -/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-! ## Perfect consistency on an EPR pair -/
+
+
+
+
+
+
+
+end
+
+end MIPStarRE.QPBT

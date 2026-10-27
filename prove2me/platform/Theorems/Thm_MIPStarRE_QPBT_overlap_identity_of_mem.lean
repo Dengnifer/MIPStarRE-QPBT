@@ -1,0 +1,189 @@
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_LIDT_MIPStarRE_Quantum_FiniteMatrix_Basic
+import Definitions.Def_LIDT_MIPStarRE_Quantum_Measurement
+import Definitions.Def_QPBT_QPBT_Algebra_Coefficients
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Algebra_LowDegreeCode
+import Definitions.Def_QPBT_QPBT_Algebra_Pauli
+import Definitions.Def_QPBT_QPBT_Games_Defs
+import Definitions.Def_QPBT_QPBT_Games_DistanceTheorems_Support
+import Definitions.Def_QPBT_QPBT_Observables_ExpandedDefs
+import Definitions.Def_QPBT_QPBT_Observables_LineDefs
+import Definitions.Def_QPBT_QPBT_Observables_LineMeasurement_Expanded
+import Definitions.Def_QPBT_QPBT_Observables_LineMeasurement_Projector
+import Definitions.Def_QPBT_QPBT_Observables_LineMeasurement_Restriction
+import Definitions.Def_QPBT_QPBT_Observables_WinImplications_LowDegree
+import Definitions.Def_QPBT_QPBT_Test_LowDegreeGame
+import Definitions.Def_QPBT_QPBT_Test_PauliBasisTest
+import Mathlib
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+namespace MIPStarRE.QPBT.DistanceCalculus
+end MIPStarRE.QPBT.DistanceCalculus
+namespace MIPStarRE.QPBT.ProjectiveSetting
+end MIPStarRE.QPBT.ProjectiveSetting
+
+/-!
+# Overlap of expanded line and expanded point measurements
+
+This module computes the diagonal overlap, on the expanded state, between an
+expanded line measurement on one placement and the expanded point effects
+selected by evaluation at the sampled point on the opposite placement. Each
+product of convolution terms factorizes into a strategy overlap and an EPR
+overlap; the EPR overlap of a Pauli line projector with a Pauli point projector
+vanishes unless the line polynomial evaluates to the point value, and then
+equals the EPR overlap of the line projector alone. Summing over the
+convolution fibers identifies the expanded overlap with the overlap of the
+strategy's evaluation classes and its completed point measurement. This is the
+computation displayed in items 2 and 3 of the expanded-line consistency lemma.
+
+The sections on the linearity of the state quadratic form, on register
+placements, and on the completed point measurements collect formalization-only
+auxiliaries: the source uses these facts without stating them.
+
+## References
+
+Items 2 and 3 of `lem:qld-comm-line-cons`, paper
+`references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:534-545`,
+blueprint `eq:qld-comm-line-pt-cons`, `eq:qld-comm-line-pt-cons2`.
+-/
+
+
+
+open scoped BigOperators Matrix MatrixOrder ComplexOrder
+
+open MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT hiding Measurement
+open LIDT.MIPStarRE.Quantum
+
+
+
+/-! ## Linearity of the state quadratic form -/
+
+open MIPStarRE.QPBT.DistanceCalculus
+
+
+
+
+
+open MIPStarRE.QPBT.ProjectiveSetting
+
+variable {P : _root_.MIPStarRE.QPBT.AdmissibleParams} {ε : ℝ}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-! ## Effects of the completed measurement families -/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-! ## Factorization of opposite placements with distinct Pauli factors -/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-! ## The overlap identity -/
+
+theorem MIPStarRE.QPBT.overlap_identity_of_mem (P : _root_.MIPStarRE.QPBT.AdmissibleParams) (W : _root_.MIPStarRE.QPBT.PauliKind)
+    {ιL ιP : Type*} [Fintype ιL] [DecidableEq ιL] [Fintype ιP] [DecidableEq ιP]
+    (LM : _root_.LIDT.MIPStarRE.Quantum.Measurement (_root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d)) ιL)
+    (PM : _root_.LIDT.MIPStarRE.Quantum.Measurement (_root_.MIPStarRE.QPBT.ScalarQ P.toLdParams) ιP)
+    (Φ : _root_.LIDT.MIPStarRE.Quantum.Op (ιL × _root_.MIPStarRE.QPBT.PauliRegister P) → _root_.LIDT.MIPStarRE.Quantum.Op (ιP × _root_.MIPStarRE.QPBT.PauliRegister P) → ℝ)
+    (Ψ : _root_.LIDT.MIPStarRE.Quantum.Op ιL → _root_.LIDT.MIPStarRE.Quantum.Op ιP → ℝ)
+    (line : _root_.MIPStarRE.QPBT.LineDesc P.toLdParams) (u : Fin P.m → _root_.MIPStarRE.QPBT.ScalarQ P.toLdParams)
+    (hu : u ∈ line.pointSet)
+    (hΦ0 : ∀ X, Φ X 0 = 0)
+    (hΦl : ∀ (s : Finset (_root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d) ×
+        _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d)))
+      (X : _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d) × _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d) →
+        _root_.LIDT.MIPStarRE.Quantum.Op (ιL × _root_.MIPStarRE.QPBT.PauliRegister P)) (Y : _root_.LIDT.MIPStarRE.Quantum.Op (ιP × _root_.MIPStarRE.QPBT.PauliRegister P)),
+      Φ (∑ i ∈ s, X i) Y = ∑ i ∈ s, Φ (X i) Y)
+    (hΦr : ∀ (X : _root_.LIDT.MIPStarRE.Quantum.Op (ιL × _root_.MIPStarRE.QPBT.PauliRegister P))
+      (t : Finset (_root_.MIPStarRE.QPBT.ScalarQ P.toLdParams × _root_.MIPStarRE.QPBT.ScalarQ P.toLdParams))
+      (Y : _root_.MIPStarRE.QPBT.ScalarQ P.toLdParams × _root_.MIPStarRE.QPBT.ScalarQ P.toLdParams → _root_.LIDT.MIPStarRE.Quantum.Op (ιP × _root_.MIPStarRE.QPBT.PauliRegister P)),
+      Φ X (∑ j ∈ t, Y j) = ∑ j ∈ t, Φ X (Y j))
+    (hΦfact : ∀ (f' f'' : _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d)) (b' b'' : _root_.MIPStarRE.QPBT.ScalarQ P.toLdParams),
+      Φ (_root_.MIPStarRE.QPBT.heteroKron (LM.effect f') (_root_.MIPStarRE.QPBT.tauLineProj P W line f''))
+          (_root_.MIPStarRE.QPBT.heteroKron (PM.effect b') (_root_.MIPStarRE.QPBT.ProjectiveSetting.tauPointProj W u b'')) =
+        Ψ (LM.effect f') (PM.effect b') *
+          (if _root_.MIPStarRE.QPBT.evalOpt line u f'' = some b'' then
+            _root_.MIPStarRE.QPBT.DistanceCalculus.stateQForm (_root_.MIPStarRE.QPBT.eprState (_root_.MIPStarRE.QPBT.PauliRegister P))
+              (_root_.MIPStarRE.QPBT.heteroKron (_root_.MIPStarRE.QPBT.tauLineProj P W line f'') (1 : _root_.LIDT.MIPStarRE.Quantum.Op (_root_.MIPStarRE.QPBT.PauliRegister P)))
+          else 0))
+    (hΨl : ∀ (s : Finset (_root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d)))
+      (A : _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d) → _root_.LIDT.MIPStarRE.Quantum.Op ιL) (B : _root_.LIDT.MIPStarRE.Quantum.Op ιP),
+      Ψ (∑ i ∈ s, A i) B = ∑ i ∈ s, Ψ (A i) B)
+    (hΨ0 : ∀ A, Ψ A 0 = 0) :
+    (∑ f : _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d),
+      Φ (∑ p ∈ Finset.univ.filter
+          (fun p : _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d) ×
+            _root_.MIPStarRE.QPBT.DegPoly P.toLdParams (P.m * P.d) => p.1 + p.2 = f),
+          _root_.MIPStarRE.QPBT.heteroKron (LM.effect p.1) (_root_.MIPStarRE.QPBT.tauLineProj P W line p.2))
+        ((_root_.MIPStarRE.QPBT.evalOpt line u f).elim 0 (fun a =>
+          ∑ q ∈ Finset.univ.filter
+            (fun q : _root_.MIPStarRE.QPBT.ScalarQ P.toLdParams × _root_.MIPStarRE.QPBT.ScalarQ P.toLdParams => q.1 + q.2 = a),
+            _root_.MIPStarRE.QPBT.heteroKron (PM.effect q.1) (_root_.MIPStarRE.QPBT.ProjectiveSetting.tauPointProj W u q.2)))) =
+      ∑ o : Option (_root_.MIPStarRE.QPBT.ScalarQ P.toLdParams),
+        Ψ ((LM.postprocess (_root_.MIPStarRE.QPBT.evalOpt line u)).effect o)
+          ((PM.postprocess some).effect o) := by sorry

@@ -1,0 +1,546 @@
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Linearity_Defs.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Coefficients.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Linearity.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_LowDegreeCode.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ErrorBounds.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Subspaces.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Polynomial.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean:94:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean:399:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean:500:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_FieldBasis.lean:502:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Answers.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_SelfDualBasis.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_RowEchelon.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Coefficients.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_PassingError.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_PolynomialImageBounds.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_LowDegreeCodeTheorems.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Restriction.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_SelfDualBasisTheorems.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_CondLinearTheorems_Reindex.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_ErrorFunctions.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_ExplicitConstants.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Lines.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistanceTheorems_ProjectiveRounding.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Defs.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_CondLinear.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistanceTheorems.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_MeasurementCompression.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistanceTheorems_TensorSupport.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Distance.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Sandwich_Pasting_SchmidtMirror.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_LineMeasurement.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_CondLinearTheorems.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistanceTheorems_Support.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistanceTheorems_Support.lean:91:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistanceTheorems_Support.lean:94:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Anticommutation.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Sandwich_Defs.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_LowDegreeGame.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Test_LowDegreeGame.lean:191:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquare.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_State.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Quantum_ControlledUnitary.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Constants.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_Definitions.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_SubLineSeed.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_SubLineSupport.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Sandwich_Pasting_Heterogeneous.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Consistency.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Relations.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Dilation.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_StrategyClasses.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Upstream.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_GroundSlice.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Basic.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Soundness_Ancilla.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_AnticommutatorB.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Reflections.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Transfer.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistributionAux.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistributionAux.lean:271:10: warning: `Equiv.apply_eq_iff_eq_symm_apply` has been deprecated: Use `Equiv.eq_symm_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u_1} {β : Sort u_2} (e : α ≃ β) {x : β} {y : α}, y = e.symm x ↔ e y = x
+instead of
+  ∀ {α : Sort u} {β : Sort v} {x : α} {y : β} (f : α ≃ β), f x = y ↔ x = f.symm y
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_Bridge.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Pauli.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Pauli.lean:197:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Pauli.lean:403:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_CellRelations.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistributionMarginals.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Games_DistributionMarginals.lean:67:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_EPRProjection.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_Sandwich_Support.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Games_TypedCondLinear.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_PauliTheorems.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_PauliTheorems.lean:190:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_PauliTheorems.lean:347:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_PauliTheorems.lean:351:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_LineDefs.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_PerfectStrategy_Observables.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_LineMeasurement_Restriction.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_IdealTarget.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_ZeroDirectionMass.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_PerfectStrategy_Measurements.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_LowDegreeGameMeasurements.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Test_LowDegreeGameMeasurements.lean:101:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Swap.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_PauliBasisTest.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Test_PauliBasisTest.lean:631:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ZEvalDeficit.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Points_Commutation.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_Defs.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_SubLineBlocks.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Defs.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Defs.lean:140:10: warning: `Finsupp.mapDomain_notin_range` has been deprecated: Use `Finsupp.mapDomain_of_notMem_range` instead
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Geometry.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_Anticommuting.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_NondegeneratePastingMass.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_SubLineBranch.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_SubLineExtended.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_NondegeneratePastingDistribution.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Error.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Algebra_Decoding.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_LineResampling.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_PairCompletion.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Game.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_ParameterCompletion.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_AnyStrategySoundness.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_BranchComparison.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedCommutation.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_GameValue.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_SeedFiberValue.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Parameters.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Correspondence.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_WinImplications_Averages.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Recovery.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_LineMeasurement_Projector.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_WinImplications_ApproxLines.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_SeedFiber.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_SeedFiber.lean:144:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_GameValue.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedDefs.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedDefs.lean:279:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:228:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:253:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:269:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:281:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:296:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:329:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:343:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:365:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:429:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions.lean:449:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Points_Placement.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Compression.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Points_Consistency.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_Construction.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Strategy.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean:160:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean:189:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean:211:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy.lean:236:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Points_Orthonormalization.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Measurements.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Measurements.lean:133:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Measurements.lean:144:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Measurements.lean:195:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Value.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_WinPredicate.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_DiagonalRecursion.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_Defs.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_RecoveryTransport.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_State.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_State.lean:99:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_State.lean:112:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_State.lean:135:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_QuestionLaw.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Points_Sandwich.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_PointConsistencyPrime.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_PointConsistency.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_LineMeasurement_LinePointOverlap.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_EncodingSupport.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_PointConsistency.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_LineMeasurement_Expanded.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_EPRState.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedPlacement.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedPlacement.lean:157:12: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedPlacement.lean:157:2: warning: Unused tactic linter: `all_goals rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedPlacement.lean:172:12: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedPlacement.lean:172:2: warning: Unused tactic linter: `all_goals rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedPlacement.lean:188:12: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedPlacement.lean:188:2: warning: Unused tactic linter: `all_goals rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedPlacement.lean:203:12: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_ExpandedPlacement.lean:203:2: warning: Unused tactic linter: `all_goals rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_WinImplications_Commuting.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_WinImplications_Setup.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_StateTransport.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_WinImplications_Consistency.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_CombinedMeasurement.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_LowDegreeGameBridge.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_WinImplications_Interchange.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Points_PlacementSupport.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Points_PlacementSupport.lean:129:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Points_PlacementSupport.lean:130:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Completeness_Commutation.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_LowDegreeGameStrategyBridge.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_LowDegreeConsistencyBridge.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_BlockMeasurement.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_WinImplications_MagicSquare.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Observables_WinImplications_LowDegree.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Witnesses.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_PauliGameBridge.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_PauliGameBridge.lean:428:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_SubLineMixture.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Points.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_SubLineTransport.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_PairMeasurement.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_LinePointRejection.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_Lines_SubLineConstruct.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_SubLineXDeficit.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLines_Measurement.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_RetainedPointMass.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLines_Overlap.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_PairPointConsistency.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_SubLineZDeficit.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_PointPointRejection.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_Observables.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_ScalarPolynomial.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_EvaluatedLineComparison.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_LineNoneMass.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_SameLineCoefficientBound.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_SameLineRejection.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_WrongVariableMass.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_RoundedPolynomialEstimates.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_ParameterEvaluatedLineBound.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Combining_ExtendedLineGame_ScalarNonlinearMass.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_ConcretePauliComparison.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_PauliTransport.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_Consistency.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Soundness_NaimarkOperatorTransfer.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_Unitary.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Extraction_PullingMeasurement.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_TwoQubitSwap.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Completeness_HonestStrategy.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Completeness_HonestStrategy_MeasurementFamily.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Soundness_RawOperatorTransfer.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_SoundnessDefs.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Soundness_NaimarkReduction.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_QubitForm.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Soundness_StateTransfer.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Completeness.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Definitions/Def_QPBT_QPBT_Test_Completeness.lean:122:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_PauliGameStrategyBridge.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_ExtractionBridge.lean =====
+===== prove2me/platform/Definitions/Def_QPBT_QPBT_Palomar_PauliExtractionBridge.lean =====

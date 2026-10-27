@@ -1,0 +1,15 @@
+{"kind":"section","range":{"end":{"col":24,"line":44,"offset":1953},"start":{"col":0,"line":44,"offset":1929}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":46,"offset":1979},"start":{"col":12,"line":46,"offset":1967}}}
+{"kind":"openName","name":"MatrixOrder","range":{"end":{"col":36,"line":46,"offset":1991},"start":{"col":25,"line":46,"offset":1980}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":43,"line":46,"offset":1998},"start":{"col":37,"line":46,"offset":1992}}}
+{"kind":"openName","name":"ComplexOrder","range":{"end":{"col":56,"line":46,"offset":2011},"start":{"col":44,"line":46,"offset":1999}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":48,"offset":2037},"start":{"col":0,"line":48,"offset":2013}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":50,"offset":2057},"start":{"col":5,"line":50,"offset":2044}}}
+{"kind":"openName","name":"Measurement","range":{"end":{"col":37,"line":50,"offset":2076},"start":{"col":26,"line":50,"offset":2065}}}
+{"kind":"openName","name":"MIPStarRE.LDT.Preliminaries","range":{"end":{"col":32,"line":51,"offset":2109},"start":{"col":5,"line":51,"offset":2082}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":52,"offset":2132},"start":{"col":5,"line":52,"offset":2115}}}
+{"kind":"openName","name":"DistanceCalculus","range":{"end":{"col":21,"line":53,"offset":2154},"start":{"col":5,"line":53,"offset":2138}}}
+{"kind":"section","range":{"end":{"col":21,"line":55,"offset":2177},"start":{"col":0,"line":55,"offset":2156}}}
+{"declEnd":{"col":71,"line":109,"offset":5164},"declStart":{"col":0,"line":57,"offset":2179},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":67,"offset":2793},"start":{"col":0,"line":67,"offset":2786}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":111,"offset":5169},"start":{"col":0,"line":111,"offset":5166}}}
+{"kind":"end","range":{"end":{"col":18,"line":113,"offset":5189},"start":{"col":0,"line":113,"offset":5171}}}

@@ -1,0 +1,12 @@
+{"kind":"section","range":{"end":{"col":24,"line":19,"offset":516},"start":{"col":0,"line":19,"offset":492}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":21,"offset":542},"start":{"col":12,"line":21,"offset":530}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":31,"line":21,"offset":549},"start":{"col":25,"line":21,"offset":543}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT.Extraction","range":{"end":{"col":35,"line":23,"offset":586},"start":{"col":0,"line":23,"offset":551}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":25,"offset":610},"start":{"col":5,"line":25,"offset":593}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":36,"line":25,"offset":624},"start":{"col":23,"line":25,"offset":611}}}
+{"kind":"openName","name":"DistanceCalculus","range":{"end":{"col":53,"line":25,"offset":641},"start":{"col":37,"line":25,"offset":625}}}
+{"kind":"section","range":{"end":{"col":21,"line":27,"offset":664},"start":{"col":0,"line":27,"offset":643}}}
+{"declEnd":{"col":57,"line":83,"offset":3809},"declStart":{"col":0,"line":32,"offset":808},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":35,"offset":1026},"start":{"col":0,"line":35,"offset":1019}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":38,"line":116,"offset":5710},"declStart":{"col":0,"line":85,"offset":3811},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":88,"offset":4031},"start":{"col":0,"line":88,"offset":4024}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":118,"offset":5715},"start":{"col":0,"line":118,"offset":5712}}}
+{"kind":"end","range":{"end":{"col":29,"line":120,"offset":5746},"start":{"col":0,"line":120,"offset":5717}}}

@@ -1,0 +1,90 @@
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_Distribution
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_LIDT_MIPStarRE_Quantum_FiniteMatrix_Basic
+import Definitions.Def_LIDT_MIPStarRE_Quantum_Measurement
+import Definitions.Def_QPBT_QPBT_Games_Consistency
+import Definitions.Def_QPBT_QPBT_Games_Defs
+import Definitions.Def_QPBT_QPBT_Games_DistanceTheorems_Support
+import Definitions.Def_QPBT_QPBT_Games_DistanceTheorems_TensorSupport
+import Definitions.Def_QPBT_QPBT_State
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+namespace MIPStarRE.QPBT.DistanceCalculus
+end MIPStarRE.QPBT.DistanceCalculus
+
+/-! # Consistency under independent additive convolution
+
+Adding the outcomes of an independently perfectly correlated ancillary measurement
+pair preserves the consistency defect. The four register types are independent;
+`prodShuffle` places the two registers of each player next to one another.
+
+These are formalization-only auxiliary identities. Perfect ancillary correlation
+is a hypothesis of the generic result, to be proved for the Pauli measurements
+before applying it to the expanded point construction.
+
+## References
+
+- `references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:367-438`,
+  the expanded state and the convolution formula for expanded point effects.
+- The same paper, `lem:qld-construct-the-paulis`.
+- Blueprint `def:expanded-state` and `def:expanded-point-measurement`.
+- Issue Dengnifer/MIPStarRE-QPBT-bak#266; the ideal-point specialization is the separate issue
+  Dengnifer/MIPStarRE-QPBT-bak#267.
+-/
+
+
+
+open scoped BigOperators Matrix MatrixOrder ComplexOrder
+
+open MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.LDT hiding Measurement
+open LIDT.MIPStarRE.Quantum MIPStarRE.QPBT.DistanceCalculus
+
+
+
+variable {ιA ιB κA κB : Type*}
+  [Fintype ιA] [DecidableEq ιA] [Fintype ιB] [DecidableEq ιB]
+  [Fintype κA] [DecidableEq κA] [Fintype κB] [DecidableEq κB]
+
+theorem MIPStarRE.QPBT.consistencyDefect_convolution_eq_of_perfect
+    {X G ιA ιB κA κB : Type*}
+    [Fintype X] [DecidableEq X] [Fintype G] [DecidableEq G] [AddCommGroup G]
+    [Fintype ιA] [DecidableEq ιA] [Fintype ιB] [DecidableEq ιB]
+    [Fintype κA] [DecidableEq κA] [Fintype κB] [DecidableEq κB]
+    (μ : _root_.LIDT.MIPStarRE.LDT.Distribution X) (A : X → _root_.LIDT.MIPStarRE.Quantum.Measurement G ιA) (B : X → _root_.LIDT.MIPStarRE.Quantum.Measurement G ιB)
+    (R : X → _root_.LIDT.MIPStarRE.Quantum.Measurement G κA) (T : X → _root_.LIDT.MIPStarRE.Quantum.Measurement G κB)
+    (ψ : EuclideanSpace ℂ (ιA × ιB)) (φ : EuclideanSpace ℂ (κA × κB))
+    (hφ : ‖φ‖ = 1)
+    (hperfect : ∀ x, (∑ c : G, ∑ d : G, if c = d then 0 else
+      _root_.MIPStarRE.QPBT.DistanceCalculus.stateQForm φ (_root_.MIPStarRE.QPBT.heteroKron ((R x).effect c) ((T x).effect d))) = 0) :
+    _root_.MIPStarRE.QPBT.consistencyDefect μ
+        (fun x z => _root_.MIPStarRE.QPBT.heteroKron
+          (∑ p ∈ Finset.univ.filter (fun p : G × G => p.1 + p.2 = z),
+            _root_.MIPStarRE.QPBT.heteroKron ((A x).effect p.1) ((R x).effect p.2)) 1)
+        (fun x z => _root_.MIPStarRE.QPBT.heteroKron 1
+          (∑ p ∈ Finset.univ.filter (fun p : G × G => p.1 + p.2 = z),
+            _root_.MIPStarRE.QPBT.heteroKron ((B x).effect p.1) ((T x).effect p.2)))
+        (_root_.MIPStarRE.QPBT.reindexState _root_.MIPStarRE.QPBT.prodShuffle (_root_.MIPStarRE.QPBT.vecTensor ψ φ)) =
+      _root_.MIPStarRE.QPBT.consistencyDefect μ (fun x a => _root_.MIPStarRE.QPBT.heteroKron ((A x).effect a) 1)
+        (fun x b => _root_.MIPStarRE.QPBT.heteroKron 1 ((B x).effect b)) ψ := by sorry

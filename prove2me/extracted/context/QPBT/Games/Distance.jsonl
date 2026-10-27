@@ -1,0 +1,6 @@
+{"kind":"section","range":{"end":{"col":24,"line":18,"offset":471},"start":{"col":0,"line":18,"offset":447}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":20,"offset":497},"start":{"col":12,"line":20,"offset":485}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":22,"offset":523},"start":{"col":0,"line":22,"offset":499}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":24,"offset":543},"start":{"col":5,"line":24,"offset":530}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":25,"offset":566},"start":{"col":5,"line":25,"offset":549}}}
+{"kind":"end","range":{"end":{"col":18,"line":48,"offset":1385},"start":{"col":0,"line":48,"offset":1367}}}

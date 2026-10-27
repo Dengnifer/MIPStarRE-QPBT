@@ -1,0 +1,757 @@
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_IsAdmissibleSize_eq_two_or_eight_dvd.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_evalCoefficient_collision_card_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_trace_basis_eq_one_of_selfDual_normal.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_sum_indicatorVec_mul_indicatorVec.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_pauliProj_transpose.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_trace_mul_eq_dotProduct_basisCoord.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_pauliProj_eq_avg_tauObservable.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_pauliProj_reindex_quditQubitLabelEquiv.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_scale_deltaQld_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_combineLinePoly_spec.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_extendedLinesWitness_established_ofPointsWitness.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoefficientCollision_avg_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_combineLinePolynomial_natDegree_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_globalPairWitness.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_actual_rounding_error_le_root.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_actual_rounded_global_pair_error_bound.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directLdBranchRejectionProbability_nonneg.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directLdRejectionProbability_eq_one_sub_value.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_extendedDirectLd_coefficientCollisionLoss_le_five_mul.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_of_win.lean:98:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_direct_ld_soundness.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_qBipartiteConsDefect_le_directRejectedMass.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_qBipartiteConsDefect_le_directRejectedMass.lean:205:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_le_deltaLd_of_transportBound.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_direct_ld_soundness_of_k_eq_one_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_direct_ld_soundness_of_k_eq_one_explicit.lean:377:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_direct_ld_soundness_of_k_eq_one_explicit.lean:395:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_direct_ld_soundness_of_k_eq_one_explicit.lean:508:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_direct_ld_soundness_of_k_eq_one_explicit.lean:602:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_direct_ld_soundness_of_k_eq_one_explicit.lean:603:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_direct_ld_soundness_of_k_eq_one_explicit.lean:703:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_eq_sum_monomial_single.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_point_agreement_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_point_agreement_le.lean:265:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_point_agreement_le.lean:378:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directDiagonalAnswerReadout_zeroCoord_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directDiagonalAnswerReadout_zeroCoord_eq_of_win.lean:103:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directDiagonalAnswerReadout_zeroCoord_eq_of_win.lean:277:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directDiagonalAnswerReadout_zeroCoord_eq_of_win.lean:376:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directDiagonalAnswerReadout_zeroCoord_eq_of_win.lean:489:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_combinedCoefAlgHom_combinePolyTuple.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_combinedCoefAlgHom_monomial.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directAxisAnswerReadout_zeroCoord_eq_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directAxisAnswerReadout_zeroCoord_eq_of_win.lean:101:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directAxisAnswerReadout_zeroCoord_eq_of_win.lean:231:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directAxisAnswerReadout_zeroCoord_eq_of_win.lean:329:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_axis_zeroCoord_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_axis_zeroCoord_of_win.lean:101:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_axis_zeroCoord_of_win.lean:231:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_axis_zeroCoord_of_win.lean:329:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_diagonal_zeroCoord_of_win.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_diagonal_zeroCoord_of_win.lean:103:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_diagonal_zeroCoord_of_win.lean:277:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_diagonal_zeroCoord_of_win.lean:376:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointAnswerReadout_eq_diagonal_zeroCoord_of_win.lean:489:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directLdIndexedBranchRejectionProbability_point_point.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directRejectedMass_directCombinedStrategy_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_degreeOf_combinedCoef_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_combinedRestrict_combiningLinearForm_avg_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_combinedRestrict_collision_avg_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedExactLinearity_avg_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_outcomeWeight_directCombinedStrategy.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directCombinedTransportConstants.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directCombinedTransportConstants.lean:85:13: warning: This simp argument is unused:
+  _root_.MIPStarRE.QPBT.DirectLdParams.combined_m
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [_root_.MIPStarRE.QPBT.DirectLdParams.combined_d]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directCombinedTransportConstants.lean:85:62: warning: This simp argument is unused:
+  _root_.MIPStarRE.QPBT.DirectLdParams.combined_d
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [_root_.MIPStarRE.QPBT.DirectLdParams.combined_m]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directCombinedTransportConstants.lean:229:15: warning: This simp argument is unused:
+  _root_.MIPStarRE.QPBT.DirectLdParams.combined_m
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombiningCollision_avg_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombined_measuredQuestion_of_pointVar.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedRecoveryLocalBound_avg_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedRecoveryLocalBound_avg_le.lean:314:12: warning: This simp argument is unused:
+  _root_.MIPStarRE.QPBT.DirectLdParams.combined_m
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Nat.add_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_polynomialAgreement_avg_eq_agreementProbability.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_le_of_recoveryBound_right.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombined_measuredQuestion_of_coefficientVar.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_le_of_recoveryBound.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedRecoveryEvent_avg_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_avgOver_directCombinedMeasuredRejectedMass_coefficientVar.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directRejectedMass_directCombinedStrategy_le_measured.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedRecovery_relation_two.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedRecovery_relation_one.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directSimultaneousPolynomialMeasurements_combinedError.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directSimultaneousPolynomialMeasurements_combinedError.lean:604:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directSimultaneousPolynomialMeasurements_combinedError.lean:622:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directSimultaneousPolynomialMeasurements_combinedError.lean:824:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directSimultaneousPolynomialMeasurements_combinedError.lean:918:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directSimultaneousPolynomialMeasurements_combinedError.lean:919:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_directSimultaneousPolynomialMeasurements_combinedError.lean:1019:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedWinTransport_aline_point.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedWinTransport_point_aline.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directLdBranchRejectionProbability_directCombinedStrategy_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointPolynomial_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointPolynomial_consistencyDefect_le.lean:95:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointPolynomial_consistencyDefect_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPointPolynomial_consistencyDefect_eq.lean:91:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_polynomialPoint_compression.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_polynomialPoint_compression.lean:175:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_pointPolynomial_compression.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_pointPolynomial_compression.lean:175:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedWinTransport_dline_point.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCombinedWinTransport_point_dline.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_right.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_right.lean:235:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_right.lean:549:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_right.lean:607:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_left.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_left.lean:235:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_left.lean:547:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_seedFiber_compress_left.lean:609:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_strategyConsRel_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_strategyConsRel_consistencyDefect_le.lean:91:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialPolynomial_consistencyDefect_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialPolynomial_consistencyDefect_eq.lean:87:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialMeasurement_evaluation_effect.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialMeasurement_evaluation_effect.lean:92:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialPoint_consistencyDefect_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialPoint_consistencyDefect_eq.lean:91:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_blockDiagonalMeasurement_postprocess.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialPoint_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialPoint_consistencyDefect_le.lean:96:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialPolynomial_consistencyDefect_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialPolynomial_consistencyDefect_le.lean:92:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consRel_iff_consistencyDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directLdtPointNonempty.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinatePointMeasurement_effect_transport.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinatePointMeasurement_effect_transport.lean:92:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_parseLdQuestion_ldCL_ofDirectResidue.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinatePointMeasurementB_effect_transport.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinatePointMeasurementB_effect_transport.lean:92:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_one_le_deltaLd_of_one_le_error.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_line_point_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_line_point_le.lean:277:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_line_point_le.lean:776:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_line_point_le.lean:806:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_line_point_le.lean:1011:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_line_point_le.lean:1074:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_line_point_le.lean:1229:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_point_line_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_point_line_le.lean:277:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_point_line_le.lean:776:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_point_line_le.lean:806:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_point_line_le.lean:1013:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_point_line_le.lean:1076:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_diagonal_point_line_le.lean:1229:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_direct_ld_transport_constants_explicit.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_averageDiagonalBlock_blockDiagonal_const.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_consistencyDefect_heteroKron_le_one.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_avgOver_directDLinePointDist_resample.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_avgOver_directALinePointDist_resample.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_failure_le_weightedFailure.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_failure_le_weightedFailure.lean:277:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_failure_le_weightedFailure.lean:312:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_failure_le_weightedFailure.lean:366:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_failure_le_weightedFailure.lean:382:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_failure_le_weightedFailure.lean:448:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_failure_le_three_mul_rejection.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directCoordinate_failure_le_three_mul_rejection.lean:260:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directLdPointPair_consistencyDefect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_pointPair_compression.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_pointPair_compression.lean:368:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directDiagonalIndexOf_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialAgreement_avg_le_mdq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_directPolynomialAgreement_avg_le_mdq.lean:110:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_isProjective.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_blockDiagonalMeasurement_isProjective.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldCL_ldSpaceOfDirectResidue_directLdMap.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ten_sqrt_deltaLd_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_error_and_collision_le_deltaLd.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_value_eq.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_value_eq.lean:234:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_value_eq.lean:367:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ldStrategyToDirect_value_eq.lean:641:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_directEvalOpt_eq_some_iff.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_global_pair_error_bound.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_direct_global_pair_error_bound.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_sqrt_deficit_bound_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_conditioned_polynomial_bound.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_direct_passing_polynomial_bound.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_exists_combining_polynomial_bound.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_global_pair_error_bound_explicit.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_mixed_branch_rejection_eq_zero.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_axis_same_line_evaluation_defect_le_branch_chain.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_same_line_evaluation_defect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_axis_same_line_evaluation_defect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_axis_parameter_evaluated_coefficient_defect_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_parameter_evaluated_coefficient_defect_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_same_line_evaluation_defect_le_branch_chain.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_outcomeWeight_eq_zero_of_invalid.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonalGameRead_diagonalAnswer_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_aline_point_rejection_eq_completedLinePointDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_point_win_iff_read_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_completed_defect_eq_read_defect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_place_BB_prime_mul_AB_prime_prime_comm.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_dline_point_rejection_eq_completedLinePointDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_completed_defect_eq_read_defect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_reversed_axis_completed_defect_eq_read_defect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_evalCoefficient_ne_imp_directEvalOpt_ne_or_eq_none.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_point_dline_rejection_eq_completedLinePointDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_directCombinedEmbedding_read.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_reversed_diagonal_completed_defect_eq_read_defect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_pair_witness_of_points_lines_explicit.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_retainedPointMismatch_eq.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_point_aline_rejection_eq_completedLinePointDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_directPairMeasurement_consistency_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_seven_branch_rejections_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_directPointExtendedQuestionEquiv_apply.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_point_branch_rejection_eq_consistencyDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_axis_parameter_evaluation_defect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_parameterEvalDefect_le_completed_add_none.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_strategy_value_ge_directPassingErrorEnvelope.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_diagonal_parameter_evaluation_defect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_point_point_rejection_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_dline_dline_rejection_eq_diagonalCoefficientAnswerDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_dline_dline_rejection_le_diagonalParameterEvaluatedCoefficientDefect_add.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_aline_aline_rejection_le_axisParameterEvaluatedCoefficientDefect_add.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_aline_aline_rejection_eq_axisCoefficientAnswerDefect.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_scalarPolynomial_eval.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_retainedPointMismatch_le_ordered_error.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_rounded_polynomial_ordered_estimates_explicit.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_scalarNonlinearMass_le_ordered_error.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_stateQForm_pairState_eq_AB_prime_prime_BB_prime.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_stateQForm_pairState_eq_AA_prime_BA_prime_prime.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_scalarPolynomial_linear_read_fiber.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_exists_polyPair_of_scalar_separated.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_subline_remove_x_factor_at_explicit.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_rounded_polynomial_separated_mass_explicit.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_scalarWrongVariableMass_le_ordered_error.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_ExtendedLineGame_reindexState_abBbRegrouping_psiHat.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_SubLineWitness_avgOver_conditionalLaw.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_combineLinePoly_axis_degree.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_SubLineWitness_extendedMeasurement_axis_degree.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_SubLineWitness_combinedPolynomial_evaluatesTo.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_SubLineWitness_affineData_axis.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_SubLineWitness_completedPoint_effect_le.lean =====
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_subline_joint_overlap_near_one_at_explicit.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_subline_joint_overlap_near_one_at_explicit.lean:306:38: error(lean.unknownIdentifier): Unknown identifier `stateQForm_eq_inner_mulVec`
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_subline_joint_overlap_near_one_at_explicit.lean:314:15: error(lean.unknownIdentifier): Unknown identifier `stateQForm_eq_inner_mulVec`

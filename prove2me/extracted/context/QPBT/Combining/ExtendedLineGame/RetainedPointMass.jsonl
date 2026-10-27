@@ -1,0 +1,13 @@
+{"kind":"section","range":{"end":{"col":24,"line":19,"offset":538},"start":{"col":0,"line":19,"offset":514}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":21,"offset":564},"start":{"col":12,"line":21,"offset":552}}}
+{"kind":"openName","name":"MatrixOrder","range":{"end":{"col":36,"line":21,"offset":576},"start":{"col":25,"line":21,"offset":565}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT.ExtendedLineGame","range":{"end":{"col":41,"line":23,"offset":619},"start":{"col":0,"line":23,"offset":578}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":25,"offset":639},"start":{"col":5,"line":25,"offset":626}}}
+{"kind":"openName","name":"Measurement","range":{"end":{"col":37,"line":25,"offset":658},"start":{"col":26,"line":25,"offset":647}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":26,"offset":681},"start":{"col":5,"line":26,"offset":664}}}
+{"kind":"openName","name":"DistanceCalculus","range":{"end":{"col":39,"line":26,"offset":698},"start":{"col":23,"line":26,"offset":682}}}
+{"kind":"openName","name":"PolynomialImageBounds","range":{"end":{"col":61,"line":26,"offset":720},"start":{"col":40,"line":26,"offset":699}}}
+{"kind":"section","range":{"end":{"col":21,"line":28,"offset":743},"start":{"col":0,"line":28,"offset":722}}}
+{"declEnd":{"col":9,"line":141,"offset":7225},"declStart":{"col":0,"line":42,"offset":1428},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":46,"offset":1708},"start":{"col":0,"line":46,"offset":1701}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":143,"offset":7230},"start":{"col":0,"line":143,"offset":7227}}}
+{"kind":"end","range":{"end":{"col":35,"line":145,"offset":7267},"start":{"col":0,"line":145,"offset":7232}}}

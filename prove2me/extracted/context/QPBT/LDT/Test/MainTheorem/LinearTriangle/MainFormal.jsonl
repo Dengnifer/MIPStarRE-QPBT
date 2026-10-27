@@ -1,0 +1,16 @@
+{"kind":"section","range":{"end":{"col":24,"line":32,"offset":1043},"start":{"col":0,"line":32,"offset":1019}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":34,"offset":1069},"start":{"col":12,"line":34,"offset":1057}}}
+{"kind":"openName","name":"MatrixOrder","range":{"end":{"col":36,"line":34,"offset":1081},"start":{"col":25,"line":34,"offset":1070}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":43,"line":34,"offset":1088},"start":{"col":37,"line":34,"offset":1082}}}
+{"kind":"openName","name":"ComplexOrder","range":{"end":{"col":56,"line":34,"offset":1101},"start":{"col":44,"line":34,"offset":1089}}}
+{"kind":"namespace","name":"MIPStarRE.LDT","range":{"end":{"col":23,"line":36,"offset":1126},"start":{"col":0,"line":36,"offset":1103}}}
+{"kind":"namespace","name":"Test","range":{"end":{"col":14,"line":38,"offset":1142},"start":{"col":0,"line":38,"offset":1128}}}
+{"declEnd":{"col":78,"line":91,"offset":3713},"declStart":{"col":0,"line":40,"offset":1144},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":53,"offset":1847},"start":{"col":0,"line":53,"offset":1840}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":73,"line":150,"offset":6724},"declStart":{"col":0,"line":93,"offset":3715},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":99,"offset":4053},"start":{"col":0,"line":99,"offset":4046}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":27,"line":188,"offset":8601},"declStart":{"col":0,"line":152,"offset":6726},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":157,"offset":7027},"start":{"col":0,"line":157,"offset":7020}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":86,"line":246,"offset":11474},"declStart":{"col":0,"line":190,"offset":8603},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":201,"offset":9058},"start":{"col":0,"line":201,"offset":9051}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":85,"line":307,"offset":14593},"declStart":{"col":0,"line":250,"offset":11538},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":255,"offset":11762},"start":{"col":0,"line":255,"offset":11755}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":39,"line":325,"offset":15541},"declStart":{"col":0,"line":309,"offset":14595},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":311,"offset":14738},"start":{"col":0,"line":311,"offset":14731}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":17,"line":368,"offset":17740},"declStart":{"col":0,"line":327,"offset":15543},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":333,"offset":15895},"start":{"col":0,"line":333,"offset":15888}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":8,"line":370,"offset":17750},"start":{"col":0,"line":370,"offset":17742}}}
+{"kind":"end","range":{"end":{"col":17,"line":372,"offset":17769},"start":{"col":0,"line":372,"offset":17752}}}

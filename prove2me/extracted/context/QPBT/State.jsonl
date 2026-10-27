@@ -1,0 +1,7 @@
+{"kind":"section","range":{"end":{"col":24,"line":15,"offset":381},"start":{"col":0,"line":15,"offset":357}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":18,"line":17,"offset":401},"start":{"col":12,"line":17,"offset":395}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":19,"offset":427},"start":{"col":0,"line":19,"offset":403}}}
+{"kind":"openName","name":"MIPStarRE.Quantum","range":{"end":{"col":22,"line":21,"offset":451},"start":{"col":5,"line":21,"offset":434}}}
+{"declEnd":{"col":46,"line":101,"offset":4182},"declStart":{"col":0,"line":90,"offset":3546},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":92,"offset":3703},"start":{"col":0,"line":92,"offset":3696}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":21,"line":120,"offset":5054},"declStart":{"col":0,"line":103,"offset":4184},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":105,"offset":4340},"start":{"col":0,"line":105,"offset":4333}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":18,"line":122,"offset":5074},"start":{"col":0,"line":122,"offset":5056}}}

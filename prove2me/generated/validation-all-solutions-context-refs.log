@@ -1,0 +1,2 @@
+===== prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedPointsWitness_marginal_Z_distance_le.lean =====
+/home/drx/p2m/MIPStarRE-QPBT/prove2me/platform/Solutions/Sol_MIPStarRE_QPBT_CombinedPointsWitness_marginal_Z_distance_le.lean:170:31: error(lean.unknownIdentifier): Unknown constant `LIDT.MIPStarRE.LDT._root_.LIDT.MIPStarRE.LDT.Measurement`

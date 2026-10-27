@@ -1,0 +1,8 @@
+{"kind":"section","range":{"end":{"col":24,"line":18,"offset":614},"start":{"col":0,"line":18,"offset":590}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":20,"offset":640},"start":{"col":0,"line":20,"offset":616}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":22,"offset":660},"start":{"col":5,"line":22,"offset":647}}}
+{"kind":"namespace","name":"Strategy","range":{"end":{"col":18,"line":24,"offset":680},"start":{"col":0,"line":24,"offset":662}}}
+{"declEnd":{"col":16,"line":37,"offset":1056},"declStart":{"col":0,"line":26,"offset":682},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":27,"offset":749},"start":{"col":0,"line":27,"offset":742}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":12,"line":39,"offset":1070},"start":{"col":0,"line":39,"offset":1058}}}
+{"declEnd":{"col":27,"line":48,"offset":1503},"declStart":{"col":0,"line":41,"offset":1072},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":44,"offset":1278},"start":{"col":0,"line":44,"offset":1271}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":18,"line":50,"offset":1523},"start":{"col":0,"line":50,"offset":1505}}}

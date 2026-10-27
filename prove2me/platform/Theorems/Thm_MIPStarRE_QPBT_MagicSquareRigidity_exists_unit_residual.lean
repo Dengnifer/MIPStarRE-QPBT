@@ -1,0 +1,132 @@
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_QPBT_QPBT_Algebra_Pauli
+import Definitions.Def_QPBT_QPBT_State
+
+namespace LIDT.MIPStarRE.LDT
+end LIDT.MIPStarRE.LDT
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace MIPStarRE.QPBT.MagicSquareRigidity
+end MIPStarRE.QPBT.MagicSquareRigidity
+
+/-!
+# The joint state estimate of Magic Square rigidity
+
+This file proves the state estimate of `thm:ms-rigidity` on the dilated
+strategy: the tensor of the two players' two-qubit controlled-swap embeddings
+carries the shared state to within `O(sqrt ε + sqrt δ)` of two EPR pairs
+tensored with a residual bipartite vector, and that residual can be normalized
+to the unit auxiliary state of the conclusion.
+
+The argument is the coordinatewise one.  The image of the state under the two
+embeddings has, at the pair of register labels `(e, f)`, the component
+
+    `(A_e ⊗ B_f) ψ`,
+
+where `A_e` and `B_f` are the residual factors of the two controlled swaps.
+Since the two logical pairs are applied in succession, each component factors as
+a second-pair component applied to a first-pair component, so the estimates of
+`Rigidity/SwapPair.lean` apply twice: once on the state, once on the residual of
+the first pair, whose second-pair hypotheses are supplied by
+`Rigidity/SwapTransport.lean`.  Every component with `e ≠ f` is small and every
+component with `e = f` is close to the one at the zero label; sixteen labels
+then give the estimate.
+
+## References
+
+blueprint `thm:ms-rigidity`,
+paper `references/qpbt-paper/08_classical_and_quantum_low_degree_tests.tex:612-652`;
+the cited robust self-test is Coladangelo--Stark, arXiv:1709.09267v2,
+Theorem 6.9, `references/cs-paper/self-testing.tex:660-730`.
+-/
+
+
+
+open scoped BigOperators Matrix MatrixOrder ComplexOrder
+
+open MIPStarRE.QPBT.MagicSquareRigidity
+
+open LIDT.MIPStarRE.LDT LIDT.MIPStarRE.Quantum
+
+
+
+variable {ιA ιB : Type} [Fintype ιA] [DecidableEq ιA] [Fintype ιB] [DecidableEq ιB]
+
+/-! ## Coordinates -/
+
+
+
+
+
+
+
+/-! ## The target state in coordinates -/
+
+
+
+
+
+/-! ## From componentwise bounds to the joint estimate -/
+
+
+
+
+
+/-! ## Residual factors -/
+
+
+
+
+
+
+
+
+
+/-! ## The commutator of an anticommutator with a first-pair reflection -/
+
+
+
+/-! ## The second-pair defects on the residual of the first swap -/
+
+
+
+variable {X₁A Z₁A X₂A Z₂A : _root_.LIDT.MIPStarRE.Quantum.Op ιA} {X₁B Z₁B X₂B Z₂B : _root_.LIDT.MIPStarRE.Quantum.Op ιB} {t : ℝ}
+
+
+
+
+
+
+
+/-! ## The joint state estimate -/
+
+
+
+
+
+
+
+/-! ## Normalizing the residual -/
+
+theorem MIPStarRE.QPBT.MagicSquareRigidity.exists_unit_residual {V : Type} [Fintype V] [DecidableEq V] [Nonempty V]
+    (u : EuclideanSpace ℂ ((V × ιA) × (V × ιB))) (hu : ‖u‖ = 1)
+    (ψ : EuclideanSpace ℂ (ιA × ιB)) (hψ : ‖ψ‖ = 1) (c : ℝ)
+    (r0 : EuclideanSpace ℂ (ιA × ιB))
+    (h : ‖u - _root_.MIPStarRE.QPBT.reindexState _root_.MIPStarRE.QPBT.prodShuffle (_root_.MIPStarRE.QPBT.vecTensor (_root_.MIPStarRE.QPBT.eprState V) r0)‖ ≤ c) :
+    ∃ r : EuclideanSpace ℂ (ιA × ιB), ‖r‖ = 1 ∧
+      ‖u - _root_.MIPStarRE.QPBT.reindexState _root_.MIPStarRE.QPBT.prodShuffle (_root_.MIPStarRE.QPBT.vecTensor (_root_.MIPStarRE.QPBT.eprState V) r)‖ ≤ 2 * c := by sorry

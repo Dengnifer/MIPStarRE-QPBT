@@ -1,0 +1,4 @@
+{"defEmbeddedTheoremCommands": 524, "defMaterialCommands": 1024, "definitionBundles": 187, "deprivatizedCommands": 43, "graphRows": 7937, "inlineHelpers": 1330, "participatingModules": 338, "reachableCommands": 3555, "reachableRows": 5232, "renamedNodes": 50, "requiredLidtNames": 445, "resolvedLidtNames": 445, "rootRows": 484, "simpDeclarations": 345, "spanlessReachableRows": 1069, "theoremNodes": 677}
+wrote prove2me/generated/upload_plan.json
+wrote prove2me/generated/upload_plan.tsv
+wrote prove2me/generated/rename_map.tsv

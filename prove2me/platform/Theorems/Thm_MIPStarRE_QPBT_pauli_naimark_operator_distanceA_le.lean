@@ -1,0 +1,82 @@
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_AxisParallelLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_DiagonalLine
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LinePolynomials
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_LowDegreePolynomial
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_OpFamily
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersBase
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_ParametersFiniteAnswers
+import Definitions.Def_LIDT_MIPStarRE_LDT_Basic_QuantumState
+import Definitions.Def_LIDT_MIPStarRE_LDT_CommutativityPoints_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_ExpansionHypercubeGraph_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_GlobalVariance_Defs_Core
+import Definitions.Def_LIDT_MIPStarRE_LDT_MakingMeasurementsProjective_Defs
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Families
+import Definitions.Def_LIDT_MIPStarRE_LDT_Pasting_Defs_Interpolation
+import Definitions.Def_LIDT_MIPStarRE_LDT_Tactic_AvgCongr
+import Definitions.Def_LIDT_MIPStarRE_LDT_Test_StrategyCore
+import Definitions.Def_QPBT_QPBT_Algebra_FieldBasis
+import Definitions.Def_QPBT_QPBT_Algebra_LowDegreeCode
+import Definitions.Def_QPBT_QPBT_Algebra_Pauli
+import Definitions.Def_QPBT_QPBT_Games_Defs
+import Definitions.Def_QPBT_QPBT_Games_DistanceTheorems_Support
+import Definitions.Def_QPBT_QPBT_Games_DistanceTheorems_TensorSupport
+import Definitions.Def_QPBT_QPBT_Games_MeasurementCompression
+import Definitions.Def_QPBT_QPBT_Games_StrategyClasses
+import Definitions.Def_QPBT_QPBT_State
+import Definitions.Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Dilation
+import Definitions.Def_QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_GroundSlice
+import Definitions.Def_QPBT_QPBT_Test_PauliBasisTest
+import Definitions.Def_QPBT_QPBT_Test_SoundnessDefs
+import Definitions.Def_QPBT_QPBT_Test_Soundness_NaimarkOperatorTransfer
+import Definitions.Def_QPBT_QPBT_Test_Soundness_NaimarkReduction
+import Definitions.Def_QPBT_QPBT_Upstream
+import Mathlib
+
+namespace LIDT.MIPStarRE.Quantum
+end LIDT.MIPStarRE.Quantum
+namespace MIPStarRE.QPBT
+end MIPStarRE.QPBT
+namespace MIPStarRE.QPBT.DistanceCalculus
+end MIPStarRE.QPBT.DistanceCalculus
+namespace MIPStarRE.QPBT.MagicSquareRigidity
+end MIPStarRE.QPBT.MagicSquareRigidity
+
+/-!
+# Pauli operator transfer through Naimark compression
+
+The questionwise Naimark dilation preserves the complete Pauli readout only
+after ground-slice compression.  This module proves the corresponding
+state-dependent transfer for both players.  The range projection is retained
+on both sides of every dilated effect, and the opposite ideal Pauli family is
+used on the EPR state to control the second range defect.
+
+## References
+
+This is a formalization-only support result for `thm:pauli`, whose source
+statement is at
+`references/qpbt-paper/08_classical_and_quantum_low_degree_tests.tex:1426-1447`.
+The projective reduction and the final isometry passage are at
+`references/qpbt-paper/14_analysis_of_the_pauli_basis_test.tex:160-190,1862-1876`.
+The omitted range-projection calculation is documented in
+`docs/paper-gaps/qpbt_extraction-transfer.tex` and issue Dengnifer/MIPStarRE-QPBT-bak#604.
+-/
+
+
+
+open scoped BigOperators Matrix MatrixOrder ComplexOrder
+
+open MIPStarRE.QPBT
+
+open LIDT.MIPStarRE.Quantum MIPStarRE.QPBT.MagicSquareRigidity MIPStarRE.QPBT.DistanceCalculus
+
+set_option maxHeartbeats 800000 in
+-- Finite-register matrix algebra and nested finite sums make this proof
+-- expensive to elaborate.
+
+theorem MIPStarRE.QPBT.pauli_naimark_operator_distanceA_le
+    (P : _root_.MIPStarRE.QPBT.AdmissibleParams) (S : _root_.MIPStarRE.QPBT.Strategy (_root_.MIPStarRE.QPBT.pauliBasisTest P))
+    (w : _root_.MIPStarRE.QPBT.PauliSoundnessWitness P (_root_.MIPStarRE.QPBT.pauliNaimarkStrategy P S)) (W : _root_.MIPStarRE.QPBT.PauliKind) :
+    _root_.MIPStarRE.QPBT.pauliOperatorDistanceA P S (_root_.MIPStarRE.QPBT.pauliNaimarkWitness P S w) W ≤
+      3 * _root_.MIPStarRE.QPBT.pauliOperatorDistanceA P (_root_.MIPStarRE.QPBT.pauliNaimarkStrategy P S) w W +
+        6 * ‖_root_.MIPStarRE.QPBT.isometryTensor w.φA w.φB (_root_.MIPStarRE.QPBT.pauliNaimarkStrategy P S).ψ -
+          _root_.MIPStarRE.QPBT.idealState P w.aux‖ ^ 2 := by sorry

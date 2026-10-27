@@ -1,0 +1,11 @@
+{"kind":"section","range":{"end":{"col":24,"line":23,"offset":817},"start":{"col":0,"line":23,"offset":793}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":25,"offset":843},"start":{"col":12,"line":25,"offset":831}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":27,"offset":869},"start":{"col":0,"line":27,"offset":845}}}
+{"kind":"openName","name":"MIPStarRE.LDT","range":{"end":{"col":18,"line":29,"offset":889},"start":{"col":5,"line":29,"offset":876}}}
+{"kind":"openName","name":"MIPStarRE.LDT.Preliminaries","range":{"end":{"col":46,"line":29,"offset":917},"start":{"col":19,"line":29,"offset":890}}}
+{"declEnd":{"col":19,"line":109,"offset":4346},"declStart":{"col":0,"line":70,"offset":2499},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":79,"offset":3031},"start":{"col":0,"line":79,"offset":3024}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":60,"line":142,"offset":5784},"declStart":{"col":0,"line":130,"offset":5150},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":139,"offset":5606},"start":{"col":0,"line":139,"offset":5599}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":61,"line":152,"offset":6239},"declStart":{"col":0,"line":144,"offset":5786},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":149,"offset":6046},"start":{"col":0,"line":149,"offset":6039}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":47,"line":172,"offset":7117},"declStart":{"col":0,"line":154,"offset":6241},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":163,"offset":6711},"start":{"col":0,"line":163,"offset":6704}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":60,"line":194,"offset":8253},"declStart":{"col":0,"line":174,"offset":7119},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":187,"offset":7833},"start":{"col":0,"line":187,"offset":7826}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":18,"line":196,"offset":8273},"start":{"col":0,"line":196,"offset":8255}}}

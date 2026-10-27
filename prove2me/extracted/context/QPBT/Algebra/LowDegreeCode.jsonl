@@ -1,0 +1,8 @@
+{"kind":"section","range":{"end":{"col":24,"line":26,"offset":927},"start":{"col":0,"line":26,"offset":903}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":28,"offset":953},"start":{"col":12,"line":28,"offset":941}}}
+{"kind":"openName","name":"MvPolynomial","range":{"end":{"col":17,"line":29,"offset":971},"start":{"col":5,"line":29,"offset":959}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT","range":{"end":{"col":24,"line":31,"offset":997},"start":{"col":0,"line":31,"offset":973}}}
+{"declEnd":{"col":66,"line":90,"offset":3445},"declStart":{"col":0,"line":81,"offset":2933},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":87,"offset":3214},"start":{"col":0,"line":87,"offset":3207}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":47,"line":102,"offset":3986},"declStart":{"col":0,"line":92,"offset":3447},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":99,"offset":3766},"start":{"col":0,"line":99,"offset":3759}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":79,"line":139,"offset":5641},"declStart":{"col":0,"line":104,"offset":3988},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":113,"offset":4374},"start":{"col":0,"line":113,"offset":4367}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":18,"line":141,"offset":5661},"start":{"col":0,"line":141,"offset":5643}}}

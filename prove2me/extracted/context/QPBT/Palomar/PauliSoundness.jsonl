@@ -1,0 +1,7 @@
+{"kind":"section","range":{"end":{"col":24,"line":20,"offset":627},"start":{"col":0,"line":20,"offset":603}}}
+{"kind":"namespace","name":"MIPStarRE.QPBT.Palomar","range":{"end":{"col":32,"line":22,"offset":661},"start":{"col":0,"line":22,"offset":629}}}
+{"kind":"section","range":{"end":{"col":21,"line":24,"offset":684},"start":{"col":0,"line":24,"offset":663}}}
+{"declEnd":{"col":31,"line":70,"offset":2956},"declStart":{"col":0,"line":26,"offset":686},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":28,"offset":827},"start":{"col":0,"line":28,"offset":820}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":31,"line":118,"offset":5237},"declStart":{"col":0,"line":72,"offset":2958},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":74,"offset":3093},"start":{"col":0,"line":74,"offset":3086}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":3,"line":120,"offset":5242},"start":{"col":0,"line":120,"offset":5239}}}
+{"kind":"end","range":{"end":{"col":26,"line":122,"offset":5270},"start":{"col":0,"line":122,"offset":5244}}}

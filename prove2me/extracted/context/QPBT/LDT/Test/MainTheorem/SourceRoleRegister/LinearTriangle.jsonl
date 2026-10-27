@@ -1,0 +1,12 @@
+{"kind":"section","range":{"end":{"col":24,"line":28,"offset":977},"start":{"col":0,"line":28,"offset":953}}}
+{"kind":"openName","name":"BigOperators","range":{"end":{"col":24,"line":30,"offset":1003},"start":{"col":12,"line":30,"offset":991}}}
+{"kind":"openName","name":"MatrixOrder","range":{"end":{"col":36,"line":30,"offset":1015},"start":{"col":25,"line":30,"offset":1004}}}
+{"kind":"openName","name":"Matrix","range":{"end":{"col":43,"line":30,"offset":1022},"start":{"col":37,"line":30,"offset":1016}}}
+{"kind":"openName","name":"ComplexOrder","range":{"end":{"col":56,"line":30,"offset":1035},"start":{"col":44,"line":30,"offset":1023}}}
+{"kind":"namespace","name":"MIPStarRE.LDT","range":{"end":{"col":23,"line":32,"offset":1060},"start":{"col":0,"line":32,"offset":1037}}}
+{"kind":"openName","name":"MIPStarRE.LDT.MakingMeasurementsProjective","range":{"end":{"col":47,"line":34,"offset":1109},"start":{"col":5,"line":34,"offset":1067}}}
+{"kind":"namespace","name":"ProjStrat","range":{"end":{"col":19,"line":36,"offset":1130},"start":{"col":0,"line":36,"offset":1111}}}
+{"declEnd":{"col":20,"line":132,"offset":6301},"declStart":{"col":0,"line":38,"offset":1132},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":45,"offset":1474},"start":{"col":0,"line":45,"offset":1467}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"declEnd":{"col":60,"line":316,"offset":16735},"declStart":{"col":0,"line":134,"offset":6303},"isLocal":false,"keyword":"theorem","keywordRange":{"end":{"col":7,"line":144,"offset":6886},"start":{"col":0,"line":144,"offset":6879}},"kind":"declHead","nameInsert":null,"protectedTok":null}
+{"kind":"end","range":{"end":{"col":13,"line":318,"offset":16750},"start":{"col":0,"line":318,"offset":16737}}}
+{"kind":"end","range":{"end":{"col":17,"line":320,"offset":16769},"start":{"col":0,"line":320,"offset":16752}}}
