@@ -747,17 +747,40 @@ def paged_rows(
 
 
 def paged_tag(
-    api: Api, endpoint: str, rows_key: str,
-) -> tuple[list[dict[str, Any]], str, str | None]:
+    api: Api,
+    endpoint: str,
+    rows_key: str,
+    name_key: str,
+    kind: str,
+    expected_names: set[str],
+) -> tuple[list[dict[str, Any]], str, str | None, list[str]]:
     try:
-        return paged_rows(api, endpoint, rows_key, {"tags": "QPBT"}), "tag-filter", None
+        return (
+            paged_rows(api, endpoint, rows_key, {"tags": "QPBT"}),
+            "tag-filter",
+            None,
+            [],
+        )
     except RuntimeError as error:
         searched = paged_rows(api, endpoint, rows_key, {"q": "QPBT"})
-        tagged = [
-            row for row in searched
-            if "qpbt" in {str(tag).lower() for tag in row.get("tags", [])}
-        ]
-        return tagged, "search-client-tag-filter", str(error)
+        tagged_by_name = {
+            row.get(name_key): row for row in searched
+            if {str(tag).lower() for tag in row.get("tags", [])} == {"qpbt"}
+        }
+        repaired: list[str] = []
+        for name in sorted(expected_names - set(tagged_by_name)):
+            matches = exact_search(api, kind, name)
+            if len(matches) != 1:
+                continue
+            row = matches[0]
+            if {str(tag).lower() for tag in row.get("tags", [])} != {"qpbt"}:
+                continue
+            tagged_by_name[name] = row
+            repaired.append(name)
+        mode = "search-client-tag-filter"
+        if repaired:
+            mode += "+exact-repair"
+        return list(tagged_by_name.values()), mode, str(error), repaired
 
 
 def final_verify(
@@ -767,11 +790,12 @@ def final_verify(
     expected_theorems: set[str],
     targets: set[str],
 ) -> None:
-    definitions, definition_census, definition_tag_error = paged_tag(
-        api, "/definitions", "definitions",
+    definitions, definition_census, definition_tag_error, definition_repairs = paged_tag(
+        api, "/definitions", "definitions", "definition_name", "definition",
+        expected_definitions,
     )
-    theorems, theorem_census, theorem_tag_error = paged_tag(
-        api, "/theorems", "theorems",
+    theorems, theorem_census, theorem_tag_error, theorem_repairs = paged_tag(
+        api, "/theorems", "theorems", "theorem_name", "theorem", expected_theorems,
     )
     definition_names = {row.get("definition_name") for row in definitions}
     theorem_names = {row.get("theorem_name") for row in theorems}
@@ -825,6 +849,10 @@ def final_verify(
         "tagEndpointErrors": {
             "definitions": definition_tag_error,
             "theorems": theorem_tag_error,
+        },
+        "censusRepairs": {
+            "definitions": definition_repairs,
+            "theorems": theorem_repairs,
         },
         "problems": problems,
     }
