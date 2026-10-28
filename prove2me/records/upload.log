@@ -1,0 +1,30 @@
+phase definitions
+Traceback (most recent call last):
+  File "/home/drx/p2m/MIPStarRE-QPBT/prove2me/tools/upload_private.py", line 918, in <module>
+    raise SystemExit(main())
+  File "/home/drx/p2m/MIPStarRE-QPBT/prove2me/tools/upload_private.py", line 887, in main
+    run_publish_phase(
+  File "/home/drx/p2m/MIPStarRE-QPBT/prove2me/tools/upload_private.py", line 556, in run_publish_phase
+    future.result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/drx/p2m/MIPStarRE-QPBT/prove2me/tools/upload_private.py", line 523, in poll_publish
+    raise RuntimeError(f"publish failed for {name}: {result.get('error_message')}")
+RuntimeError: publish failed for QPBT_QPBT_Observables_WinImplications_CommutingObs: definition does not compile: Import parser timed out after 5s
+phase definitions
+phase nodes
+phase verify
+Traceback (most recent call last):
+  File "/home/drx/p2m/MIPStarRE-QPBT/prove2me/tools/upload_private.py", line 927, in <module>
+    raise SystemExit(main())
+  File "/home/drx/p2m/MIPStarRE-QPBT/prove2me/tools/upload_private.py", line 909, in main
+    final_verify(
+  File "/home/drx/p2m/MIPStarRE-QPBT/prove2me/tools/upload_private.py", line 835, in final_verify
+    raise RuntimeError("final verification failed: " + "; ".join(problems))
+RuntimeError: final verification failed: theorem set mismatch: missing=['MIPStarRE.QPBT.WinImplications.win_ms_cons_interchanged_explicit'], extra=[]
+phase verify
+{"allPrivate": true, "allTagged": true, "censusMode": {"definitions": "search-client-tag-filter", "theorems": "search-client-tag-filter"}, "censusRepairs": {"definitions": [], "theorems": []}, "checkedAt": "2026-10-28T04:24:21.929256+00:00", "definitions": 193, "open": 0, "problems": [], "proved": 670, "tagEndpointErrors": {"definitions": "API retries exhausted: GET /definitions?tags=QPBT&view=full&limit=200&offset=0", "theorems": "API retries exhausted: GET /theorems?tags=QPBT&view=full&limit=200&offset=0"}, "targetTheoremIds": {"MIPStarRE.QPBT.Palomar.exists_ld_soundness": "416c9a7c-e177-431c-8a89-75370acdcafd", "MIPStarRE.QPBT.Palomar.exists_spcc_value_one": "1de50f6e-433e-4a73-8b0a-9c1abf9cc4a4", "MIPStarRE.QPBT.Palomar.pauli_soundness": "365d161d-0635-4dce-89f5-335ed8b46f8a", "MIPStarRE.QPBT.Palomar.pauli_soundness_qubit": "ec8b14f9-d46f-4633-9134-2e44797adbce"}, "theorems": 670}
