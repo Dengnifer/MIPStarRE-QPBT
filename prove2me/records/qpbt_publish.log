@@ -1,0 +1,12 @@
+2026-10-29T03:07:16.894546+00:00 make-public requested kind=theorem name=MIPStarRE.QPBT.Palomar.exists_spcc_value_one
+2026-10-29T03:07:18.470707+00:00 make-public requested kind=theorem name=MIPStarRE.QPBT.Palomar.exists_ld_soundness
+2026-10-29T03:07:20.175985+00:00 make-public requested kind=theorem name=MIPStarRE.QPBT.Palomar.pauli_soundness
+2026-10-29T03:07:21.470781+00:00 make-public requested kind=theorem name=MIPStarRE.QPBT.Palomar.pauli_soundness_qubit
+2026-10-29T03:17:42.070779+00:00 make-public requested kind=definition name=QPBT_QPBT_Games_CondLinearTheorems
+2026-10-29T03:17:43.501113+00:00 make-public requested kind=definition name=QPBT_QPBT_Games_CondLinearTheorems_Reindex
+2026-10-29T03:18:31.481667+00:00 make-public requested kind=definition name=QPBT_QPBT_Palomar_ExtractionBridge
+2026-10-29T03:18:46.449659+00:00 make-public requested kind=definition name=QPBT_QPBT_Test_MagicSquareTheorems
+2026-10-29T03:18:53.697883+00:00 make-public requested kind=definition name=QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Constants
+2026-10-29T03:18:57.024989+00:00 make-public requested kind=definition name=QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_IdealTarget
+2026-10-29T03:19:00.232263+00:00 make-public requested kind=definition name=QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Swap
+2026-10-29T03:19:02.745010+00:00 make-public requested kind=definition name=QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_TwoQubitSwap

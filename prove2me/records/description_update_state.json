@@ -1,0 +1,1368 @@
+{
+  "createdAt": "2026-10-29T01:26:50.045227+00:00",
+  "entries": {
+    "QPBT_QPBT_Algebra_Coefficients": {
+      "checkedAt": "2026-10-29T01:28:39.199030+00:00",
+      "definition_id": "0c854740-d3a1-4ca8-a790-b02c297a19b0",
+      "desired_sha256": "8e16414bbff77a1771b530361c339643307af0c1c7fb35d72241e73c22835991",
+      "patched": false,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_Decoding": {
+      "checkedAt": "2026-10-29T01:28:41.817656+00:00",
+      "definition_id": "bd903fdf-394e-4dc7-b949-84660f26635a",
+      "desired_sha256": "d1a33d9062d10add6ba6905423686ec6be25c5f32f65ae557f64052c0ec62910",
+      "patched": false,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_FieldBasis": {
+      "checkedAt": "2026-10-29T01:28:46.121783+00:00",
+      "definition_id": "60a06c6b-c4bd-4213-a290-9642c7e63f73",
+      "desired_sha256": "2a13bdd194c2d722ef42f676f94db0dec3e62c9eeb052f7aaa594d7f6bc1d698",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_Lines": {
+      "checkedAt": "2026-10-29T01:28:50.269003+00:00",
+      "definition_id": "5ec65024-417f-457e-b716-be7e1009101d",
+      "desired_sha256": "04e8d4e497e8515a55a7d19f6aff32d13a226972886c1e4f4046e49e19e581c3",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_LowDegreeCode": {
+      "checkedAt": "2026-10-29T01:28:54.629468+00:00",
+      "definition_id": "c3a7b976-0900-4551-b77c-67b999e30043",
+      "desired_sha256": "9d0907a6fa7e3670438d8e5a1aa17b7a88bb812aaed64ed642bf756288966d91",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_LowDegreeCodeTheorems": {
+      "checkedAt": "2026-10-29T01:28:58.782480+00:00",
+      "definition_id": "25b7bc1d-e151-4caa-a82c-19d21b1aef67",
+      "desired_sha256": "a7f240536c6b828ac6437d8177820e0b8a972ce6365c29c766532d7286cad855",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_Pauli": {
+      "checkedAt": "2026-10-29T01:29:02.870998+00:00",
+      "definition_id": "90d1bfbb-23d4-4d19-971d-7538504fb693",
+      "desired_sha256": "93c26bb07cfe4113d1799f2d839b2b53ccf65a57564c04b83ac93b752ad62c7a",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_PauliTheorems": {
+      "checkedAt": "2026-10-29T01:29:07.198869+00:00",
+      "definition_id": "7d60d700-812d-4733-aabc-c22ece4baac6",
+      "desired_sha256": "b4e7108b0d07c4e2fe886ed36b2e055798321c2810981094daa41697d5963a2e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_RowEchelon": {
+      "checkedAt": "2026-10-29T01:29:11.571696+00:00",
+      "definition_id": "9f119896-c6d0-4887-b4f0-f45c85888323",
+      "desired_sha256": "8ccfb5b29bf93f5c149670f97445aae4cb600f375c36b55366adb72c13bddd39",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_SelfDualBasis": {
+      "checkedAt": "2026-10-29T01:29:15.891042+00:00",
+      "definition_id": "f89f140c-6164-49fe-b8f4-2fe2337b9876",
+      "desired_sha256": "6bd580cee3abaf1d64e2ae6d73fee969e8383bbc8b82c4dfb33b1c1b1fbbcdf6",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_SelfDualBasisTheorems": {
+      "checkedAt": "2026-10-29T01:29:20.411835+00:00",
+      "definition_id": "bd6ef4d9-03ea-4715-8659-f9ed7a1a2f86",
+      "desired_sha256": "c2279b62d7b74c8edb4931e06811f2a3313e9b8c96fb5f5b90c426aaf0cc2b48",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Algebra_Subspaces": {
+      "checkedAt": "2026-10-29T01:29:24.749204+00:00",
+      "definition_id": "92d7dbaf-8620-4176-b3e5-2d43ec85bcdf",
+      "desired_sha256": "e1d83c801d7fa4b937808b10d6783c34f557ae0d670f73cb74e2fcd7d6cc1818",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Defs": {
+      "checkedAt": "2026-10-29T01:29:29.275029+00:00",
+      "definition_id": "4717e065-ca9f-45fb-8743-71641a3c90b2",
+      "desired_sha256": "4df88da34dda0b56c79047c952b46d7a2017890ae46bc3bf8d71b5c17dd05a99",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_AnyStrategySoundness": {
+      "checkedAt": "2026-10-29T01:29:33.596101+00:00",
+      "definition_id": "8689efd5-b8bf-488c-bced-f5320ef1058b",
+      "desired_sha256": "4f7c6099ecfe80719866f0c66e803ada1fddb03f0fd0779fc4f166541f04b52f",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Game": {
+      "checkedAt": "2026-10-29T01:29:37.853275+00:00",
+      "definition_id": "15e34ad3-bba2-449a-9b8a-8c1bb2a32940",
+      "desired_sha256": "84be23a3a1e25414726add46c40dd7f159ea3e8286220695c551829a41474b1d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_GameValue": {
+      "checkedAt": "2026-10-29T01:29:42.156829+00:00",
+      "definition_id": "4e286f94-9c6d-4570-aa41-ed061b0f5c05",
+      "desired_sha256": "8e0879e01c625de1e6f62b55124a391bd01c39aacabcb15222293527653add26",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Geometry": {
+      "checkedAt": "2026-10-29T01:29:46.405532+00:00",
+      "definition_id": "b9d1725e-fdfc-4510-bc52-66e384cd1417",
+      "desired_sha256": "35d87f1dc31a5e2b6e0c74af2a3391280df7bd0b6e7911192599f12427240822",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_BranchComparison": {
+      "checkedAt": "2026-10-29T01:29:50.622997+00:00",
+      "definition_id": "541c4250-f7f9-442d-8f36-a5db6aa07bc2",
+      "desired_sha256": "cf90d2d84b546c467b581262778ec1757a4eaeb82f4a69fdda7c13ad58d04e34",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Answers": {
+      "checkedAt": "2026-10-29T01:29:54.815741+00:00",
+      "definition_id": "a1bbb8db-684a-4265-afc7-76ac679fc185",
+      "desired_sha256": "b1dc8a5549f356704343f179ccaf0d7e58ded4fb6d30da7066fbde11882515db",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Coefficients": {
+      "checkedAt": "2026-10-29T01:29:59.702759+00:00",
+      "definition_id": "2a43ed29-b628-46d9-a1d4-ced370e86edd",
+      "desired_sha256": "47035f2832f5a78c6769580eb7aa754124008008d3043594e3ab31a02b169874",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_GameValue": {
+      "checkedAt": "2026-10-29T01:30:04.722423+00:00",
+      "definition_id": "8bcea926-45be-4aa0-b596-65199bfa7956",
+      "desired_sha256": "347ef488e2ae3adc98bcf0fbf8c69508cc5046e48d684933658eeab7153073a4",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Linearity": {
+      "checkedAt": "2026-10-29T01:30:09.130091+00:00",
+      "definition_id": "3f532c0a-dafc-46c2-8de4-f4da4c6b4164",
+      "desired_sha256": "69955e435ed5e181d3288f0b40a148ba8a9505bbf65dd42d68e11035b58b020a",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Parameters": {
+      "checkedAt": "2026-10-29T01:30:13.743546+00:00",
+      "definition_id": "ae9a5580-ac6e-4b3e-9b81-19e1687b29c6",
+      "desired_sha256": "43614ed6eebeae0e631bb827caa32d2ceadab76f6e2a1dd1fc26f2220751a44e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Polynomial": {
+      "checkedAt": "2026-10-29T01:30:18.170923+00:00",
+      "definition_id": "4d0016a3-061d-42b4-af71-d81695773d13",
+      "desired_sha256": "7934da12dfb4db269f7e7b7394d9e0a1cf126b7b4b22889c55ea409c51364474",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_QuestionLaw": {
+      "checkedAt": "2026-10-29T01:30:22.667156+00:00",
+      "definition_id": "f8dd8dde-4c3b-4247-85cf-34b959a17976",
+      "desired_sha256": "7920fd3cd09cb516e01ce73615befe20e5395fce99727923af9cece90f8409f0",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Recovery": {
+      "checkedAt": "2026-10-29T01:30:27.265358+00:00",
+      "definition_id": "30ced6b4-e594-4ba8-a85a-4ecedc0bcf61",
+      "desired_sha256": "8ce7c3eabf1161b2eda4222e016077b27e8e4c7c9726a17782ca4e7d034aa64c",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_RecoveryTransport": {
+      "checkedAt": "2026-10-29T01:30:32.283648+00:00",
+      "definition_id": "abebdb60-b9bd-4c7a-9bce-35247ba55cf9",
+      "desired_sha256": "68231a6be14661ba77ddb75aad391cc4d5e07e80b152c483546f18eb98cbdff6",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Restriction": {
+      "checkedAt": "2026-10-29T01:30:36.609881+00:00",
+      "definition_id": "306b2e8f-2755-4f73-b91a-ed0d7b23bd6b",
+      "desired_sha256": "7065eb87048c539c0ea657810077e1ca8bdba098af54fbb67f541679c6fe3633",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Strategy": {
+      "checkedAt": "2026-10-29T01:30:41.551243+00:00",
+      "definition_id": "0b72df16-e165-4959-bd65-2f47ef6dc322",
+      "desired_sha256": "ee4c2e7b0a3386e974d1a35b7fb06526fad9426dab61ba5e212f2e7d5332d5c1",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_Value": {
+      "checkedAt": "2026-10-29T01:30:46.219231+00:00",
+      "definition_id": "9729571f-6dc1-418a-938a-92a268c2972e",
+      "desired_sha256": "2b3bfd0f715f5c5b5bda4e3220ef79b67b15c05a50ab268435cbbf136780bbac",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Combining_WinPredicate": {
+      "checkedAt": "2026-10-29T01:30:50.856743+00:00",
+      "definition_id": "0d060fd4-a9d5-42ea-b637-1265e7e6d820",
+      "desired_sha256": "d8fb299efa60a9d948d0268bc8e74a647d2af33c89f12fade951485d3941ac03",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Compression": {
+      "checkedAt": "2026-10-29T01:30:55.593055+00:00",
+      "definition_id": "97811fd3-b97f-4f7b-8188-2cf9ce52e3e4",
+      "desired_sha256": "00ff28173516c56cda59838f78db27d572b4cabe3b123429e1dcfc4e7d8a30f3",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_Measurements": {
+      "checkedAt": "2026-10-29T01:31:00.066252+00:00",
+      "definition_id": "62e6c99c-6fbd-4c41-8c0e-33355c21fca4",
+      "desired_sha256": "d66d5bac4c58e78cf8f7fd93f3053d0c17cc3c78d83a9c7f5723f2ed5077d2ef",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Consistency_State": {
+      "checkedAt": "2026-10-29T01:31:04.966942+00:00",
+      "definition_id": "4ce63f41-be61-49ae-b7f2-427dc32f9237",
+      "desired_sha256": "f7400c7eee70b7de4034be356845e0616292954949a70baa204d9946ca0e01f2",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Correspondence": {
+      "checkedAt": "2026-10-29T01:31:09.375585+00:00",
+      "definition_id": "1ea4864f-fe76-4f2b-a7f0-a86efaf306af",
+      "desired_sha256": "38a8982d9cb1825d20b2cc6e8e71af8c44d120c19d4cc8504ef4286eb4f5c9bf",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_DiagonalRecursion": {
+      "checkedAt": "2026-10-29T01:31:13.928609+00:00",
+      "definition_id": "eabc2b48-c1ec-46ff-b24f-2269a0ed21e0",
+      "desired_sha256": "4b34a13b5f9d6d4be58cfe56aa421bf38701b5d3d06291246c3a35155a090b8d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Error": {
+      "checkedAt": "2026-10-29T01:31:18.201522+00:00",
+      "definition_id": "c0210381-62bc-48ad-a95a-b00620bdab9e",
+      "desired_sha256": "844993268b3e1c0a741f882cfdb9c9adf526df0b2ddcd8940c227993df86129e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_LineResampling": {
+      "checkedAt": "2026-10-29T01:31:22.546924+00:00",
+      "definition_id": "aafe174a-bba1-4e7b-b34f-f2c69ca54751",
+      "desired_sha256": "84d6981e6e2feb53f5839f6c8a6e43fbf0d72dea831abc7775a3309c47da5684",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Questions": {
+      "checkedAt": "2026-10-29T01:31:26.938479+00:00",
+      "definition_id": "694461a8-3260-439a-a3f2-01d545a02d69",
+      "desired_sha256": "0fd6ca9e6edde560318af29c980a441857f3a06cef01d6ad8920cc7a5681e50f",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_SeedFiber": {
+      "checkedAt": "2026-10-29T01:31:31.262847+00:00",
+      "definition_id": "84b97329-8256-4196-8f10-84d73be77ff6",
+      "desired_sha256": "ee3c3f144a9622e99f94ddcfe39d428e4d021217e8bb2060b884b21428c77119",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_SeedFiberValue": {
+      "checkedAt": "2026-10-29T01:31:35.631160+00:00",
+      "definition_id": "80a778b2-0d60-4bdc-8df0-9029f58c4db0",
+      "desired_sha256": "ee3edea72fe5f9ab6610b30f623bc8575f8196caecc073b109c16dfa4480bf43",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_DirectLowDegree_Transport_Strategy": {
+      "checkedAt": "2026-10-29T01:31:39.991872+00:00",
+      "definition_id": "36659623-25e2-43fd-8b91-20cd30648fa1",
+      "desired_sha256": "42f140428755226ca6ff51b4dab57fe4b048f3cfc8133e2672eaaed2dcffe54b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ErrorBounds": {
+      "checkedAt": "2026-10-29T01:31:44.206458+00:00",
+      "definition_id": "51581591-5a71-4142-9c44-c44107a432d5",
+      "desired_sha256": "7f3dd8a67640f6c62ee7b05e961bb71eb18500156a830a605e37447644d2c7ae",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame": {
+      "checkedAt": "2026-10-29T01:31:48.483860+00:00",
+      "definition_id": "d2999706-fa25-4618-be8b-0732444ff181",
+      "desired_sha256": "94e016b0011bf8367a3b24e316b4035cd9e996636dc2b2490070bdd2a2f35e4e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_EvaluatedLineComparison": {
+      "checkedAt": "2026-10-29T01:31:52.731685+00:00",
+      "definition_id": "935c1bbf-e295-4d9e-a0e7-6d71589d013a",
+      "desired_sha256": "0d8e44d856249e0612daf5f82295fe34278b7ad66c61dd11dfb9bc51a921b0c0",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_LineNoneMass": {
+      "checkedAt": "2026-10-29T01:31:57.217127+00:00",
+      "definition_id": "08bcc3b4-102c-4ecd-b412-3d175aa2fe0c",
+      "desired_sha256": "e5901436a4afdd932d2e23c9b5557edaf4aa59c7748d02744e41e76342cf5068",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_LinePointRejection": {
+      "checkedAt": "2026-10-29T01:32:01.521262+00:00",
+      "definition_id": "bff092bb-8a69-48bb-aef6-ee505c87e9b5",
+      "desired_sha256": "bae7d6205f8d53005dd21d7befdad1d2f143e4eb28fdc66ae7dd8f8de1725894",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_PairMeasurement": {
+      "checkedAt": "2026-10-29T01:32:06.243627+00:00",
+      "definition_id": "c99b4347-89ab-47a5-9150-b40af57c7f58",
+      "desired_sha256": "967a1bc56feca236cfe9540f7f16206622d0c66451567143bb567a4bd98a871c",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_PairPointConsistency": {
+      "checkedAt": "2026-10-29T01:32:10.567058+00:00",
+      "definition_id": "94672178-4d53-4eea-8375-9f6b08f663f4",
+      "desired_sha256": "c881b720958da226da8cd4d5a272b759896e3df9432df0894608e4ee738bfaa3",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_ParameterCompletion": {
+      "checkedAt": "2026-10-29T01:32:14.904645+00:00",
+      "definition_id": "af96cae3-9795-41c3-9736-3e424fac97ed",
+      "desired_sha256": "9835a2b621cc5956148c40dd4f2f4f5c1ce67f66d6ad8a5a5f0d3acc2ea4af60",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_ParameterEvaluatedLineBound": {
+      "checkedAt": "2026-10-29T01:32:19.402833+00:00",
+      "definition_id": "825da27e-79ba-47b4-a7a9-eb7058e05a1d",
+      "desired_sha256": "574557bf07b2b4a96231a5baeff5c1e163001fa674e6f6e71ca228f1a9721bc5",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_PointPointRejection": {
+      "checkedAt": "2026-10-29T01:32:23.636542+00:00",
+      "definition_id": "b93effa5-5644-432a-84b8-0c05ee52b468",
+      "desired_sha256": "5a340a8420021ef3e002b0da948e18ce0c4e2b1aec073b5b382af73af8e4880f",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_RetainedPointMass": {
+      "checkedAt": "2026-10-29T01:32:28.010167+00:00",
+      "definition_id": "800207f8-bc9f-4fc9-a54b-2fb327b8c313",
+      "desired_sha256": "8bf4f3613f5881f2e4aa21c78766a2abd70ad97a7adebf3a607f191700ab9395",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_RoundedPolynomialEstimates": {
+      "checkedAt": "2026-10-29T01:32:32.427186+00:00",
+      "definition_id": "b473a35f-d373-48cc-aaf2-c6561dad0d62",
+      "desired_sha256": "f08ccdc4bc4affb4495eea92809d5848b5180c88e9d3c1d83131ebd350a53c73",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_SameLineCoefficientBound": {
+      "checkedAt": "2026-10-29T01:32:36.691649+00:00",
+      "definition_id": "7b124db6-2fa7-4cf4-91aa-32190dfe9621",
+      "desired_sha256": "09f374b25fd00ab6e6e82a4e095f9928147730abb25f42fd36b4bdd88a02323b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_SameLineRejection": {
+      "checkedAt": "2026-10-29T01:32:40.793298+00:00",
+      "definition_id": "3fc84e57-3bf9-4710-9b42-a6eac97d497a",
+      "desired_sha256": "7f34f16ccc0da88a0ba5f6c1ed2e30e955f1ebfb1cc2bb5fbf80a810b66d5783",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_ScalarNonlinearMass": {
+      "checkedAt": "2026-10-29T01:32:45.139493+00:00",
+      "definition_id": "1ad03beb-662b-4034-b41c-e8af8e6b0d20",
+      "desired_sha256": "a6bbecd1588dcab570d66eb51fe5cf56487d9d65155c230674a3eeb32f739c7c",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_ScalarPolynomial": {
+      "checkedAt": "2026-10-29T01:32:49.515429+00:00",
+      "definition_id": "1c277e4a-664b-452d-963e-da08ff67159f",
+      "desired_sha256": "df4c10c0c2c4fd9186ce932b7b13c5557641e309720f145a2437352d51b2bad6",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_StateTransport": {
+      "checkedAt": "2026-10-29T01:32:53.830990+00:00",
+      "definition_id": "c215d0b5-dbee-4bc5-a704-a648cb2ceea6",
+      "desired_sha256": "586f85bf3d2ad02d7dfc7be2a13dd9086948877c50f36bafbcd37307f0a35e18",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLineGame_WrongVariableMass": {
+      "checkedAt": "2026-10-29T01:32:57.905160+00:00",
+      "definition_id": "7ec8690d-785e-46b9-81ae-e3156fcdd7ae",
+      "desired_sha256": "c2023bade2bf3a614100db8241ef5316763585201cf0b177269c57a944be07ca",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLines_Measurement": {
+      "checkedAt": "2026-10-29T01:33:02.209910+00:00",
+      "definition_id": "221294ef-48fe-4762-923d-275433dd4fb1",
+      "desired_sha256": "e301ab809476a45c5a50c7e1badc0e6546642db9380c7057cc7f606ef646313b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ExtendedLines_Overlap": {
+      "checkedAt": "2026-10-29T01:33:06.440474+00:00",
+      "definition_id": "a8a00d2e-bef0-4178-b290-8baa3e71b6e1",
+      "desired_sha256": "e5fd753ec806ad5b60d81db3d33a25ee0a490f4d0d197270a798bd1f5010b6f5",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Linearity_Defs": {
+      "checkedAt": "2026-10-29T01:33:10.390034+00:00",
+      "definition_id": "2fabb4a2-f0ae-462d-a3b3-a8ea082d29a3",
+      "desired_sha256": "0a32f2962b123ec6c9308ae1eb7ac101da37034c675c0d153bab87c72552c208",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_CombinedMeasurement": {
+      "checkedAt": "2026-10-29T01:33:14.497513+00:00",
+      "definition_id": "3ecb2057-1cbb-4b52-a38d-86987fcfddca",
+      "desired_sha256": "38affcbc0141a3d629e0c73a2bb2f05c22fa7688c112cc266a59e1a13f6ec532",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_Construction": {
+      "checkedAt": "2026-10-29T01:33:18.430206+00:00",
+      "definition_id": "8fd05214-8dad-4688-ae5e-b3291d193678",
+      "desired_sha256": "85cb5c8233ea33c8a16d69545a297d0b252cb458addb58b3c81240eca893a537",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_NondegeneratePastingDistribution": {
+      "checkedAt": "2026-10-29T01:33:22.598554+00:00",
+      "definition_id": "c7e4b754-3dff-4e7d-a284-769b3fceba10",
+      "desired_sha256": "70c7234c0d716aec32be429b30f02c17b1b3907cbd822aace46c2f1e6b5c4d3b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_NondegeneratePastingMass": {
+      "checkedAt": "2026-10-29T01:33:26.801091+00:00",
+      "definition_id": "125ab379-f49c-4d8a-8ff4-3825d04c966b",
+      "desired_sha256": "9fa149dfcddaaccb2ec13ced95a6140fe17b8d67924bc89680686d5077f9c3b6",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_SubLineBlocks": {
+      "checkedAt": "2026-10-29T01:33:30.960598+00:00",
+      "definition_id": "9ac4be48-07dd-4833-8bdb-b8e3ac013b3e",
+      "desired_sha256": "64bd456ec16351dd074856c5291dbe2fe78b439d8ebe447bc0432cd2f7f092a5",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_SubLineBranch": {
+      "checkedAt": "2026-10-29T01:33:35.021791+00:00",
+      "definition_id": "b4cea6a2-774f-4b30-82d4-1b99757c39b2",
+      "desired_sha256": "0233b5652d4673b0c1239d7b95389476c42c6cbe2341087d68de2844c38e15e2",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_SubLineConstruct": {
+      "checkedAt": "2026-10-29T01:33:39.469575+00:00",
+      "definition_id": "1e5e32cb-9517-43c7-9468-3c5374ddb4d4",
+      "desired_sha256": "52e325d244baf221cb41adc24be45ae30d180c4352ca2b120cd59333f3ec34d4",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_SubLineExtended": {
+      "checkedAt": "2026-10-29T01:33:43.736469+00:00",
+      "definition_id": "d4342344-d4de-4dc3-9225-a2ebe21844a1",
+      "desired_sha256": "4b65950f69ccb83d472ddec0a139862438eef279b83f0840d30b7046876d862d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_SubLineMixture": {
+      "checkedAt": "2026-10-29T01:33:47.850579+00:00",
+      "definition_id": "569b995f-78fd-4b38-bf17-4acb6ec21460",
+      "desired_sha256": "7b46d5f0b0ec9fca9073e443c59dd94efcbd5ce908bdf3effccef9609ea260d3",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_SubLineSeed": {
+      "checkedAt": "2026-10-29T01:33:51.861654+00:00",
+      "definition_id": "6a8001da-08dd-4e22-9f07-0a224d038a03",
+      "desired_sha256": "70fc23da52df01d5a6f2310ae8c10bc79fcef0ee1628e196762b3dfe76dfc783",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_SubLineSupport": {
+      "checkedAt": "2026-10-29T01:33:55.823770+00:00",
+      "definition_id": "8d1beef2-dbab-4afb-ba5a-c67509a44a76",
+      "desired_sha256": "63b352077f70c23569a83a52d49e606a44484614e3bfb20bdfc89a751ca2c1c6",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_SubLineTransport": {
+      "checkedAt": "2026-10-29T01:34:00.018807+00:00",
+      "definition_id": "0e7211e9-38ee-429a-9aec-318a53216f3b",
+      "desired_sha256": "5370b8c5733a30433a8cdb5bfae0b30e3b6e301cf9fc6b0965a8f5e9907a8fcd",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Lines_ZeroDirectionMass": {
+      "checkedAt": "2026-10-29T01:34:04.197001+00:00",
+      "definition_id": "67903980-78b9-41a0-8bca-52c02b6d181f",
+      "desired_sha256": "f717f4326d61064157a859d59ad34c7a2331322d194b95fce5798dfaad0f371c",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_PairCompletion": {
+      "checkedAt": "2026-10-29T01:34:08.687255+00:00",
+      "definition_id": "2919870c-3229-40cc-93ff-b2130b74bf72",
+      "desired_sha256": "336f409240c5c597683b4f8d1011fec1e643a1e69830eae2545484870ad71101",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_PassingError": {
+      "checkedAt": "2026-10-29T01:34:13.152882+00:00",
+      "definition_id": "b5edfd50-5247-4297-8615-0c907fbc6c32",
+      "desired_sha256": "13d19868c846e3f4bc85e94a487ad67305bc855b0151c0cc8d6fadb5bd8a309e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Points": {
+      "checkedAt": "2026-10-29T01:34:17.501372+00:00",
+      "definition_id": "49852031-dd95-49c2-b5d4-2a43cc403c0d",
+      "desired_sha256": "fa0e802fdae7935581cbf7789a5901f804371cb50079904d3e539fdd76468ccb",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Points_Commutation": {
+      "checkedAt": "2026-10-29T01:34:22.037185+00:00",
+      "definition_id": "98d434f4-9dfe-4f38-a88e-778515ce6636",
+      "desired_sha256": "5a92c33424a95cd881f16011a5f2503bc05d56e6111b70da9ecf67df364bbba6",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Points_Consistency": {
+      "checkedAt": "2026-10-29T01:34:26.298999+00:00",
+      "definition_id": "e940b917-119e-4924-a983-11a98aac7c13",
+      "desired_sha256": "280faafd5e337fc8834c6cc6939246c2ccff86bf900603dbcd262e668ecb98d4",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Points_Orthonormalization": {
+      "checkedAt": "2026-10-29T01:34:30.737246+00:00",
+      "definition_id": "24f03f5b-987e-4175-8d2e-06d21d26d891",
+      "desired_sha256": "96a3ed033487a08a7a6841a18070eb8f8f771cb3650f305dd0a1c4d25400dae6",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Points_Placement": {
+      "checkedAt": "2026-10-29T01:34:34.997630+00:00",
+      "definition_id": "5b1c51c0-5306-453a-adc1-3d43da6c1d75",
+      "desired_sha256": "bbc24f93217ebe83564d82c832482102f7a07a27a74becdce9963beb3f80016d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Points_PlacementSupport": {
+      "checkedAt": "2026-10-29T01:34:39.261187+00:00",
+      "definition_id": "6f481903-8a2c-4381-b4b8-3a7eb467500c",
+      "desired_sha256": "fc0b0eff1c3dfe324300d39bc4c3fc046c5227c9f63990c82bff76ddc113f417",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Points_Sandwich": {
+      "checkedAt": "2026-10-29T01:34:43.376421+00:00",
+      "definition_id": "df2ab57d-1975-48a4-9fe9-8805c618a19a",
+      "desired_sha256": "d83c1d7febcf7641ba70500978f548b0fd3e33dc781011fe5603667544d3830d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_PolynomialImageBounds": {
+      "checkedAt": "2026-10-29T01:34:47.583821+00:00",
+      "definition_id": "5776a6e2-484e-4f05-bc09-1cb86a3d24a3",
+      "desired_sha256": "e4d3399eb62925230a4af5641bf4f755aeae03625f3e80b65334c83e7c79d3c2",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_SubLineXDeficit": {
+      "checkedAt": "2026-10-29T01:34:51.863298+00:00",
+      "definition_id": "985e579c-634f-4576-b915-3a30223476f2",
+      "desired_sha256": "bc164c758eaa3c7e81a1d4d4efad5a5379256fec265c2f50ea79f3999dd7aaa9",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_SubLineZDeficit": {
+      "checkedAt": "2026-10-29T01:34:56.208318+00:00",
+      "definition_id": "7fb80360-e99a-4e8f-b745-41ec6b4d4d21",
+      "desired_sha256": "b331f9ace68064140e907dbaffecc073e1c419e7417dbc5dbc49792f75ac0385",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_Witnesses": {
+      "checkedAt": "2026-10-29T01:35:00.368973+00:00",
+      "definition_id": "1caf64cc-459a-4d31-98b0-38aa50bc4156",
+      "desired_sha256": "2e3c2b5547e4a131b5dc1c633a3e289df90fe1ce3fc3ee729997f5e40dadcf2f",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Combining_ZEvalDeficit": {
+      "checkedAt": "2026-10-29T01:35:04.630784+00:00",
+      "definition_id": "2186e676-3e5d-48f0-bdae-ddf36430158f",
+      "desired_sha256": "d154221e862b1f5ed8241c94207e51726f3ad5bc380dd3ac394bfe2b15a8472e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_ExplicitConstants": {
+      "checkedAt": "2026-10-29T01:35:09.062877+00:00",
+      "definition_id": "538bac76-01e2-4ae6-a9d4-d82ae471db7f",
+      "desired_sha256": "9a01ff0aca9644823a732ce3025c10771c3117691b1e1b1b24e5a33a80e55d8b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_BlockMeasurement": {
+      "checkedAt": "2026-10-29T01:35:13.365310+00:00",
+      "definition_id": "9ef660f5-1cf2-4176-b32c-b61eadcb1892",
+      "desired_sha256": "f8f6c794caeeccf95ed4d0584c47b0ccbb1ed43a35cd6df161f5ea3b765d5761",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_ConcretePauliComparison": {
+      "checkedAt": "2026-10-29T01:35:18.004057+00:00",
+      "definition_id": "f8ce0f82-2cf3-4425-a1d3-1e64eca29d15",
+      "desired_sha256": "ef53c3fffce50b479affdab52b2b452aa366a6dcc39758e0f5a81347e3b4de0d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_Consistency": {
+      "checkedAt": "2026-10-29T01:35:22.373365+00:00",
+      "definition_id": "40592b1a-d7ca-4bda-adc5-cfc0de78c479",
+      "desired_sha256": "d87e578cabcd921473ff2ad7d3d36664cee48bcdb1cb454ab322fd35dd1a46d7",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_Defs": {
+      "checkedAt": "2026-10-29T01:35:26.800587+00:00",
+      "definition_id": "b43df62d-bfe6-43b7-998c-5fc9ad5c5468",
+      "desired_sha256": "ae7def4494178614e7bef971e3d896d9542ba543099d7b4420a140dd218ea96c",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_EPRProjection": {
+      "checkedAt": "2026-10-29T01:35:31.160901+00:00",
+      "definition_id": "bc4f5b5e-b260-4941-a3bd-e10165efbdf4",
+      "desired_sha256": "b6b9899878dbe6a51b395e037f766e114c2db162e21b6bbf4d69816ccfb68c07",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_EPRState": {
+      "checkedAt": "2026-10-29T01:35:35.447440+00:00",
+      "definition_id": "8a587830-ef92-4f38-b0d7-70e6a27f63b6",
+      "desired_sha256": "5bfdac75aa9d6fa5c872100045c0c5de99959d22104f4c55e480dc87b66ebc47",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_EncodingSupport": {
+      "checkedAt": "2026-10-29T01:35:39.852820+00:00",
+      "definition_id": "0a276956-9a4a-4abe-8645-cca3e0e6791f",
+      "desired_sha256": "cfc0042e24e562798bc4eb8fb1450ff158b7924d1f47a7ede01f296e4124c769",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_Observables": {
+      "checkedAt": "2026-10-29T01:35:44.025522+00:00",
+      "definition_id": "ee30cb99-78ff-46a3-93a2-272f15a7a934",
+      "desired_sha256": "fa9e756ee1d7ce71e285e863c10691d6907c5f4cd407c72d4214932ed3de785b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_PauliTransport": {
+      "checkedAt": "2026-10-29T01:35:48.442432+00:00",
+      "definition_id": "c13dc25a-b516-41aa-837d-925e9cb424d1",
+      "desired_sha256": "4c3291f4ce9d1d42e02c56dc05046c1c29f6ef575cc0026289c7977362abbbc0",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_PointConsistency": {
+      "checkedAt": "2026-10-29T01:35:52.585476+00:00",
+      "definition_id": "8418b70c-b106-4cf8-be8c-26e8e61f2398",
+      "desired_sha256": "8ea3812506944f961a40ec0a3f191b33896e711587af045c6f629faa3ae99995",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_PointConsistencyPrime": {
+      "checkedAt": "2026-10-29T01:35:56.767104+00:00",
+      "definition_id": "06c32b41-fe1c-471b-b0e2-cc55f70f4904",
+      "desired_sha256": "7fd1ba7adcbc51a2610614c78c5e1848b6a10b3178d351ea7c7524bd89c39aaa",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_PullingMeasurement": {
+      "checkedAt": "2026-10-29T01:36:06.377936+00:00",
+      "definition_id": "35302156-fde9-4067-9a05-567c697ada3e",
+      "desired_sha256": "b0313f983a99a6e2ebc44fcc5b6342a4726244d6ff1606a8c08112a3a07c5e13",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Extraction_Unitary": {
+      "checkedAt": "2026-10-29T01:36:10.665007+00:00",
+      "definition_id": "6a0b038a-9a41-4c74-b61a-3997b9593636",
+      "desired_sha256": "160812e989b6f717220f35d584af5bb3582393e8d14baa19b10035e90cd2667b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_CondLinear": {
+      "checkedAt": "2026-10-29T01:36:15.133639+00:00",
+      "definition_id": "fd327160-33ac-412c-9be7-a51c66a65668",
+      "desired_sha256": "b98cd3b940747722f31c53cf0d9d7f82dfd79dfc3846f83dfac2a876d28034ad",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_CondLinearTheorems": {
+      "checkedAt": "2026-10-29T01:36:19.406109+00:00",
+      "definition_id": "d3f911e6-f27b-481c-b00c-33da50de4697",
+      "desired_sha256": "6d6062bf5f5f313713a347bc684604094bc6954a26694aaf117a5e6094d8a3ff",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_CondLinearTheorems_Reindex": {
+      "checkedAt": "2026-10-29T01:36:23.819906+00:00",
+      "definition_id": "bafde51e-6423-421c-be75-79969dcdbc1f",
+      "desired_sha256": "5a80b56084cf5198044407308a1c304255a0cd9163238155faffb76c18715e7a",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_Consistency": {
+      "checkedAt": "2026-10-29T01:36:27.999686+00:00",
+      "definition_id": "137979b9-2218-4ebd-9234-a5a36e033601",
+      "desired_sha256": "86a4b41934494e053197365527455bb03d2ac4411e556deaa6ecc2ebc2a9d539",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_Defs": {
+      "checkedAt": "2026-10-29T01:36:32.447376+00:00",
+      "definition_id": "7ccf4ca8-ea14-458a-99b6-1ce0142bc994",
+      "desired_sha256": "8d841cf5c0a55c188e1315597ddbe5ff653cde5e30c4bf220844ff9e4d378f4b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_Distance": {
+      "checkedAt": "2026-10-29T01:36:37.028979+00:00",
+      "definition_id": "201e46fe-93c3-4e7f-a5db-cc0f5d04ce2f",
+      "desired_sha256": "b4d644cfa00186bd815f0d6e8d687b8e291b805adf929778d51262d4c3261947",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_DistanceTheorems": {
+      "checkedAt": "2026-10-29T01:36:41.346447+00:00",
+      "definition_id": "44951562-5062-4251-b9fd-2c81e6fdc92a",
+      "desired_sha256": "7ee34becbcaffbc697296691c4cb24cd333310259bb19fd5676e5ee0da07fadd",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_DistanceTheorems_ProjectiveRounding": {
+      "checkedAt": "2026-10-29T01:36:45.747003+00:00",
+      "definition_id": "3af43fe0-018b-4152-9e64-a77139d592bc",
+      "desired_sha256": "fdc5eee920980695fe2a24687c5a0b6d997f4ab20a7776247ef4d11be8120e88",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_DistanceTheorems_Support": {
+      "checkedAt": "2026-10-29T01:36:50.087066+00:00",
+      "definition_id": "855dc7e0-289c-4966-9c62-08c87ff622f0",
+      "desired_sha256": "be97b87916d702e67b61ff3dd6dff0c0254296ffcecac93f620185909dee0feb",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_DistanceTheorems_TensorSupport": {
+      "checkedAt": "2026-10-29T01:36:54.655670+00:00",
+      "definition_id": "d52c7e93-c92d-41b3-b405-2e050235e400",
+      "desired_sha256": "51a615e633922557a773772f78e80b985a80bef73e5393be404d6cc3fe37d739",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_DistributionAux": {
+      "checkedAt": "2026-10-29T01:36:58.917172+00:00",
+      "definition_id": "6bc7daef-12c7-4eb2-96bb-a34222cf9185",
+      "desired_sha256": "1cfa87b6ac9682138a10201d59002c53823c19cd7802a3b48f3092860a603b93",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_DistributionMarginals": {
+      "checkedAt": "2026-10-29T01:37:03.127617+00:00",
+      "definition_id": "0b5c3069-1e26-4cca-9b1c-75de66b9f4ea",
+      "desired_sha256": "f835d2b9550fc82d75158f469eac62a5b9c5b38bb09e1ac269bf6bc1c22f2bad",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_ErrorFunctions": {
+      "checkedAt": "2026-10-29T01:37:07.409639+00:00",
+      "definition_id": "8add6583-729d-46df-8e6a-260f82e4787a",
+      "desired_sha256": "bed75c6b64bba4aaf46f99509cd38a6a4563bf7d4c836463ed790a2c0542ba77",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_MeasurementCompression": {
+      "checkedAt": "2026-10-29T01:37:11.659432+00:00",
+      "definition_id": "b09e37b7-bf85-4da5-9880-3fe1f431bfd3",
+      "desired_sha256": "5d5bd103b99e142aa72feb5cbd69ccb1cd64cf2e790d51eabd72071cc4d11716",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_Sandwich_Defs": {
+      "checkedAt": "2026-10-29T01:37:15.783528+00:00",
+      "definition_id": "7fb41ccd-0e35-4042-9716-b10d1657b5d5",
+      "desired_sha256": "f853b337dcd92cf400e3cb008b561013bd7477b6cf2df85f01ded6fb92d323e7",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_Sandwich_Pasting_Heterogeneous": {
+      "checkedAt": "2026-10-29T01:37:20.191362+00:00",
+      "definition_id": "15f2780b-2c68-4e6c-8c86-45b78203e795",
+      "desired_sha256": "32ccde47b3aa37d5a503d9169880bcdbd1506cca23b3f9747f04232ce73d9fbf",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_Sandwich_Pasting_SchmidtMirror": {
+      "checkedAt": "2026-10-29T01:37:24.278970+00:00",
+      "definition_id": "27eda0b0-2ed1-422c-ac03-20d2ca9adc0c",
+      "desired_sha256": "c6f3228c478653c81216be85fb874f08486a8782c279cd1e3de79f4ba17f5ef0",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_Sandwich_Support": {
+      "checkedAt": "2026-10-29T01:37:28.356164+00:00",
+      "definition_id": "d349d45a-fa04-4d8c-9e12-6b8b0feb1947",
+      "desired_sha256": "dfe73d2ad53dbb3e6b04a2bea295867912dd62d17fe51629be722ee9ae8f420e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_StrategyClasses": {
+      "checkedAt": "2026-10-29T01:37:35.442181+00:00",
+      "definition_id": "d4e42fca-23b5-4f90-a020-4768e6d36d21",
+      "desired_sha256": "6906c74b28ac8464cafe44ebedd4dade139cc342b79af5841ec0e986afa1dc47",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Games_TypedCondLinear": {
+      "checkedAt": "2026-10-29T01:37:39.755646+00:00",
+      "definition_id": "b584e6cf-939d-4b37-8d89-64fa12ce0eed",
+      "desired_sha256": "3401411271c3ac0fd0a7947ffea7f2c39f4a451adaf450021fbfbc936bef3063",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_Anticommuting": {
+      "checkedAt": "2026-10-29T01:37:45.028253+00:00",
+      "definition_id": "e420ae82-a71e-4d68-8126-20dac95bb494",
+      "desired_sha256": "7781b32293f32c04b11d5f6952b7373336fadb523dd60c73bd2a84b8e7cf5f30",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_Defs": {
+      "checkedAt": "2026-10-29T01:37:49.367445+00:00",
+      "definition_id": "f4847f76-a46e-43f2-bfd1-5388ba72b8ca",
+      "desired_sha256": "af3b0efcb8f429fa0ef41493f87772defd2ac06bc4fb89211be0a766ce9c317c",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_ExpandedCommutation": {
+      "checkedAt": "2026-10-29T01:37:53.797232+00:00",
+      "definition_id": "a8f40f7f-5bcb-47c3-ab68-bb96048f215c",
+      "desired_sha256": "11e7c3f79dc4edd860eca7fa6187d4ea2e26dafdf34a4a952bd6fdb994d772b5",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_ExpandedDefs": {
+      "checkedAt": "2026-10-29T01:37:58.263308+00:00",
+      "definition_id": "7375a4a9-30ee-4f2a-a5fe-e4cc30e96625",
+      "desired_sha256": "6fd0520d9114e83a0bce82d35424013b2f1d3d5f184fedb36ad618a879cce9f6",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_ExpandedPlacement": {
+      "checkedAt": "2026-10-29T01:38:08.238283+00:00",
+      "definition_id": "5d9f90a4-4ff6-44bc-9300-088145d93321",
+      "desired_sha256": "c4d5bfd0004daa0ecb5cff8f167250011a80d61f07970821874e6422551c51d5",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_LineDefs": {
+      "checkedAt": "2026-10-29T01:38:12.624885+00:00",
+      "definition_id": "300bfb15-8cf6-4796-bb03-413a87ab0c12",
+      "desired_sha256": "438f0b24efe4b103fe638e36e22b15f2447df1163b88abc67c317a948f6cb1df",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_LineMeasurement": {
+      "checkedAt": "2026-10-29T01:38:17.059099+00:00",
+      "definition_id": "8bb362b3-e02f-4cd2-a04f-ebecc100e3da",
+      "desired_sha256": "7bc6dba0d3701dbe4c1d49dbbf093e73fe33d79930824cd63f276978488b987d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_LineMeasurement_Expanded": {
+      "checkedAt": "2026-10-29T01:38:21.523930+00:00",
+      "definition_id": "163aab9a-6aa1-4f39-bcf2-331f64b88bd8",
+      "desired_sha256": "190402ee5404268630fb034c64d117199beff80a98ca01c762fe4525ce3c6b27",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_LineMeasurement_LinePointOverlap": {
+      "checkedAt": "2026-10-29T01:38:25.881194+00:00",
+      "definition_id": "6976416e-7daf-4a08-88a8-c6ce8f7cc4df",
+      "desired_sha256": "4a3d78febb9805d36992bb25539102a676c168e4b2c4245e0db3b1ec6e5a15a5",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_LineMeasurement_Projector": {
+      "checkedAt": "2026-10-29T01:38:30.321535+00:00",
+      "definition_id": "7f0dc070-7cf9-4ac4-91ff-b67e719ff350",
+      "desired_sha256": "119e045edb5cc66e3c5f901c673d3d2e56dc3db2387d8ac3aaa0c1ee97e68c26",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_LineMeasurement_Restriction": {
+      "checkedAt": "2026-10-29T01:38:34.630654+00:00",
+      "definition_id": "9b7884ce-b5a4-494a-9961-979a35fef85a",
+      "desired_sha256": "4787708b64177ccb4296756496810cc2ed729ce48f4818b085616fa65a9c722f",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_PointConsistency": {
+      "checkedAt": "2026-10-29T01:38:39.045568+00:00",
+      "definition_id": "76b1448c-c375-4a33-bac4-12929a252a12",
+      "desired_sha256": "adf3bd98c14dd77ee18861d726225c6e417fd96a701895bae7f0843ea4bd2ffb",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_Approx": {
+      "checkedAt": "2026-10-29T01:38:43.783006+00:00",
+      "definition_id": "82351281-7e03-4d4a-a845-4bcbd8a876fd",
+      "desired_sha256": "a32ed506b678148e64bbe76a469e419f3b5935226f9b2a3952226fd40e7664df",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_ApproxLines": {
+      "checkedAt": "2026-10-29T01:38:48.357560+00:00",
+      "definition_id": "903874c8-424f-4e54-9933-87033ca42a68",
+      "desired_sha256": "fe64c6dcb1c4860a53859d40adf67b3a421241d87159cf23c901f7ae82a03646",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_Averages": {
+      "checkedAt": "2026-10-29T01:38:57.404384+00:00",
+      "definition_id": "db5b8fcd-d896-4280-8856-32f3a9f523fd",
+      "desired_sha256": "3744bc8fb3e4be23ad24b9053b1a10baa97565d7409ea492ea4e3d1fefeb0d61",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_Commuting": {
+      "checkedAt": "2026-10-29T01:39:01.786490+00:00",
+      "definition_id": "dbfca5db-49f5-44c3-bc85-5e22def40607",
+      "desired_sha256": "962ab01491ffe3e5b27ea49899e2855ddcb74210e74c3060512ad2ea7f4217be",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_CommutingObs": {
+      "checkedAt": "2026-10-29T01:39:06.279542+00:00",
+      "definition_id": "379c03e3-9be3-484b-ad95-2bf013c8eea8",
+      "desired_sha256": "c3279fbdd44fb345ea1e8d57374a1e94090913b2d574ac3a01ee3657764da617",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_Consistency": {
+      "checkedAt": "2026-10-29T01:39:10.693716+00:00",
+      "definition_id": "9d543290-4fc9-46ab-927f-65016f0be056",
+      "desired_sha256": "10c1c525f20d86558bad4a1e78e64188069d51395d9afab9331d4e467b9e6146",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_Interchange": {
+      "checkedAt": "2026-10-29T01:39:15.045273+00:00",
+      "definition_id": "cd4cd9fe-6f90-4abe-b5f7-494da7cffa18",
+      "desired_sha256": "bc8a1f7da770a015b6733010099608a9fa60ae720e1809eb0a19734f60aa780e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_InterchangedCommutation": {
+      "checkedAt": "2026-10-29T01:39:19.480528+00:00",
+      "definition_id": "846b5f63-f23d-4c80-b0c2-e97f56d375d0",
+      "desired_sha256": "20114f1f53f9531c832f071c253ca1390eaf23db2efec17058c4d898cd1125cb",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_LowDegree": {
+      "checkedAt": "2026-10-29T01:39:23.710704+00:00",
+      "definition_id": "8ee31b45-1454-49d9-ba18-3f36421e8ae0",
+      "desired_sha256": "79d2e533bad236e54e3c7b93d9c6741778f7f56a3206e756df5ed9666247515d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_MagicSquare": {
+      "checkedAt": "2026-10-29T01:39:28.162729+00:00",
+      "definition_id": "31f16070-557d-4ef4-b387-bfb2568157e3",
+      "desired_sha256": "da138932687674fd156b40154f7f3f12e9080db4e624c4e53ed93398b565937e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_PointObs": {
+      "checkedAt": "2026-10-29T01:39:32.342599+00:00",
+      "definition_id": "281dd660-35ab-422a-86fd-8592bb07d43b",
+      "desired_sha256": "c349b14fb937e078cff9afe1343e5ed9b20fc29acf2de91138ebf651e1a7606b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_Setup": {
+      "checkedAt": "2026-10-29T01:39:36.523954+00:00",
+      "definition_id": "adafe592-7037-4aaf-8365-09717a3b2ebc",
+      "desired_sha256": "cdf942c7c41450544c22bfb029cea43d2a04bb3f2b9ae39e82463b90926b3630",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Observables_WinImplications_TwistedCommutation": {
+      "checkedAt": "2026-10-29T01:39:41.010907+00:00",
+      "definition_id": "468a9873-4d5e-4502-b3f9-ab7b48771a64",
+      "desired_sha256": "0a92561c38f0fc1d4ca4d2bdf15be03ffc7b068fa1196a811fb582d50cafe397",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Palomar_Bridge": {
+      "checkedAt": "2026-10-29T01:39:45.490732+00:00",
+      "definition_id": "82a7c98d-2a8f-4328-b45f-7ed68a13cf7d",
+      "desired_sha256": "fb0ee5fa1647c02fb5053d19faf78040364f62fbdf0e76c0017205b8450d8985",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Palomar_Definitions": {
+      "checkedAt": "2026-10-29T01:39:50.513833+00:00",
+      "definition_id": "c7614fc4-4b6f-4370-bde7-45a08d233303",
+      "desired_sha256": "060b2ac287ce5b29c15c3657cf007e2cbdd966b3e4bdb41b14efb2d869b6f569",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Palomar_ExtractionBridge": {
+      "checkedAt": "2026-10-29T01:39:54.940043+00:00",
+      "definition_id": "dd25956b-89fe-494e-96d7-c3cb97b83567",
+      "desired_sha256": "191b958d18764d7943ffa6a000121bf6d9ddbf379ebe84fb00129462004057e9",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Palomar_LowDegreeConsistencyBridge": {
+      "checkedAt": "2026-10-29T01:39:59.182612+00:00",
+      "definition_id": "702430c8-eba2-437d-b702-5a54f3952a03",
+      "desired_sha256": "1d8b1daa53452ffe59b903d3c86f3b73258d2c4aa803985c3008e13922dbb7bb",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Palomar_LowDegreeGameBridge": {
+      "checkedAt": "2026-10-29T01:40:03.788197+00:00",
+      "definition_id": "f77f647d-12e4-4c05-b72e-4123f67e51a1",
+      "desired_sha256": "33ca8fa816b75545557bbbc0edb3680bad7c1974fac6922a4f12a4448d2f516d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Palomar_LowDegreeGameStrategyBridge": {
+      "checkedAt": "2026-10-29T01:40:08.305077+00:00",
+      "definition_id": "5999dd4a-4208-4ae6-9e3e-a6cc8e0fe5f4",
+      "desired_sha256": "9ba1d1093a285e2d45814c0340d56968b5ad437410c29ced402c96a689a6217a",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Palomar_PauliExtractionBridge": {
+      "checkedAt": "2026-10-29T01:40:13.099310+00:00",
+      "definition_id": "19183ef9-bfa4-406b-8908-0bc3d192eb20",
+      "desired_sha256": "a13716eec5458493f244204b84aadb2d668babb395372192f3b2e638b9acf31d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Palomar_PauliGameBridge": {
+      "checkedAt": "2026-10-29T01:40:18.131603+00:00",
+      "definition_id": "07e9c4c0-1a6e-4954-b3a8-42de841e7d88",
+      "desired_sha256": "83a7fb4b075cfb8439338c735fac867eef2772cd8311ffc947a629ac0e9e6442",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Palomar_PauliGameStrategyBridge": {
+      "checkedAt": "2026-10-29T01:40:22.558481+00:00",
+      "definition_id": "05e5e2d8-3bbe-40d2-9c34-c688a09fe1cc",
+      "desired_sha256": "c5b72ab230829927fbcff638b1126eea42cea9e6b0e65f66d7e944048f27779d",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Quantum_ControlledUnitary": {
+      "checkedAt": "2026-10-29T01:40:27.102546+00:00",
+      "definition_id": "8466a210-7859-44dd-8fc1-3953fca8f44f",
+      "desired_sha256": "993621aaee3f4cb2e8facbb90ef4587f22343b23f998efda829eb66697dab8d0",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_State": {
+      "checkedAt": "2026-10-29T01:40:31.342552+00:00",
+      "definition_id": "c6cda411-b635-43d8-b4da-bb212c81f2fb",
+      "desired_sha256": "bc8b188f26f881199f52859c613a132a72b09b6fa9b6a819ac68984131f31e29",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_Completeness": {
+      "checkedAt": "2026-10-29T01:40:35.723226+00:00",
+      "definition_id": "41420194-ff0a-4c15-a234-99a725a6c86e",
+      "desired_sha256": "92e38f94439f3eb3a984b9fae9a93a315bed770adf615491d322fdbb7204c540",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_Completeness_Commutation": {
+      "checkedAt": "2026-10-29T01:40:40.092687+00:00",
+      "definition_id": "8efd969d-d794-4543-8945-22f04508c768",
+      "desired_sha256": "2e58ebb239f4e6aeb2e598ee678d9dcd4e8d3741afb273754c7776625ba45f0f",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_Completeness_HonestStrategy": {
+      "checkedAt": "2026-10-29T01:40:44.926286+00:00",
+      "definition_id": "7a423bce-9361-4d25-b8a3-489e9b1d2e7f",
+      "desired_sha256": "a050fd753ab9e2f8e7181fda286906e0f046ce6f6d524c04100652e26679db06",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_Completeness_HonestStrategy_MeasurementFamily": {
+      "checkedAt": "2026-10-29T01:40:49.557842+00:00",
+      "definition_id": "6629409f-c146-47c3-b6e8-a45833e36cc1",
+      "desired_sha256": "172a666f398f5556e0cfcb58d9fefd3057460b17e0c21499417430e6d26e1fe6",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_LowDegreeGame": {
+      "checkedAt": "2026-10-29T01:40:54.126442+00:00",
+      "definition_id": "55df6b26-9f7c-47f3-a2f2-529fb4ca9ddb",
+      "desired_sha256": "a8617c152c26bcbedfe700b8a85b463af043d4a84622e4060e87d402a9a0bdcc",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_LowDegreeGameMeasurements": {
+      "checkedAt": "2026-10-29T01:40:58.437092+00:00",
+      "definition_id": "a7e7f340-966a-4c00-af29-ffc520b482b5",
+      "desired_sha256": "a3643f3f0824789e691bab41db78aa6a050ab27ce31c94edd2500d9fb53f6df4",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquare": {
+      "checkedAt": "2026-10-29T01:41:02.906007+00:00",
+      "definition_id": "bc626732-61dc-4eae-88d3-25f4deb44fab",
+      "desired_sha256": "7388cabe83ecabe290341e1c1b0cebdb31ad9a42616595e7b6bdbe9381b0ca95",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems": {
+      "checkedAt": "2026-10-29T01:41:07.198722+00:00",
+      "definition_id": "30620750-310b-429c-8f57-278cca267cb9",
+      "desired_sha256": "358f9f75065deedc0454ac63b42278b68983b2081300505d84d7dd9971e9bf94",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Basic": {
+      "checkedAt": "2026-10-29T01:41:11.262792+00:00",
+      "definition_id": "92d47d8b-1af7-4fb1-a0a4-58f8974042b2",
+      "desired_sha256": "c7f8ff4eb4350bf0208e7f3ec4abedf65ab5615af3964dea283f531b34fd78dd",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_PerfectStrategy": {
+      "checkedAt": "2026-10-29T01:41:15.484902+00:00",
+      "definition_id": "52496fd3-27bd-4473-a00b-d7510d0bf64a",
+      "desired_sha256": "2221140d58a039c6c27699d832ab204d1a4bad0c47e58a5a282577907cf02d8f",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_PerfectStrategy_Measurements": {
+      "checkedAt": "2026-10-29T01:41:19.726201+00:00",
+      "definition_id": "9af1816a-1e10-42bc-89c3-07d616520ae7",
+      "desired_sha256": "af2bfeb37e5e8df0b6ef461b600785c71c8332000dbd69ecf880da1800c87bd5",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_PerfectStrategy_Observables": {
+      "checkedAt": "2026-10-29T01:41:23.854987+00:00",
+      "definition_id": "6fd72595-7015-4c74-8159-62feae0ca559",
+      "desired_sha256": "e079dd8a5f4681ff5b3e6dc7599feb8f3b8e5375fa66a146b8b7287b91786943",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Anticommutation": {
+      "checkedAt": "2026-10-29T01:41:28.317303+00:00",
+      "definition_id": "31fd007c-08b4-4a0b-971e-eab2e4d58777",
+      "desired_sha256": "ca3c1ee9d47fae9b9c33e2047a0ce3efa9a01884b256d89783b1a8662b23e99e",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_AnticommutatorB": {
+      "checkedAt": "2026-10-29T01:41:32.869276+00:00",
+      "definition_id": "e5cb09b3-9cdc-41b1-bfb3-77ad197d8920",
+      "desired_sha256": "f552b8b4915649152829e31f92574cb015c5213ebb1ec743e7eade81b86d47eb",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_CellRelations": {
+      "checkedAt": "2026-10-29T01:41:37.105234+00:00",
+      "definition_id": "facc6d58-744e-4496-b6a4-05a98a31a156",
+      "desired_sha256": "ce75a861863d0afc919cb986609eca13fffd66da319542419a99f9923974efbf",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Constants": {
+      "checkedAt": "2026-10-29T01:41:41.449296+00:00",
+      "definition_id": "3a89ad90-64d8-4342-8850-125165dd0c3a",
+      "desired_sha256": "72ef1058f75dbf353399cced46dd5e9ff30287b89b6a23f91c89f7b453504a7b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Dilation": {
+      "checkedAt": "2026-10-29T01:41:45.718945+00:00",
+      "definition_id": "72cc376c-38f9-4653-932d-2b955a1fec3b",
+      "desired_sha256": "a5c7515cd82adf82e814b26e614cf6a107d268640765b49ca1d6fcb08084d819",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_GroundSlice": {
+      "checkedAt": "2026-10-29T01:41:50.171750+00:00",
+      "definition_id": "b8faa2e8-823b-4c8d-a4fb-c2b8e3c3a88e",
+      "desired_sha256": "19222780d553044eeaa854424d2b2be7e77475deae0d59bba0ed3f5955db4734",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_IdealTarget": {
+      "checkedAt": "2026-10-29T01:41:54.536696+00:00",
+      "definition_id": "c5b92153-eb93-4edf-9f94-6c35ad6da857",
+      "desired_sha256": "f5a636b82950635f2516b170d0a15eedc93825ec538ff46f52c3cc40a68d8ee7",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Reflections": {
+      "checkedAt": "2026-10-29T01:41:58.976928+00:00",
+      "definition_id": "904f3d6b-9526-4849-8052-9544c12a2e84",
+      "desired_sha256": "a8a6f807c1799536a964c69af994ae368133d3200fc9a921e5256182c49916c3",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Relations": {
+      "checkedAt": "2026-10-29T01:42:03.407552+00:00",
+      "definition_id": "4a0f6e41-9061-4c5d-a2a3-8a99b4abd512",
+      "desired_sha256": "9e676e0ae3046e7ef906b71169d9cd52e36f658eec9a9aa6952d0b9b2a7addbe",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Swap": {
+      "checkedAt": "2026-10-29T01:42:07.742689+00:00",
+      "definition_id": "9d2fc322-3c9d-4b2a-ae8f-f1628b5d2a9e",
+      "desired_sha256": "75bb6a0cc94db62374378c65aa95759f48037151c9f2145a4abd50cfcf2749ea",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_Transfer": {
+      "checkedAt": "2026-10-29T01:42:11.914510+00:00",
+      "definition_id": "00309f12-4ae2-49b2-86fc-e218c5b74f23",
+      "desired_sha256": "ddc3cb442bc2589daf3c86b7cdbb946c822313fac9c29ba21dfb8208749f4024",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_MagicSquareTheorems_Rigidity_TwoQubitSwap": {
+      "checkedAt": "2026-10-29T01:42:16.470539+00:00",
+      "definition_id": "e0b31d34-6869-43f5-9885-02bc9bb576b9",
+      "desired_sha256": "1f7c4d25b2b3906792e12e744d58b4a6353779bc5daea01bdf056733b34e5803",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_PauliBasisTest": {
+      "checkedAt": "2026-10-29T01:42:20.854803+00:00",
+      "definition_id": "164aa4a9-bad6-4202-8f19-11d8794dab5a",
+      "desired_sha256": "33bd0c13312455e7b1d72f1d146b763ab01d257296f7bc7b53d8dcada5da4c3c",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_QubitForm": {
+      "checkedAt": "2026-10-29T01:42:25.103498+00:00",
+      "definition_id": "26944cde-7029-4fab-a7d5-94c0ecdd220b",
+      "desired_sha256": "aac1321faafa01c7551f202164c102edcb34bb2de0504b8315a52abfc18fc0a4",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_SoundnessDefs": {
+      "checkedAt": "2026-10-29T01:42:29.314729+00:00",
+      "definition_id": "58a3de6b-f267-45e9-b0f1-3ac35885617d",
+      "desired_sha256": "5c647f090083b3b7851772fff0ac7f24b4c41cde89a026a779161f1fd269bce3",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_Soundness_Ancilla": {
+      "checkedAt": "2026-10-29T01:42:33.653442+00:00",
+      "definition_id": "28798454-9c80-474b-ab62-cb476b295f54",
+      "desired_sha256": "a540369b94ad6ef244e632f5dfef9bce1fd3d2cccf3028f7904529ef15dc7b46",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_Soundness_NaimarkOperatorTransfer": {
+      "checkedAt": "2026-10-29T01:42:38.358361+00:00",
+      "definition_id": "10641cf9-6929-4787-b4c8-bc04705dd222",
+      "desired_sha256": "50c6e007fc90de5b9aa022f26ba6797603da2a2bd4d5e74c0f5374246cf628f8",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_Soundness_NaimarkReduction": {
+      "checkedAt": "2026-10-29T01:42:42.758782+00:00",
+      "definition_id": "da29299f-b742-44b5-9de6-6a0920f68e49",
+      "desired_sha256": "486ce1d4bcb2558a0837f0120467809b8eff56d56b5d47c00762d191183e2842",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_Soundness_RawOperatorTransfer": {
+      "checkedAt": "2026-10-29T01:42:46.980918+00:00",
+      "definition_id": "c1daa335-bdc8-4e3c-abd2-d27b5bc6e07d",
+      "desired_sha256": "e3481b5145ed4eefd1781c9f8891c2204d71679fa9339c9f4b3c0bb1d409417b",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Test_Soundness_StateTransfer": {
+      "checkedAt": "2026-10-29T01:42:51.493479+00:00",
+      "definition_id": "4a3ae839-5af6-4e9f-a3bc-6e94cf133df0",
+      "desired_sha256": "8f5951d38b127e1ca996eaeb3392e6fd6dcd85f9e30582a3c0ef635c53171043",
+      "patched": true,
+      "status": "verified"
+    },
+    "QPBT_QPBT_Upstream": {
+      "checkedAt": "2026-10-29T01:42:55.939041+00:00",
+      "definition_id": "3f9fc7f5-5634-454e-8124-fc9e28d343af",
+      "desired_sha256": "8df544d04fb69641d1ec4486752a452d77c372dd70c77b712c4f5242f25f1a22",
+      "patched": true,
+      "status": "verified"
+    }
+  },
+  "lastCompletedAt": "2026-10-29T01:42:55.939041+00:00",
+  "lastFinishedAt": "2026-10-29T01:42:55.941923+00:00",
+  "lastRun": {
+    "errors": 0,
+    "patched": 191,
+    "requested": 193,
+    "verified": 193
+  },
+  "lastStartedAt": "2026-10-29T01:28:36.542685+00:00",
+  "manifest": "/home/drx/p2m/status/final/qpbt-bundles-final.json",
+  "manifestCount": 193,
+  "schemaVersion": 1
+}

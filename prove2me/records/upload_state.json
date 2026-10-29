@@ -2365,15 +2365,15 @@
     "theorems": 670
   },
   "requests": {
-    "completedCount": 69555,
+    "completedCount": 70725,
     "inFlight": {},
     "lastCompleted": {
-      "finishedAt": "2026-10-28T04:24:21.869993+00:00",
+      "finishedAt": "2026-10-29T01:42:55.892968+00:00",
       "method": "GET",
       "outcome": "HTTP 200",
-      "path": "/theorems?q=QPBT&view=full&limit=200&offset=600",
-      "requestId": "3109e851-3d6b-48f1-9892-bf1d6c1960d4",
-      "startedAt": "2026-10-28T04:24:20.695867+00:00"
+      "path": "/theorems/3f9fc7f5-5634-454e-8124-fc9e28d343af",
+      "requestId": "f2e8c36d-f82e-4b86-a8e7-2dcf53a1899f",
+      "startedAt": "2026-10-29T01:42:55.108265+00:00"
     }
   },
   "schemaVersion": 1,
