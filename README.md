@@ -46,7 +46,8 @@ and [explicit LDT consistency bounds](QPBT/LDT/Test/MainTheorem/LinearTriangle/M
 [controlled unitaries](QPBT/Quantum/ControlledUnitary.lean) are also local.
 The remaining LDT and shared quantum infrastructure come from the dependency.
 The registered [LionSR/LDT-comparator wrapper](https://github.com/LionSR/LDT-comparator/blob/main/formalization.yaml)
-declares Apache-2.0. LionSR/MIPStarRE has no licence file at the pinned commit.
+declares Apache-2.0. LionSR/MIPStarRE added its Apache-2.0 licence file on 20 October 2026,
+after the pinned commit.
 This repository does not carry the LIDT library copy; it imports that dependency
 and contains the local extensions credited above.
 
